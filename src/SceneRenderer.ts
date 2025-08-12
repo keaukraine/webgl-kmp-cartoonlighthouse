@@ -339,12 +339,20 @@ export abstract class SceneRenderer<S extends lib.org.androidworks.engine.Scene>
             this.updateCulling(command.state.culling);
             shader.use();
             this.setUniforms(shader, command.uniforms.toArray());
-            this.gl.drawElements(
-                this.gl[command.primitiveType.name],
-                command.primitiveCount,
-                this.gl.UNSIGNED_SHORT,
-                0
-            );
+            if (command.primitiveDrawType.name === "INDEXED") {
+                this.gl.drawElements(
+                    this.gl[command.primitiveType.name],
+                    command.primitiveCount,
+                    this.gl.UNSIGNED_SHORT,
+                    0
+                );
+            } if (command.primitiveDrawType.name === "NON_INDEXED") {
+                this.gl.drawArrays(
+                    this.gl[command.primitiveType.name],
+                    0,
+                    command.primitiveCount
+                );
+            }
         }
     }
 

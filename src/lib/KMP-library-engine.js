@@ -85,6 +85,7 @@
   setMetadataFor(CommandType, 'CommandType', classMeta, Enum);
   setMetadataFor(DrawMeshState, 'DrawMeshState', classMeta);
   setMetadataFor(PrimitiveType, 'PrimitiveType', classMeta, Enum);
+  setMetadataFor(PrimitiveDrawType, 'PrimitiveDrawType', classMeta, Enum);
   setMetadataFor(DrawMeshCommand, 'DrawMeshCommand', classMeta, Command);
   setMetadataFor(DrawTransformedMeshCommand, 'DrawTransformedMeshCommand', classMeta, DrawMeshCommand);
   setMetadataFor(DrawStaticMeshCommand, 'DrawStaticMeshCommand', classMeta, DrawTransformedMeshCommand);
@@ -2874,57 +2875,93 @@
   function PrimitiveType(name, ordinal, value) {
     Enum.call(this, name, ordinal);
   }
-  function DrawMeshCommand(mesh, uniforms, state, primitiveType, primitiveCount) {
+  var PrimitiveDrawType_INDEXED_instance;
+  var PrimitiveDrawType_NON_INDEXED_instance;
+  function values_14() {
+    return [PrimitiveDrawType_INDEXED_getInstance(), PrimitiveDrawType_NON_INDEXED_getInstance()];
+  }
+  function valueOf_14(value) {
+    switch (value) {
+      case 'INDEXED':
+        return PrimitiveDrawType_INDEXED_getInstance();
+      case 'NON_INDEXED':
+        return PrimitiveDrawType_NON_INDEXED_getInstance();
+      default:
+        PrimitiveDrawType_initEntries();
+        THROW_IAE('No enum constant value.');
+        break;
+    }
+  }
+  var PrimitiveDrawType_entriesInitialized;
+  function PrimitiveDrawType_initEntries() {
+    if (PrimitiveDrawType_entriesInitialized)
+      return Unit_instance;
+    PrimitiveDrawType_entriesInitialized = true;
+    PrimitiveDrawType_INDEXED_instance = new PrimitiveDrawType('INDEXED', 0, 0);
+    PrimitiveDrawType_NON_INDEXED_instance = new PrimitiveDrawType('NON_INDEXED', 1, 1);
+  }
+  function PrimitiveDrawType(name, ordinal, value) {
+    Enum.call(this, name, ordinal);
+  }
+  function DrawMeshCommand(mesh, uniforms, state, primitiveType, primitiveCount, primitiveDrawType) {
     primitiveType = primitiveType === VOID ? PrimitiveType_TRIANGLES_getInstance() : primitiveType;
     primitiveCount = primitiveCount === VOID ? -1 : primitiveCount;
+    primitiveDrawType = primitiveDrawType === VOID ? PrimitiveDrawType_INDEXED_getInstance() : primitiveDrawType;
     Command.call(this);
     this.mesh = mesh;
     this.uniforms = uniforms;
     this.state = state;
     this.primitiveType = primitiveType;
     this.primitiveCount = primitiveCount;
+    this.primitiveDrawType = primitiveDrawType;
     this.v9_1 = CommandType_DRAW_MESH_getInstance();
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
     tmp.hints = ArrayList_init_$Create$();
   }
-  protoOf(DrawMeshCommand).if = function (_set____db54di) {
+  protoOf(DrawMeshCommand).kf = function (_set____db54di) {
     this.mesh = _set____db54di;
   };
-  protoOf(DrawMeshCommand).jf = function () {
+  protoOf(DrawMeshCommand).lf = function () {
     return this.mesh;
   };
-  protoOf(DrawMeshCommand).kf = function (_set____db54di) {
+  protoOf(DrawMeshCommand).mf = function (_set____db54di) {
     this.uniforms = _set____db54di;
   };
-  protoOf(DrawMeshCommand).lf = function () {
+  protoOf(DrawMeshCommand).nf = function () {
     return this.uniforms;
   };
-  protoOf(DrawMeshCommand).mf = function (_set____db54di) {
+  protoOf(DrawMeshCommand).of = function (_set____db54di) {
     this.state = _set____db54di;
   };
   protoOf(DrawMeshCommand).tc = function () {
     return this.state;
   };
-  protoOf(DrawMeshCommand).nf = function (_set____db54di) {
+  protoOf(DrawMeshCommand).pf = function (_set____db54di) {
     this.primitiveType = _set____db54di;
   };
-  protoOf(DrawMeshCommand).of = function () {
+  protoOf(DrawMeshCommand).qf = function () {
     return this.primitiveType;
   };
-  protoOf(DrawMeshCommand).pf = function (_set____db54di) {
+  protoOf(DrawMeshCommand).rf = function (_set____db54di) {
     this.primitiveCount = _set____db54di;
   };
-  protoOf(DrawMeshCommand).qf = function () {
+  protoOf(DrawMeshCommand).sf = function () {
     return this.primitiveCount;
+  };
+  protoOf(DrawMeshCommand).tf = function (_set____db54di) {
+    this.primitiveDrawType = _set____db54di;
+  };
+  protoOf(DrawMeshCommand).uf = function () {
+    return this.primitiveDrawType;
   };
   protoOf(DrawMeshCommand).fa = function () {
     return this.v9_1;
   };
-  protoOf(DrawMeshCommand).rf = function (_set____db54di) {
+  protoOf(DrawMeshCommand).vf = function (_set____db54di) {
     this.hints = _set____db54di;
   };
-  protoOf(DrawMeshCommand).sf = function () {
+  protoOf(DrawMeshCommand).wf = function () {
     return this.hints;
   };
   function PrimitiveType_TRIANGLES_getInstance() {
@@ -2939,6 +2976,14 @@
     PrimitiveType_initEntries();
     return PrimitiveType_POINTS_instance;
   }
+  function PrimitiveDrawType_INDEXED_getInstance() {
+    PrimitiveDrawType_initEntries();
+    return PrimitiveDrawType_INDEXED_instance;
+  }
+  function PrimitiveDrawType_NON_INDEXED_getInstance() {
+    PrimitiveDrawType_initEntries();
+    return PrimitiveDrawType_NON_INDEXED_instance;
+  }
   function DrawTransformedMeshCommand(mesh, uniforms, state, transform, indexUniformMvp, indexUniformModel, indexUniformView, indexUniformProjection, primitiveType) {
     indexUniformMvp = indexUniformMvp === VOID ? 0 : indexUniformMvp;
     indexUniformModel = indexUniformModel === VOID ? -1 : indexUniformModel;
@@ -2952,34 +2997,34 @@
     this.indexUniformView = indexUniformView;
     this.indexUniformProjection = indexUniformProjection;
   }
-  protoOf(DrawTransformedMeshCommand).tf = function (_set____db54di) {
+  protoOf(DrawTransformedMeshCommand).xf = function (_set____db54di) {
     this.transform = _set____db54di;
   };
-  protoOf(DrawTransformedMeshCommand).uf = function () {
+  protoOf(DrawTransformedMeshCommand).yf = function () {
     return this.transform;
   };
-  protoOf(DrawTransformedMeshCommand).vf = function (_set____db54di) {
+  protoOf(DrawTransformedMeshCommand).zf = function (_set____db54di) {
     this.indexUniformMvp = _set____db54di;
   };
-  protoOf(DrawTransformedMeshCommand).wf = function () {
+  protoOf(DrawTransformedMeshCommand).ag = function () {
     return this.indexUniformMvp;
   };
-  protoOf(DrawTransformedMeshCommand).xf = function (_set____db54di) {
+  protoOf(DrawTransformedMeshCommand).bg = function (_set____db54di) {
     this.indexUniformModel = _set____db54di;
   };
-  protoOf(DrawTransformedMeshCommand).yf = function () {
+  protoOf(DrawTransformedMeshCommand).cg = function () {
     return this.indexUniformModel;
   };
-  protoOf(DrawTransformedMeshCommand).zf = function (_set____db54di) {
+  protoOf(DrawTransformedMeshCommand).dg = function (_set____db54di) {
     this.indexUniformView = _set____db54di;
   };
-  protoOf(DrawTransformedMeshCommand).ag = function () {
+  protoOf(DrawTransformedMeshCommand).eg = function () {
     return this.indexUniformView;
   };
-  protoOf(DrawTransformedMeshCommand).bg = function (_set____db54di) {
+  protoOf(DrawTransformedMeshCommand).fg = function (_set____db54di) {
     this.indexUniformProjection = _set____db54di;
   };
-  protoOf(DrawTransformedMeshCommand).cg = function () {
+  protoOf(DrawTransformedMeshCommand).gg = function () {
     return this.indexUniformProjection;
   };
   function DrawStaticMeshCommand_init_$Init$(mesh, uniforms, state, transform, indexUniformMvp, indexUniformModel, indexUniformView, indexUniformProjection, primitiveType, $this) {
@@ -3001,7 +3046,7 @@
   function DrawStaticMeshCommandConstructor(mesh, uniforms, state, transform, indexUniformMvp, indexUniformModel, indexUniformView, indexUniformProjection, primitiveType) {
     return DrawStaticMeshCommand_init_$Init$(mesh, uniforms, state, transform, indexUniformMvp, indexUniformModel, indexUniformView, indexUniformProjection, primitiveType, objectCreate(protoOf(DrawStaticMeshCommand)));
   }
-  protoOf(DrawStaticMeshCommand).dg = function () {
+  protoOf(DrawStaticMeshCommand).hg = function () {
     return this.modelMatrix;
   };
   function DrawStaticMeshCommand() {
@@ -3088,10 +3133,10 @@
   var ShadingRate_SHADING_RATE_2X2_instance;
   var ShadingRate_SHADING_RATE_4X2_instance;
   var ShadingRate_SHADING_RATE_4X4_instance;
-  function values_14() {
+  function values_15() {
     return [ShadingRate_SHADING_RATE_1X1_getInstance(), ShadingRate_SHADING_RATE_1X2_getInstance(), ShadingRate_SHADING_RATE_2X1_getInstance(), ShadingRate_SHADING_RATE_2X2_getInstance(), ShadingRate_SHADING_RATE_4X2_getInstance(), ShadingRate_SHADING_RATE_4X4_getInstance()];
   }
-  function valueOf_14(value) {
+  function valueOf_15(value) {
     switch (value) {
       case 'SHADING_RATE_1X1':
         return ShadingRate_SHADING_RATE_1X1_getInstance();
@@ -3134,7 +3179,7 @@
     Hint.call(this);
     this.shadingRate = shadingRate;
   }
-  protoOf(VrsHint).gg = function () {
+  protoOf(VrsHint).kg = function () {
     return this.shadingRate;
   };
   function ShadingRate_SHADING_RATE_1X1_getInstance() {
@@ -3190,10 +3235,10 @@
     return MainPassCommand_init_$Init$_0(enabled, commands, objectCreate(protoOf(MainPassCommand)));
   }
   protoOf(MainPassCommand).fa = function () {
-    return this.ig_1;
+    return this.mg_1;
   };
   function MainPassCommand() {
-    this.ig_1 = CommandType_MAIN_PASS_getInstance();
+    this.mg_1 = CommandType_MAIN_PASS_getInstance();
   }
   function NoopCommand() {
     Command.call(this);
@@ -3218,30 +3263,30 @@
     return RenderPassCommand_init_$Init$_0(enabled, commands, objectCreate(protoOf(RenderPassCommand)));
   }
   protoOf(RenderPassCommand).fa = function () {
-    return this.jg_1;
+    return this.ng_1;
   };
   function RenderPassCommand() {
-    this.jg_1 = CommandType_RENDER_PASS_getInstance();
+    this.ng_1 = CommandType_RENDER_PASS_getInstance();
   }
   function VignetteCommand() {
     Command.call(this);
-    this.kg_1 = CommandType_VIGNETTE_getInstance();
+    this.og_1 = CommandType_VIGNETTE_getInstance();
     this.color0 = new Vec4(0.0, 0.0, 0.0, 1.0);
     this.color1 = new Vec4(0.0, 0.0, 0.0, 1.0);
   }
   protoOf(VignetteCommand).fa = function () {
-    return this.kg_1;
+    return this.og_1;
   };
-  protoOf(VignetteCommand).lg = function (_set____db54di) {
+  protoOf(VignetteCommand).pg = function (_set____db54di) {
     this.color0 = _set____db54di;
   };
-  protoOf(VignetteCommand).mg = function () {
+  protoOf(VignetteCommand).qg = function () {
     return this.color0;
   };
-  protoOf(VignetteCommand).ng = function (_set____db54di) {
+  protoOf(VignetteCommand).rg = function (_set____db54di) {
     this.color1 = _set____db54di;
   };
-  protoOf(VignetteCommand).og = function () {
+  protoOf(VignetteCommand).sg = function () {
     return this.color1;
   };
   var ColorMode_Normal_instance;
@@ -3253,10 +3298,10 @@
   var ColorMode_IsolatedColor_instance;
   var ColorMode_Crosshatch_instance;
   var ColorMode_LimitedColors_instance;
-  function values_15() {
+  function values_16() {
     return [ColorMode_Normal_getInstance(), ColorMode_Grayscale_getInstance(), ColorMode_Sepia_getInstance(), ColorMode_HighContrast_getInstance(), ColorMode_LowContrast_getInstance(), ColorMode_BlackAndWhite_getInstance(), ColorMode_IsolatedColor_getInstance(), ColorMode_Crosshatch_getInstance(), ColorMode_LimitedColors_getInstance()];
   }
-  function valueOf_15(value) {
+  function valueOf_16(value) {
     switch (value) {
       case 'Normal':
         return ColorMode_Normal_getInstance();
@@ -3338,25 +3383,25 @@
   }
   function MathUtils() {
   }
-  protoOf(MathUtils).rg = function (i, low, high) {
+  protoOf(MathUtils).vg = function (i, low, high) {
     // Inline function 'kotlin.math.max' call
     // Inline function 'kotlin.math.min' call
     var a = Math.min(i, high);
     return Math.max(a, low);
   };
   protoOf(MathUtils).cd = function (edge0, edge1, x) {
-    var t = this.rg((x - edge0) / (edge1 - edge0), 0.0, 1.0);
+    var t = this.vg((x - edge0) / (edge1 - edge0), 0.0, 1.0);
     return t * t * (3.0 - 2.0 * t);
   };
-  protoOf(MathUtils).sg = function (edge0, edge1, x) {
+  protoOf(MathUtils).wg = function (edge0, edge1, x) {
     var x_0 = x;
-    x_0 = this.rg((x_0 - edge0) / (edge1 - edge0), 0.0, 1.0);
+    x_0 = this.vg((x_0 - edge0) / (edge1 - edge0), 0.0, 1.0);
     return x_0 * x_0 * x_0 * (x_0 * (x_0 * 6 - 15) + 10);
   };
   protoOf(MathUtils).wc = function (length, current) {
     return ((current + 1 | 0) + numberToInt(Default_getInstance().v5() * (length - 2 | 0)) | 0) % length | 0;
   };
-  protoOf(MathUtils).tg = function (rad) {
+  protoOf(MathUtils).xg = function (rad) {
     return rad * 57.29578;
   };
   var MathUtils_instance;
@@ -3374,13 +3419,13 @@
     this.v7_1 = new Float32Array(4);
   }
   protoOf(Matrix).p9 = function (result, resultOffset, lhs, lhsOffset, rhs, rhsOffset) {
-    this.ug(result, resultOffset, this.q7_1, 0, 16);
-    this.ug(lhs, lhsOffset, this.r7_1, 0, 16);
-    this.ug(rhs, rhsOffset, this.s7_1, 0, 16);
-    this.vg(this.q7_1, this.r7_1, this.s7_1);
-    this.ug(this.q7_1, 0, result, resultOffset, 16);
+    this.yg(result, resultOffset, this.q7_1, 0, 16);
+    this.yg(lhs, lhsOffset, this.r7_1, 0, 16);
+    this.yg(rhs, rhsOffset, this.s7_1, 0, 16);
+    this.zg(this.q7_1, this.r7_1, this.s7_1);
+    this.yg(this.q7_1, 0, result, resultOffset, 16);
   };
-  protoOf(Matrix).ug = function (src, srcPos, dest, destPos, length) {
+  protoOf(Matrix).yg = function (src, srcPos, dest, destPos, length) {
     // Inline function 'kotlin.collections.copyInto' call
     var endIndex = srcPos + length | 0;
     // Inline function 'kotlin.js.unsafeCast' call
@@ -3390,16 +3435,16 @@
     // Inline function 'kotlin.js.asDynamic' call
     arrayCopy(tmp, dest, destPos, srcPos, endIndex);
   };
-  protoOf(Matrix).wg = function (_i, _j) {
+  protoOf(Matrix).ah = function (_i, _j) {
     return _j + imul(4, _i) | 0;
   };
-  protoOf(Matrix).vg = function (r, lhs, rhs) {
+  protoOf(Matrix).zg = function (r, lhs, rhs) {
     var inductionVariable = 0;
     if (inductionVariable <= 3)
       do {
         var i = inductionVariable;
         inductionVariable = inductionVariable + 1 | 0;
-        var rhs_i0 = rhs[this.wg(i, 0)];
+        var rhs_i0 = rhs[this.ah(i, 0)];
         var ri0 = lhs[0] * rhs_i0;
         var ri1 = lhs[1] * rhs_i0;
         var ri2 = lhs[2] * rhs_i0;
@@ -3409,17 +3454,17 @@
           do {
             var j = inductionVariable_0;
             inductionVariable_0 = inductionVariable_0 + 1 | 0;
-            var rhs_ij = rhs[this.wg(i, j)];
-            ri0 = ri0 + lhs[this.wg(j, 0)] * rhs_ij;
-            ri1 = ri1 + lhs[this.wg(j, 1)] * rhs_ij;
-            ri2 = ri2 + lhs[this.wg(j, 2)] * rhs_ij;
-            ri3 = ri3 + lhs[this.wg(j, 3)] * rhs_ij;
+            var rhs_ij = rhs[this.ah(i, j)];
+            ri0 = ri0 + lhs[this.ah(j, 0)] * rhs_ij;
+            ri1 = ri1 + lhs[this.ah(j, 1)] * rhs_ij;
+            ri2 = ri2 + lhs[this.ah(j, 2)] * rhs_ij;
+            ri3 = ri3 + lhs[this.ah(j, 3)] * rhs_ij;
           }
            while (inductionVariable_0 <= 3);
-        r[this.wg(i, 0)] = ri0;
-        r[this.wg(i, 1)] = ri1;
-        r[this.wg(i, 2)] = ri2;
-        r[this.wg(i, 3)] = ri3;
+        r[this.ah(i, 0)] = ri0;
+        r[this.ah(i, 1)] = ri1;
+        r[this.ah(i, 2)] = ri2;
+        r[this.ah(i, 3)] = ri3;
       }
        while (inductionVariable <= 3);
   };
@@ -3485,7 +3530,7 @@
     m[offset + 13 | 0] = 0.0;
     m[offset + 15 | 0] = 0.0;
   };
-  protoOf(Matrix).xg = function (x, y, z) {
+  protoOf(Matrix).bh = function (x, y, z) {
     // Inline function 'kotlin.math.sqrt' call
     var x_0 = x * x + y * y + z * z;
     return Math.sqrt(x_0);
@@ -3533,11 +3578,11 @@
        while (inductionVariable <= 3);
   };
   protoOf(Matrix).n9 = function (m, mOffset, a, x, y, z) {
-    this.yg(this.p7_1, 0, a, x, y, z);
+    this.ch(this.p7_1, 0, a, x, y, z);
     this.p9(this.p7_1, 16, m, mOffset, this.p7_1, 0);
-    this.ug(this.p7_1, 16, m, mOffset, 16);
+    this.yg(this.p7_1, 16, m, mOffset, 16);
   };
-  protoOf(Matrix).yg = function (rm, rmOffset, a, x, y, z) {
+  protoOf(Matrix).ch = function (rm, rmOffset, a, x, y, z) {
     var a_0 = a;
     var x_0 = x;
     var y_0 = y;
@@ -3587,7 +3632,7 @@
       rm[rmOffset + 9 | 0] = 0.0;
       rm[rmOffset + 10 | 0] = 1.0;
     } else {
-      var len = this.xg(x_0, y_0, z_0);
+      var len = this.bh(x_0, y_0, z_0);
       if (!(1.0 === len)) {
         var recipLen = 1.0 / len;
         x_0 = x_0 * recipLen;
@@ -3612,18 +3657,18 @@
       rm[rmOffset + 10 | 0] = z_0 * z_0 * nc + c;
     }
   };
-  protoOf(Matrix).zg = function (rm, rmOffset, eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ) {
+  protoOf(Matrix).dh = function (rm, rmOffset, eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ) {
     var fx = centerX - eyeX;
     var fy = centerY - eyeY;
     var fz = centerZ - eyeZ;
-    var rlf = 1.0 / this.xg(fx, fy, fz);
+    var rlf = 1.0 / this.bh(fx, fy, fz);
     fx = fx * rlf;
     fy = fy * rlf;
     fz = fz * rlf;
     var sx = fy * upZ - fz * upY;
     var sy = fz * upX - fx * upZ;
     var sz = fx * upY - fy * upX;
-    var rls = 1.0 / this.xg(sx, sy, sz);
+    var rls = 1.0 / this.bh(sx, sy, sz);
     sx = sx * rls;
     sy = sy * rls;
     sz = sz * rls;
@@ -3657,47 +3702,47 @@
   function Vec2(_x, _y) {
     _x = _x === VOID ? 0.0 : _x;
     _y = _y === VOID ? 0.0 : _y;
-    this.ah_1 = _x;
-    this.bh_1 = _y;
+    this.eh_1 = _x;
+    this.fh_1 = _y;
   }
-  protoOf(Vec2).ch = function (value) {
-    this.ah_1 = value;
-  };
-  protoOf(Vec2).dh = function () {
-    return this.ah_1;
-  };
-  protoOf(Vec2).eh = function (value) {
-    this.ah_1 = value;
-  };
-  protoOf(Vec2).fh = function () {
-    return this.ah_1;
-  };
   protoOf(Vec2).gh = function (value) {
-    this.bh_1 = value;
+    this.eh_1 = value;
   };
   protoOf(Vec2).hh = function () {
-    return this.bh_1;
+    return this.eh_1;
   };
   protoOf(Vec2).ih = function (value) {
-    this.bh_1 = value;
+    this.eh_1 = value;
   };
   protoOf(Vec2).jh = function () {
-    return this.bh_1;
+    return this.eh_1;
   };
-  protoOf(Vec2).kh = function (_x, _y) {
+  protoOf(Vec2).kh = function (value) {
+    this.fh_1 = value;
+  };
+  protoOf(Vec2).lh = function () {
+    return this.fh_1;
+  };
+  protoOf(Vec2).mh = function (value) {
+    this.fh_1 = value;
+  };
+  protoOf(Vec2).nh = function () {
+    return this.fh_1;
+  };
+  protoOf(Vec2).oh = function (_x, _y) {
     return new Vec2(_x, _y);
   };
   protoOf(Vec2).copy = function (_x, _y, $super) {
-    _x = _x === VOID ? this.ah_1 : _x;
-    _y = _y === VOID ? this.bh_1 : _y;
-    return this.kh(_x, _y);
+    _x = _x === VOID ? this.eh_1 : _x;
+    _y = _y === VOID ? this.fh_1 : _y;
+    return this.oh(_x, _y);
   };
   protoOf(Vec2).toString = function () {
-    return 'Vec2(_x=' + this.ah_1 + ', _y=' + this.bh_1 + ')';
+    return 'Vec2(_x=' + this.eh_1 + ', _y=' + this.fh_1 + ')';
   };
   protoOf(Vec2).hashCode = function () {
-    var result = getNumberHashCode(this.ah_1);
-    result = imul(result, 31) + getNumberHashCode(this.bh_1) | 0;
+    var result = getNumberHashCode(this.eh_1);
+    result = imul(result, 31) + getNumberHashCode(this.fh_1) | 0;
     return result;
   };
   protoOf(Vec2).equals = function (other) {
@@ -3706,9 +3751,9 @@
     if (!(other instanceof Vec2))
       return false;
     var tmp0_other_with_cast = other instanceof Vec2 ? other : THROW_CCE();
-    if (!equals(this.ah_1, tmp0_other_with_cast.ah_1))
+    if (!equals(this.eh_1, tmp0_other_with_cast.eh_1))
       return false;
-    if (!equals(this.bh_1, tmp0_other_with_cast.bh_1))
+    if (!equals(this.fh_1, tmp0_other_with_cast.fh_1))
       return false;
     return true;
   };
@@ -3716,62 +3761,62 @@
     _x = _x === VOID ? 0.0 : _x;
     _y = _y === VOID ? 0.0 : _y;
     _z = _z === VOID ? 0.0 : _z;
-    this.lh_1 = _x;
-    this.mh_1 = _y;
-    this.nh_1 = _z;
+    this.ph_1 = _x;
+    this.qh_1 = _y;
+    this.rh_1 = _z;
   }
-  protoOf(Vec3).ch = function (value) {
-    this.lh_1 = value;
-  };
-  protoOf(Vec3).dh = function () {
-    return this.lh_1;
-  };
-  protoOf(Vec3).eh = function (value) {
-    this.lh_1 = value;
-  };
-  protoOf(Vec3).fh = function () {
-    return this.lh_1;
-  };
   protoOf(Vec3).gh = function (value) {
-    this.mh_1 = value;
+    this.ph_1 = value;
   };
   protoOf(Vec3).hh = function () {
-    return this.mh_1;
+    return this.ph_1;
   };
   protoOf(Vec3).ih = function (value) {
-    this.mh_1 = value;
+    this.ph_1 = value;
   };
   protoOf(Vec3).jh = function () {
-    return this.mh_1;
+    return this.ph_1;
   };
-  protoOf(Vec3).oh = function (value) {
-    this.nh_1 = value;
+  protoOf(Vec3).kh = function (value) {
+    this.qh_1 = value;
   };
-  protoOf(Vec3).ph = function () {
-    return this.nh_1;
+  protoOf(Vec3).lh = function () {
+    return this.qh_1;
   };
-  protoOf(Vec3).qh = function (value) {
-    this.nh_1 = value;
+  protoOf(Vec3).mh = function (value) {
+    this.qh_1 = value;
   };
-  protoOf(Vec3).rh = function () {
-    return this.nh_1;
+  protoOf(Vec3).nh = function () {
+    return this.qh_1;
   };
-  protoOf(Vec3).sh = function (_x, _y, _z) {
+  protoOf(Vec3).sh = function (value) {
+    this.rh_1 = value;
+  };
+  protoOf(Vec3).th = function () {
+    return this.rh_1;
+  };
+  protoOf(Vec3).uh = function (value) {
+    this.rh_1 = value;
+  };
+  protoOf(Vec3).vh = function () {
+    return this.rh_1;
+  };
+  protoOf(Vec3).wh = function (_x, _y, _z) {
     return new Vec3(_x, _y, _z);
   };
   protoOf(Vec3).copy = function (_x, _y, _z, $super) {
-    _x = _x === VOID ? this.lh_1 : _x;
-    _y = _y === VOID ? this.mh_1 : _y;
-    _z = _z === VOID ? this.nh_1 : _z;
-    return this.sh(_x, _y, _z);
+    _x = _x === VOID ? this.ph_1 : _x;
+    _y = _y === VOID ? this.qh_1 : _y;
+    _z = _z === VOID ? this.rh_1 : _z;
+    return this.wh(_x, _y, _z);
   };
   protoOf(Vec3).toString = function () {
-    return 'Vec3(_x=' + this.lh_1 + ', _y=' + this.mh_1 + ', _z=' + this.nh_1 + ')';
+    return 'Vec3(_x=' + this.ph_1 + ', _y=' + this.qh_1 + ', _z=' + this.rh_1 + ')';
   };
   protoOf(Vec3).hashCode = function () {
-    var result = getNumberHashCode(this.lh_1);
-    result = imul(result, 31) + getNumberHashCode(this.mh_1) | 0;
-    result = imul(result, 31) + getNumberHashCode(this.nh_1) | 0;
+    var result = getNumberHashCode(this.ph_1);
+    result = imul(result, 31) + getNumberHashCode(this.qh_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.rh_1) | 0;
     return result;
   };
   protoOf(Vec3).equals = function (other) {
@@ -3780,11 +3825,11 @@
     if (!(other instanceof Vec3))
       return false;
     var tmp0_other_with_cast = other instanceof Vec3 ? other : THROW_CCE();
-    if (!equals(this.lh_1, tmp0_other_with_cast.lh_1))
+    if (!equals(this.ph_1, tmp0_other_with_cast.ph_1))
       return false;
-    if (!equals(this.mh_1, tmp0_other_with_cast.mh_1))
+    if (!equals(this.qh_1, tmp0_other_with_cast.qh_1))
       return false;
-    if (!equals(this.nh_1, tmp0_other_with_cast.nh_1))
+    if (!equals(this.rh_1, tmp0_other_with_cast.rh_1))
       return false;
     return true;
   };
@@ -3793,77 +3838,77 @@
     _y = _y === VOID ? 0.0 : _y;
     _z = _z === VOID ? 0.0 : _z;
     _w = _w === VOID ? 0.0 : _w;
-    this.th_1 = _x;
-    this.uh_1 = _y;
-    this.vh_1 = _z;
-    this.wh_1 = _w;
+    this.xh_1 = _x;
+    this.yh_1 = _y;
+    this.zh_1 = _z;
+    this.ai_1 = _w;
   }
-  protoOf(Vec4).ch = function (value) {
-    this.th_1 = value;
-  };
-  protoOf(Vec4).dh = function () {
-    return this.th_1;
-  };
-  protoOf(Vec4).eh = function (value) {
-    this.th_1 = value;
-  };
-  protoOf(Vec4).fh = function () {
-    return this.th_1;
-  };
   protoOf(Vec4).gh = function (value) {
-    this.uh_1 = value;
+    this.xh_1 = value;
   };
   protoOf(Vec4).hh = function () {
-    return this.uh_1;
+    return this.xh_1;
   };
   protoOf(Vec4).ih = function (value) {
-    this.uh_1 = value;
+    this.xh_1 = value;
   };
   protoOf(Vec4).jh = function () {
-    return this.uh_1;
+    return this.xh_1;
   };
-  protoOf(Vec4).oh = function (value) {
-    this.vh_1 = value;
+  protoOf(Vec4).kh = function (value) {
+    this.yh_1 = value;
   };
-  protoOf(Vec4).ph = function () {
-    return this.vh_1;
+  protoOf(Vec4).lh = function () {
+    return this.yh_1;
   };
-  protoOf(Vec4).qh = function (value) {
-    this.vh_1 = value;
+  protoOf(Vec4).mh = function (value) {
+    this.yh_1 = value;
   };
-  protoOf(Vec4).rh = function () {
-    return this.vh_1;
+  protoOf(Vec4).nh = function () {
+    return this.yh_1;
   };
-  protoOf(Vec4).xh = function (value) {
-    this.wh_1 = value;
+  protoOf(Vec4).sh = function (value) {
+    this.zh_1 = value;
   };
-  protoOf(Vec4).yh = function () {
-    return this.wh_1;
+  protoOf(Vec4).th = function () {
+    return this.zh_1;
   };
-  protoOf(Vec4).zh = function (value) {
-    this.wh_1 = value;
+  protoOf(Vec4).uh = function (value) {
+    this.zh_1 = value;
   };
-  protoOf(Vec4).ai = function () {
-    return this.wh_1;
+  protoOf(Vec4).vh = function () {
+    return this.zh_1;
   };
-  protoOf(Vec4).bi = function (_x, _y, _z, _w) {
+  protoOf(Vec4).bi = function (value) {
+    this.ai_1 = value;
+  };
+  protoOf(Vec4).ci = function () {
+    return this.ai_1;
+  };
+  protoOf(Vec4).di = function (value) {
+    this.ai_1 = value;
+  };
+  protoOf(Vec4).ei = function () {
+    return this.ai_1;
+  };
+  protoOf(Vec4).fi = function (_x, _y, _z, _w) {
     return new Vec4(_x, _y, _z, _w);
   };
   protoOf(Vec4).copy = function (_x, _y, _z, _w, $super) {
-    _x = _x === VOID ? this.th_1 : _x;
-    _y = _y === VOID ? this.uh_1 : _y;
-    _z = _z === VOID ? this.vh_1 : _z;
-    _w = _w === VOID ? this.wh_1 : _w;
-    return this.bi(_x, _y, _z, _w);
+    _x = _x === VOID ? this.xh_1 : _x;
+    _y = _y === VOID ? this.yh_1 : _y;
+    _z = _z === VOID ? this.zh_1 : _z;
+    _w = _w === VOID ? this.ai_1 : _w;
+    return this.fi(_x, _y, _z, _w);
   };
   protoOf(Vec4).toString = function () {
-    return 'Vec4(_x=' + this.th_1 + ', _y=' + this.uh_1 + ', _z=' + this.vh_1 + ', _w=' + this.wh_1 + ')';
+    return 'Vec4(_x=' + this.xh_1 + ', _y=' + this.yh_1 + ', _z=' + this.zh_1 + ', _w=' + this.ai_1 + ')';
   };
   protoOf(Vec4).hashCode = function () {
-    var result = getNumberHashCode(this.th_1);
-    result = imul(result, 31) + getNumberHashCode(this.uh_1) | 0;
-    result = imul(result, 31) + getNumberHashCode(this.vh_1) | 0;
-    result = imul(result, 31) + getNumberHashCode(this.wh_1) | 0;
+    var result = getNumberHashCode(this.xh_1);
+    result = imul(result, 31) + getNumberHashCode(this.yh_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.zh_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.ai_1) | 0;
     return result;
   };
   protoOf(Vec4).equals = function (other) {
@@ -3872,35 +3917,35 @@
     if (!(other instanceof Vec4))
       return false;
     var tmp0_other_with_cast = other instanceof Vec4 ? other : THROW_CCE();
-    if (!equals(this.th_1, tmp0_other_with_cast.th_1))
+    if (!equals(this.xh_1, tmp0_other_with_cast.xh_1))
       return false;
-    if (!equals(this.uh_1, tmp0_other_with_cast.uh_1))
+    if (!equals(this.yh_1, tmp0_other_with_cast.yh_1))
       return false;
-    if (!equals(this.vh_1, tmp0_other_with_cast.vh_1))
+    if (!equals(this.zh_1, tmp0_other_with_cast.zh_1))
       return false;
-    if (!equals(this.wh_1, tmp0_other_with_cast.wh_1))
+    if (!equals(this.ai_1, tmp0_other_with_cast.ai_1))
       return false;
     return true;
   };
   function TimerParams(timer, period, rotating) {
-    this.ci_1 = timer;
-    this.di_1 = period;
-    this.ei_1 = rotating;
+    this.gi_1 = timer;
+    this.hi_1 = period;
+    this.ii_1 = rotating;
   }
   function TimersMap() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.fi_1 = LinkedHashMap_init_$Create$();
-    this.gi_1 = 0.0;
+    tmp.ji_1 = LinkedHashMap_init_$Create$();
+    this.ki_1 = 0.0;
   }
-  protoOf(TimersMap).hi = function (key, period) {
-    this.fi_1.f1(key, new TimerParams(0.0, period, true));
+  protoOf(TimersMap).li = function (key, period) {
+    this.ji_1.f1(key, new TimerParams(0.0, period, true));
   };
-  protoOf(TimersMap).ii = function (key, period, rotating) {
-    this.fi_1.f1(key, new TimerParams(0.0, period, rotating));
+  protoOf(TimersMap).mi = function (key, period, rotating) {
+    this.ji_1.f1(key, new TimerParams(0.0, period, rotating));
   };
-  protoOf(TimersMap).ji = function (index) {
-    var tmp0_elvis_lhs = this.fi_1.l1(index);
+  protoOf(TimersMap).ni = function (index) {
+    var tmp0_elvis_lhs = this.ji_1.l1(index);
     var tmp;
     if (tmp0_elvis_lhs == null) {
       throw Exception_init_$Create$('Timer not found');
@@ -3908,10 +3953,10 @@
       tmp = tmp0_elvis_lhs;
     }
     var timer = tmp;
-    return timer.ci_1;
+    return timer.gi_1;
   };
-  protoOf(TimersMap).ki = function (index, value) {
-    var tmp0_elvis_lhs = this.fi_1.l1(index);
+  protoOf(TimersMap).oi = function (index, value) {
+    var tmp0_elvis_lhs = this.ji_1.l1(index);
     var tmp;
     if (tmp0_elvis_lhs == null) {
       throw Exception_init_$Create$('Timer not found');
@@ -3919,10 +3964,10 @@
       tmp = tmp0_elvis_lhs;
     }
     var timer = tmp;
-    timer.ci_1 = value;
+    timer.gi_1 = value;
   };
-  protoOf(TimersMap).li = function (index) {
-    var tmp0_elvis_lhs = this.fi_1.l1(index);
+  protoOf(TimersMap).pi = function (index) {
+    var tmp0_elvis_lhs = this.ji_1.l1(index);
     var tmp;
     if (tmp0_elvis_lhs == null) {
       throw Exception_init_$Create$('Timer not found');
@@ -3932,22 +3977,22 @@
     var timer = tmp;
     return timer;
   };
-  protoOf(TimersMap).mi = function (timeNow) {
+  protoOf(TimersMap).qi = function (timeNow) {
     // Inline function 'kotlin.collections.iterator' call
-    var tmp0_iterator = this.fi_1.e1().j();
+    var tmp0_iterator = this.ji_1.e1().j();
     while (tmp0_iterator.q()) {
       var timer = tmp0_iterator.r();
-      var delta = (timeNow - this.gi_1) / timer.di_1;
-      timer.ci_1 = timer.ci_1 + delta;
-      if (timer.ei_1) {
-        timer.ci_1 = timer.ci_1 % 1.0;
+      var delta = (timeNow - this.ki_1) / timer.hi_1;
+      timer.gi_1 = timer.gi_1 + delta;
+      if (timer.ii_1) {
+        timer.gi_1 = timer.gi_1 % 1.0;
       } else {
-        if (timer.ci_1 > 1.0) {
-          timer.ci_1 = 1.0;
+        if (timer.gi_1 > 1.0) {
+          timer.gi_1 = 1.0;
         }
       }
     }
-    this.gi_1 = timeNow;
+    this.ki_1 = timeNow;
   };
   //region block: post-declaration
   defineProp(protoOf(BackendMode), 'name', protoOf(BackendMode).h4);
@@ -4011,28 +4056,30 @@
   defineProp(protoOf(CommandType), 'ordinal', protoOf(CommandType).i4);
   defineProp(protoOf(PrimitiveType), 'name', protoOf(PrimitiveType).h4);
   defineProp(protoOf(PrimitiveType), 'ordinal', protoOf(PrimitiveType).i4);
+  defineProp(protoOf(PrimitiveDrawType), 'name', protoOf(PrimitiveDrawType).h4);
+  defineProp(protoOf(PrimitiveDrawType), 'ordinal', protoOf(PrimitiveDrawType).i4);
   defineProp(protoOf(ShadingRate), 'name', protoOf(ShadingRate).h4);
   defineProp(protoOf(ShadingRate), 'ordinal', protoOf(ShadingRate).i4);
   defineProp(protoOf(ColorMode), 'name', protoOf(ColorMode).h4);
   defineProp(protoOf(ColorMode), 'ordinal', protoOf(ColorMode).i4);
-  defineProp(protoOf(Vec2), 'x', protoOf(Vec2).dh, protoOf(Vec2).ch);
-  defineProp(protoOf(Vec2), 'r', protoOf(Vec2).fh, protoOf(Vec2).eh);
-  defineProp(protoOf(Vec2), 'y', protoOf(Vec2).hh, protoOf(Vec2).gh);
-  defineProp(protoOf(Vec2), 'g', protoOf(Vec2).jh, protoOf(Vec2).ih);
-  defineProp(protoOf(Vec3), 'x', protoOf(Vec3).dh, protoOf(Vec3).ch);
-  defineProp(protoOf(Vec3), 'r', protoOf(Vec3).fh, protoOf(Vec3).eh);
-  defineProp(protoOf(Vec3), 'y', protoOf(Vec3).hh, protoOf(Vec3).gh);
-  defineProp(protoOf(Vec3), 'g', protoOf(Vec3).jh, protoOf(Vec3).ih);
-  defineProp(protoOf(Vec3), 'z', protoOf(Vec3).ph, protoOf(Vec3).oh);
-  defineProp(protoOf(Vec3), 'b', protoOf(Vec3).rh, protoOf(Vec3).qh);
-  defineProp(protoOf(Vec4), 'x', protoOf(Vec4).dh, protoOf(Vec4).ch);
-  defineProp(protoOf(Vec4), 'r', protoOf(Vec4).fh, protoOf(Vec4).eh);
-  defineProp(protoOf(Vec4), 'y', protoOf(Vec4).hh, protoOf(Vec4).gh);
-  defineProp(protoOf(Vec4), 'g', protoOf(Vec4).jh, protoOf(Vec4).ih);
-  defineProp(protoOf(Vec4), 'z', protoOf(Vec4).ph, protoOf(Vec4).oh);
-  defineProp(protoOf(Vec4), 'b', protoOf(Vec4).rh, protoOf(Vec4).qh);
-  defineProp(protoOf(Vec4), 'w', protoOf(Vec4).yh, protoOf(Vec4).xh);
-  defineProp(protoOf(Vec4), 'a', protoOf(Vec4).ai, protoOf(Vec4).zh);
+  defineProp(protoOf(Vec2), 'x', protoOf(Vec2).hh, protoOf(Vec2).gh);
+  defineProp(protoOf(Vec2), 'r', protoOf(Vec2).jh, protoOf(Vec2).ih);
+  defineProp(protoOf(Vec2), 'y', protoOf(Vec2).lh, protoOf(Vec2).kh);
+  defineProp(protoOf(Vec2), 'g', protoOf(Vec2).nh, protoOf(Vec2).mh);
+  defineProp(protoOf(Vec3), 'x', protoOf(Vec3).hh, protoOf(Vec3).gh);
+  defineProp(protoOf(Vec3), 'r', protoOf(Vec3).jh, protoOf(Vec3).ih);
+  defineProp(protoOf(Vec3), 'y', protoOf(Vec3).lh, protoOf(Vec3).kh);
+  defineProp(protoOf(Vec3), 'g', protoOf(Vec3).nh, protoOf(Vec3).mh);
+  defineProp(protoOf(Vec3), 'z', protoOf(Vec3).th, protoOf(Vec3).sh);
+  defineProp(protoOf(Vec3), 'b', protoOf(Vec3).vh, protoOf(Vec3).uh);
+  defineProp(protoOf(Vec4), 'x', protoOf(Vec4).hh, protoOf(Vec4).gh);
+  defineProp(protoOf(Vec4), 'r', protoOf(Vec4).jh, protoOf(Vec4).ih);
+  defineProp(protoOf(Vec4), 'y', protoOf(Vec4).lh, protoOf(Vec4).kh);
+  defineProp(protoOf(Vec4), 'g', protoOf(Vec4).nh, protoOf(Vec4).mh);
+  defineProp(protoOf(Vec4), 'z', protoOf(Vec4).th, protoOf(Vec4).sh);
+  defineProp(protoOf(Vec4), 'b', protoOf(Vec4).vh, protoOf(Vec4).uh);
+  defineProp(protoOf(Vec4), 'w', protoOf(Vec4).ci, protoOf(Vec4).bi);
+  defineProp(protoOf(Vec4), 'a', protoOf(Vec4).ei, protoOf(Vec4).di);
   //endregion
   //region block: init
   Companion_instance = new Companion();
@@ -4312,6 +4359,11 @@
     defineProp($org$androidworks$engine$commands.PrimitiveType, 'TRIANGLES', PrimitiveType_TRIANGLES_getInstance);
     defineProp($org$androidworks$engine$commands.PrimitiveType, 'TRIANGLE_STRIP', PrimitiveType_TRIANGLE_STRIP_getInstance);
     defineProp($org$androidworks$engine$commands.PrimitiveType, 'POINTS', PrimitiveType_POINTS_getInstance);
+    $org$androidworks$engine$commands.PrimitiveDrawType = PrimitiveDrawType;
+    $org$androidworks$engine$commands.PrimitiveDrawType.values = values_14;
+    $org$androidworks$engine$commands.PrimitiveDrawType.valueOf = valueOf_14;
+    defineProp($org$androidworks$engine$commands.PrimitiveDrawType, 'INDEXED', PrimitiveDrawType_INDEXED_getInstance);
+    defineProp($org$androidworks$engine$commands.PrimitiveDrawType, 'NON_INDEXED', PrimitiveDrawType_NON_INDEXED_getInstance);
     $org$androidworks$engine$commands.DrawMeshCommand = DrawMeshCommand;
     var $org = _.org || (_.org = {});
     var $org$androidworks = $org.androidworks || ($org.androidworks = {});
@@ -4332,8 +4384,8 @@
     var $org$androidworks$engine$commands = $org$androidworks$engine.commands || ($org$androidworks$engine.commands = {});
     $org$androidworks$engine$commands.Hint = Hint;
     $org$androidworks$engine$commands.ShadingRate = ShadingRate;
-    $org$androidworks$engine$commands.ShadingRate.values = values_14;
-    $org$androidworks$engine$commands.ShadingRate.valueOf = valueOf_14;
+    $org$androidworks$engine$commands.ShadingRate.values = values_15;
+    $org$androidworks$engine$commands.ShadingRate.valueOf = valueOf_15;
     defineProp($org$androidworks$engine$commands.ShadingRate, 'SHADING_RATE_1X1', ShadingRate_SHADING_RATE_1X1_getInstance);
     defineProp($org$androidworks$engine$commands.ShadingRate, 'SHADING_RATE_1X2', ShadingRate_SHADING_RATE_1X2_getInstance);
     defineProp($org$androidworks$engine$commands.ShadingRate, 'SHADING_RATE_2X1', ShadingRate_SHADING_RATE_2X1_getInstance);
@@ -4370,8 +4422,8 @@
     var $org$androidworks$engine = $org$androidworks.engine || ($org$androidworks.engine = {});
     var $org$androidworks$engine$common = $org$androidworks$engine.common || ($org$androidworks$engine.common = {});
     $org$androidworks$engine$common.ColorMode = ColorMode;
-    $org$androidworks$engine$common.ColorMode.values = values_15;
-    $org$androidworks$engine$common.ColorMode.valueOf = valueOf_15;
+    $org$androidworks$engine$common.ColorMode.values = values_16;
+    $org$androidworks$engine$common.ColorMode.valueOf = valueOf_16;
     defineProp($org$androidworks$engine$common.ColorMode, 'Normal', ColorMode_Normal_getInstance);
     defineProp($org$androidworks$engine$common.ColorMode, 'Grayscale', ColorMode_Grayscale_getInstance);
     defineProp($org$androidworks$engine$common.ColorMode, 'Sepia', ColorMode_Sepia_getInstance);
@@ -4406,88 +4458,89 @@
   _.$_$.d = BlurSize_KERNEL_5_getInstance;
   _.$_$.e = ClearCommandClearType_COLOR_AND_DEPTH_getInstance;
   _.$_$.f = CommandType_CUSTOM_getInstance;
-  _.$_$.g = PrimitiveType_POINTS_getInstance;
-  _.$_$.h = ColorMode_Normal_getInstance;
-  _.$_$.i = ColorMode_Sepia_getInstance;
-  _.$_$.j = AttributeType_NORMAL_getInstance;
-  _.$_$.k = AttributeType_U0_getInstance;
-  _.$_$.l = AttributeType_UV0_getInstance;
-  _.$_$.m = AttributeType_VERTEX_getInstance;
-  _.$_$.n = BlendingEquation_ADD_getInstance;
-  _.$_$.o = BlendingFactor_ONE_getInstance;
-  _.$_$.p = BlendingFactor_SRC_ALPHA_getInstance;
-  _.$_$.q = CullFace_BACK_getInstance;
-  _.$_$.r = CullFace_DISABLED_getInstance;
-  _.$_$.s = CullFace_FRONT_getInstance;
-  _.$_$.t = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance;
-  _.$_$.u = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance;
-  _.$_$.v = TextureFiltering_LINEAR_getInstance;
-  _.$_$.w = TextureFiltering_NEAREST_getInstance;
-  _.$_$.x = TextureFormat_ASTC_getInstance;
-  _.$_$.y = TextureFormat_RGBA16F_getInstance;
-  _.$_$.z = TextureFormat_RGBA8_getInstance;
-  _.$_$.a1 = TextureType_CUBEMAP_getInstance;
-  _.$_$.b1 = TextureWrapping_CLAMP_TO_EDGE_getInstance;
-  _.$_$.c1 = TextureWrapping_REPEAT_getInstance;
-  _.$_$.d1 = VertexFormat_BYTE2_NORMALIZED_getInstance;
-  _.$_$.e1 = VertexFormat_FLOAT2_getInstance;
-  _.$_$.f1 = VertexFormat_FLOAT3_getInstance;
-  _.$_$.g1 = VertexFormat_HALF2_getInstance;
-  _.$_$.h1 = VertexFormat_HALF3_getInstance;
-  _.$_$.i1 = VertexFormat_HALF_getInstance;
-  _.$_$.j1 = VertexFormat_UBYTE2_NORMALIZED_getInstance;
-  _.$_$.k1 = VertexFormat_UBYTE_NORMALIZED_getInstance;
-  _.$_$.l1 = Spline3D_init_$Create$;
-  _.$_$.m1 = DrawStaticMeshCommandConstructor;
-  _.$_$.n1 = GroupCommandArr;
-  _.$_$.o1 = MainPassCommandArr;
-  _.$_$.p1 = MeshConstructor1;
-  _.$_$.q1 = MeshConstructor2;
-  _.$_$.r1 = UniformFloatValueWithArray;
-  _.$_$.s1 = UniformIntValueWithArray;
-  _.$_$.t1 = MathUtils_instance;
-  _.$_$.u1 = Matrix_getInstance;
-  _.$_$.v1 = TextureAnimationChunked;
-  _.$_$.w1 = CameraPathAnimator;
-  _.$_$.x1 = CameraPositionPair;
-  _.$_$.y1 = CameraPosition;
-  _.$_$.z1 = AffineTranformation;
-  _.$_$.a2 = BlurredPassCommand;
-  _.$_$.b2 = ClearColorCommand;
-  _.$_$.c2 = ClearCommand;
-  _.$_$.d2 = Command;
-  _.$_$.e2 = DrawBlurredCommand;
-  _.$_$.f2 = DrawMeshCommand;
-  _.$_$.g2 = DrawMeshState;
-  _.$_$.h2 = DrawTransformedMeshCommand;
-  _.$_$.i2 = GroupCommand;
-  _.$_$.j2 = get_HINT_VRS_2X2;
-  _.$_$.k2 = get_HINT_VRS_4X4;
-  _.$_$.l2 = get_HINT_VRS_NONE;
-  _.$_$.m2 = NoopCommand;
-  _.$_$.n2 = VignetteCommand;
-  _.$_$.o2 = Vec3;
-  _.$_$.p2 = Vec4;
-  _.$_$.q2 = TimersMap;
-  _.$_$.r2 = get_BLENDING_NONE;
-  _.$_$.s2 = Blending;
-  _.$_$.t2 = get_DEPTH_NO_WRITE;
-  _.$_$.u2 = get_DEPTH_TEST_ENABLED;
-  _.$_$.v2 = MeshAttributes;
-  _.$_$.w2 = MeshAttribute;
-  _.$_$.x2 = Scene;
-  _.$_$.y2 = Shader;
-  _.$_$.z2 = Texture;
-  _.$_$.a3 = UniformFloatValue;
-  _.$_$.b3 = UniformTextureValue;
-  _.$_$.c3 = VertexAttributesDescriptor;
-  _.$_$.d3 = VertexAttribute;
-  _.$_$.e3 = setUniform_2;
-  _.$_$.f3 = setUniform_3;
-  _.$_$.g3 = setUniform_1;
-  _.$_$.h3 = setUniform_4;
-  _.$_$.i3 = setUniform_0;
-  _.$_$.j3 = setUniform_5;
+  _.$_$.g = PrimitiveDrawType_NON_INDEXED_getInstance;
+  _.$_$.h = PrimitiveType_POINTS_getInstance;
+  _.$_$.i = ColorMode_Normal_getInstance;
+  _.$_$.j = ColorMode_Sepia_getInstance;
+  _.$_$.k = AttributeType_NORMAL_getInstance;
+  _.$_$.l = AttributeType_U0_getInstance;
+  _.$_$.m = AttributeType_UV0_getInstance;
+  _.$_$.n = AttributeType_VERTEX_getInstance;
+  _.$_$.o = BlendingEquation_ADD_getInstance;
+  _.$_$.p = BlendingFactor_ONE_getInstance;
+  _.$_$.q = BlendingFactor_SRC_ALPHA_getInstance;
+  _.$_$.r = CullFace_BACK_getInstance;
+  _.$_$.s = CullFace_DISABLED_getInstance;
+  _.$_$.t = CullFace_FRONT_getInstance;
+  _.$_$.u = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance;
+  _.$_$.v = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance;
+  _.$_$.w = TextureFiltering_LINEAR_getInstance;
+  _.$_$.x = TextureFiltering_NEAREST_getInstance;
+  _.$_$.y = TextureFormat_ASTC_getInstance;
+  _.$_$.z = TextureFormat_RGBA16F_getInstance;
+  _.$_$.a1 = TextureFormat_RGBA8_getInstance;
+  _.$_$.b1 = TextureType_CUBEMAP_getInstance;
+  _.$_$.c1 = TextureWrapping_CLAMP_TO_EDGE_getInstance;
+  _.$_$.d1 = TextureWrapping_REPEAT_getInstance;
+  _.$_$.e1 = VertexFormat_BYTE2_NORMALIZED_getInstance;
+  _.$_$.f1 = VertexFormat_FLOAT2_getInstance;
+  _.$_$.g1 = VertexFormat_FLOAT3_getInstance;
+  _.$_$.h1 = VertexFormat_HALF2_getInstance;
+  _.$_$.i1 = VertexFormat_HALF3_getInstance;
+  _.$_$.j1 = VertexFormat_HALF_getInstance;
+  _.$_$.k1 = VertexFormat_UBYTE2_NORMALIZED_getInstance;
+  _.$_$.l1 = VertexFormat_UBYTE_NORMALIZED_getInstance;
+  _.$_$.m1 = Spline3D_init_$Create$;
+  _.$_$.n1 = DrawStaticMeshCommandConstructor;
+  _.$_$.o1 = GroupCommandArr;
+  _.$_$.p1 = MainPassCommandArr;
+  _.$_$.q1 = MeshConstructor1;
+  _.$_$.r1 = MeshConstructor2;
+  _.$_$.s1 = UniformFloatValueWithArray;
+  _.$_$.t1 = UniformIntValueWithArray;
+  _.$_$.u1 = MathUtils_instance;
+  _.$_$.v1 = Matrix_getInstance;
+  _.$_$.w1 = TextureAnimationChunked;
+  _.$_$.x1 = CameraPathAnimator;
+  _.$_$.y1 = CameraPositionPair;
+  _.$_$.z1 = CameraPosition;
+  _.$_$.a2 = AffineTranformation;
+  _.$_$.b2 = BlurredPassCommand;
+  _.$_$.c2 = ClearColorCommand;
+  _.$_$.d2 = ClearCommand;
+  _.$_$.e2 = Command;
+  _.$_$.f2 = DrawBlurredCommand;
+  _.$_$.g2 = DrawMeshCommand;
+  _.$_$.h2 = DrawMeshState;
+  _.$_$.i2 = DrawTransformedMeshCommand;
+  _.$_$.j2 = GroupCommand;
+  _.$_$.k2 = get_HINT_VRS_2X2;
+  _.$_$.l2 = get_HINT_VRS_4X4;
+  _.$_$.m2 = get_HINT_VRS_NONE;
+  _.$_$.n2 = NoopCommand;
+  _.$_$.o2 = VignetteCommand;
+  _.$_$.p2 = Vec3;
+  _.$_$.q2 = Vec4;
+  _.$_$.r2 = TimersMap;
+  _.$_$.s2 = get_BLENDING_NONE;
+  _.$_$.t2 = Blending;
+  _.$_$.u2 = get_DEPTH_NO_WRITE;
+  _.$_$.v2 = get_DEPTH_TEST_ENABLED;
+  _.$_$.w2 = MeshAttributes;
+  _.$_$.x2 = MeshAttribute;
+  _.$_$.y2 = Scene;
+  _.$_$.z2 = Shader;
+  _.$_$.a3 = Texture;
+  _.$_$.b3 = UniformFloatValue;
+  _.$_$.c3 = UniformTextureValue;
+  _.$_$.d3 = VertexAttributesDescriptor;
+  _.$_$.e3 = VertexAttribute;
+  _.$_$.f3 = setUniform_2;
+  _.$_$.g3 = setUniform_3;
+  _.$_$.h3 = setUniform_1;
+  _.$_$.i3 = setUniform_4;
+  _.$_$.j3 = setUniform_0;
+  _.$_$.k3 = setUniform_5;
   //endregion
   return _;
 }));

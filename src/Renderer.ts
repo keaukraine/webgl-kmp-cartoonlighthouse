@@ -6,6 +6,8 @@ import { DiffuseColoredShader } from "./shaders/DiffuseColoredShader";
 import { DiffuseColoredAtShader } from "./shaders/DiffuseColoredAtShader";
 import { StylizedWaterShader } from "./shaders/StylizedWaterShader";
 import { ColorShader } from "./shaders/ShaderColor";
+import { FishnetShader } from "./shaders/FishnetShader";
+import { WindShader } from "./shaders/WindShader";
 
 export class Renderer extends SceneRenderer<lib.org.androidworks.cartoonlighthouse.CartoonLighthouseScene> {
     protected SCENE_BOUNDING_BOX = {
@@ -49,6 +51,10 @@ export class Renderer extends SceneRenderer<lib.org.androidworks.cartoonlighthou
             return new StylizedWaterShader(this.gl);
         } else if (name === "Color") {
             return new ColorShader(this.gl);
+        } else if (name === "Fishnet") {
+            return new FishnetShader(this.gl);
+        } else if (name === "Wind") {
+            return new WindShader(this.gl);
         }
 
         throw new Error(`Unknown shader type ${name}`);

@@ -20,118 +20,119 @@
   var classMeta = kotlin_kotlin.$_$.r;
   var setMetadataFor = kotlin_kotlin.$_$.e1;
   var VOID = kotlin_kotlin.$_$.b;
-  var Vec3 = kotlin_org_androidworks_engine_engine.$_$.o2;
-  var TextureAnimationChunked = kotlin_org_androidworks_engine_engine.$_$.v1;
+  var Vec3 = kotlin_org_androidworks_engine_engine.$_$.p2;
+  var TextureAnimationChunked = kotlin_org_androidworks_engine_engine.$_$.w1;
   var objectMeta = kotlin_kotlin.$_$.c1;
-  var CameraPosition = kotlin_org_androidworks_engine_engine.$_$.y1;
-  var CameraPositionPair = kotlin_org_androidworks_engine_engine.$_$.x1;
+  var CameraPosition = kotlin_org_androidworks_engine_engine.$_$.z1;
+  var CameraPositionPair = kotlin_org_androidworks_engine_engine.$_$.y1;
   var getBooleanHashCode = kotlin_kotlin.$_$.v;
   var THROW_CCE = kotlin_kotlin.$_$.i1;
-  var Vec4 = kotlin_org_androidworks_engine_engine.$_$.p2;
-  var AttributeType_VERTEX_getInstance = kotlin_org_androidworks_engine_engine.$_$.m;
-  var VertexFormat_HALF3_getInstance = kotlin_org_androidworks_engine_engine.$_$.h1;
-  var MeshAttribute = kotlin_org_androidworks_engine_engine.$_$.w2;
-  var AttributeType_U0_getInstance = kotlin_org_androidworks_engine_engine.$_$.k;
-  var VertexFormat_HALF_getInstance = kotlin_org_androidworks_engine_engine.$_$.i1;
+  var Vec4 = kotlin_org_androidworks_engine_engine.$_$.q2;
+  var AttributeType_VERTEX_getInstance = kotlin_org_androidworks_engine_engine.$_$.n;
+  var VertexFormat_HALF3_getInstance = kotlin_org_androidworks_engine_engine.$_$.i1;
+  var MeshAttribute = kotlin_org_androidworks_engine_engine.$_$.x2;
+  var AttributeType_U0_getInstance = kotlin_org_androidworks_engine_engine.$_$.l;
+  var VertexFormat_HALF_getInstance = kotlin_org_androidworks_engine_engine.$_$.j1;
   var listOf = kotlin_kotlin.$_$.n;
-  var MeshAttributes = kotlin_org_androidworks_engine_engine.$_$.v2;
-  var VertexFormat_FLOAT3_getInstance = kotlin_org_androidworks_engine_engine.$_$.f1;
-  var AttributeType_UV0_getInstance = kotlin_org_androidworks_engine_engine.$_$.l;
-  var VertexFormat_HALF2_getInstance = kotlin_org_androidworks_engine_engine.$_$.g1;
+  var MeshAttributes = kotlin_org_androidworks_engine_engine.$_$.w2;
+  var VertexFormat_FLOAT3_getInstance = kotlin_org_androidworks_engine_engine.$_$.g1;
+  var AttributeType_UV0_getInstance = kotlin_org_androidworks_engine_engine.$_$.m;
+  var VertexFormat_HALF2_getInstance = kotlin_org_androidworks_engine_engine.$_$.h1;
   var listOf_0 = kotlin_kotlin.$_$.m;
-  var VertexFormat_UBYTE_NORMALIZED_getInstance = kotlin_org_androidworks_engine_engine.$_$.k1;
-  var VertexFormat_FLOAT2_getInstance = kotlin_org_androidworks_engine_engine.$_$.e1;
-  var MeshConstructor2 = kotlin_org_androidworks_engine_engine.$_$.q1;
+  var VertexFormat_UBYTE_NORMALIZED_getInstance = kotlin_org_androidworks_engine_engine.$_$.l1;
+  var VertexFormat_FLOAT2_getInstance = kotlin_org_androidworks_engine_engine.$_$.f1;
+  var MeshConstructor2 = kotlin_org_androidworks_engine_engine.$_$.r1;
   var mutableListOf = kotlin_kotlin.$_$.p;
-  var setUniform = kotlin_org_androidworks_engine_engine.$_$.i3;
-  var setUniform_0 = kotlin_org_androidworks_engine_engine.$_$.g3;
-  var setUniform_1 = kotlin_org_androidworks_engine_engine.$_$.e3;
+  var setUniform = kotlin_org_androidworks_engine_engine.$_$.j3;
+  var setUniform_0 = kotlin_org_androidworks_engine_engine.$_$.h3;
+  var setUniform_1 = kotlin_org_androidworks_engine_engine.$_$.f3;
   var List = kotlin_kotlin.$_$.j;
   var isInterface = kotlin_kotlin.$_$.z;
   var Unit_instance = kotlin_kotlin.$_$.i;
-  var setUniform_2 = kotlin_org_androidworks_engine_engine.$_$.f3;
+  var setUniform_2 = kotlin_org_androidworks_engine_engine.$_$.g3;
   var ensureNotNull = kotlin_kotlin.$_$.k1;
-  var Scene = kotlin_org_androidworks_engine_engine.$_$.x2;
-  var TimersMap = kotlin_org_androidworks_engine_engine.$_$.q2;
-  var get_HINT_VRS_4X4 = kotlin_org_androidworks_engine_engine.$_$.k2;
-  var UniformTextureValue = kotlin_org_androidworks_engine_engine.$_$.b3;
-  var CameraPathAnimator = kotlin_org_androidworks_engine_engine.$_$.w1;
-  var ClearColorCommand = kotlin_org_androidworks_engine_engine.$_$.b2;
-  var get_BLENDING_NONE = kotlin_org_androidworks_engine_engine.$_$.r2;
-  var get_DEPTH_TEST_ENABLED = kotlin_org_androidworks_engine_engine.$_$.u2;
-  var CullFace_BACK_getInstance = kotlin_org_androidworks_engine_engine.$_$.q;
-  var VertexAttribute = kotlin_org_androidworks_engine_engine.$_$.d3;
-  var VertexAttributesDescriptor = kotlin_org_androidworks_engine_engine.$_$.c3;
-  var DrawMeshState = kotlin_org_androidworks_engine_engine.$_$.g2;
-  var AffineTranformation = kotlin_org_androidworks_engine_engine.$_$.z1;
-  var UniformFloatValueWithArray = kotlin_org_androidworks_engine_engine.$_$.r1;
-  var DrawStaticMeshCommandConstructor = kotlin_org_androidworks_engine_engine.$_$.m1;
-  var GroupCommand = kotlin_org_androidworks_engine_engine.$_$.i2;
-  var DrawTransformedMeshCommand = kotlin_org_androidworks_engine_engine.$_$.h2;
-  var UniformIntValueWithArray = kotlin_org_androidworks_engine_engine.$_$.s1;
-  var GroupCommandArr = kotlin_org_androidworks_engine_engine.$_$.n1;
-  var ClearCommand = kotlin_org_androidworks_engine_engine.$_$.c2;
+  var Scene = kotlin_org_androidworks_engine_engine.$_$.y2;
+  var TimersMap = kotlin_org_androidworks_engine_engine.$_$.r2;
+  var get_HINT_VRS_4X4 = kotlin_org_androidworks_engine_engine.$_$.l2;
+  var UniformTextureValue = kotlin_org_androidworks_engine_engine.$_$.c3;
+  var CameraPathAnimator = kotlin_org_androidworks_engine_engine.$_$.x1;
+  var ClearColorCommand = kotlin_org_androidworks_engine_engine.$_$.c2;
+  var get_BLENDING_NONE = kotlin_org_androidworks_engine_engine.$_$.s2;
+  var get_DEPTH_TEST_ENABLED = kotlin_org_androidworks_engine_engine.$_$.v2;
+  var CullFace_BACK_getInstance = kotlin_org_androidworks_engine_engine.$_$.r;
+  var VertexAttribute = kotlin_org_androidworks_engine_engine.$_$.e3;
+  var VertexAttributesDescriptor = kotlin_org_androidworks_engine_engine.$_$.d3;
+  var DrawMeshState = kotlin_org_androidworks_engine_engine.$_$.h2;
+  var AffineTranformation = kotlin_org_androidworks_engine_engine.$_$.a2;
+  var UniformFloatValueWithArray = kotlin_org_androidworks_engine_engine.$_$.s1;
+  var DrawStaticMeshCommandConstructor = kotlin_org_androidworks_engine_engine.$_$.n1;
+  var GroupCommand = kotlin_org_androidworks_engine_engine.$_$.j2;
+  var DrawTransformedMeshCommand = kotlin_org_androidworks_engine_engine.$_$.i2;
+  var UniformIntValueWithArray = kotlin_org_androidworks_engine_engine.$_$.t1;
+  var GroupCommandArr = kotlin_org_androidworks_engine_engine.$_$.o1;
+  var ClearCommand = kotlin_org_androidworks_engine_engine.$_$.d2;
   var ClearCommandClearType_COLOR_AND_DEPTH_getInstance = kotlin_org_androidworks_engine_engine.$_$.e;
-  var VignetteCommand = kotlin_org_androidworks_engine_engine.$_$.n2;
-  var MainPassCommandArr = kotlin_org_androidworks_engine_engine.$_$.o1;
-  var BlurredPassCommand = kotlin_org_androidworks_engine_engine.$_$.a2;
+  var VignetteCommand = kotlin_org_androidworks_engine_engine.$_$.o2;
+  var MainPassCommandArr = kotlin_org_androidworks_engine_engine.$_$.p1;
+  var BlurredPassCommand = kotlin_org_androidworks_engine_engine.$_$.b2;
   var BlurSize_KERNEL_4_getInstance = kotlin_org_androidworks_engine_engine.$_$.c;
-  var DrawBlurredCommand = kotlin_org_androidworks_engine_engine.$_$.e2;
+  var DrawBlurredCommand = kotlin_org_androidworks_engine_engine.$_$.f2;
   var Default_getInstance = kotlin_kotlin.$_$.h;
-  var Matrix_getInstance = kotlin_org_androidworks_engine_engine.$_$.u1;
+  var Matrix_getInstance = kotlin_org_androidworks_engine_engine.$_$.v1;
   var CameraState_TRANSITIONING_getInstance = kotlin_org_androidworks_engine_engine.$_$.a;
-  var Spline3D_init_$Create$ = kotlin_org_androidworks_engine_engine.$_$.l1;
+  var Spline3D_init_$Create$ = kotlin_org_androidworks_engine_engine.$_$.m1;
   var THROW_IAE = kotlin_kotlin.$_$.j1;
   var Enum = kotlin_kotlin.$_$.h1;
   var defineProp = kotlin_kotlin.$_$.s;
-  var Shader = kotlin_org_androidworks_engine_engine.$_$.y2;
-  var Texture = kotlin_org_androidworks_engine_engine.$_$.z2;
-  var TextureFormat_RGBA8_getInstance = kotlin_org_androidworks_engine_engine.$_$.z;
-  var TextureFiltering_NEAREST_getInstance = kotlin_org_androidworks_engine_engine.$_$.w;
-  var TextureWrapping_CLAMP_TO_EDGE_getInstance = kotlin_org_androidworks_engine_engine.$_$.b1;
-  var TextureFiltering_LINEAR_getInstance = kotlin_org_androidworks_engine_engine.$_$.v;
-  var TextureFormat_ASTC_getInstance = kotlin_org_androidworks_engine_engine.$_$.x;
-  var TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance = kotlin_org_androidworks_engine_engine.$_$.t;
-  var TextureFormat_RGBA16F_getInstance = kotlin_org_androidworks_engine_engine.$_$.y;
-  var Command = kotlin_org_androidworks_engine_engine.$_$.d2;
+  var Shader = kotlin_org_androidworks_engine_engine.$_$.z2;
+  var Texture = kotlin_org_androidworks_engine_engine.$_$.a3;
+  var TextureFormat_RGBA8_getInstance = kotlin_org_androidworks_engine_engine.$_$.a1;
+  var TextureFiltering_NEAREST_getInstance = kotlin_org_androidworks_engine_engine.$_$.x;
+  var TextureWrapping_CLAMP_TO_EDGE_getInstance = kotlin_org_androidworks_engine_engine.$_$.c1;
+  var TextureFiltering_LINEAR_getInstance = kotlin_org_androidworks_engine_engine.$_$.w;
+  var TextureFormat_ASTC_getInstance = kotlin_org_androidworks_engine_engine.$_$.y;
+  var TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance = kotlin_org_androidworks_engine_engine.$_$.u;
+  var TextureFormat_RGBA16F_getInstance = kotlin_org_androidworks_engine_engine.$_$.z;
+  var Command = kotlin_org_androidworks_engine_engine.$_$.e2;
   var CommandType_CUSTOM_getInstance = kotlin_org_androidworks_engine_engine.$_$.f;
-  var get_HINT_VRS_NONE = kotlin_org_androidworks_engine_engine.$_$.l2;
-  var ColorMode_Normal_getInstance = kotlin_org_androidworks_engine_engine.$_$.h;
-  var MeshConstructor1 = kotlin_org_androidworks_engine_engine.$_$.p1;
+  var get_HINT_VRS_NONE = kotlin_org_androidworks_engine_engine.$_$.m2;
+  var ColorMode_Normal_getInstance = kotlin_org_androidworks_engine_engine.$_$.i;
+  var MeshConstructor1 = kotlin_org_androidworks_engine_engine.$_$.q1;
   var BlurSize_KERNEL_5_getInstance = kotlin_org_androidworks_engine_engine.$_$.d;
-  var Blending = kotlin_org_androidworks_engine_engine.$_$.s2;
-  var BlendingEquation_ADD_getInstance = kotlin_org_androidworks_engine_engine.$_$.n;
-  var BlendingFactor_ONE_getInstance = kotlin_org_androidworks_engine_engine.$_$.o;
+  var Blending = kotlin_org_androidworks_engine_engine.$_$.t2;
+  var BlendingEquation_ADD_getInstance = kotlin_org_androidworks_engine_engine.$_$.o;
+  var BlendingFactor_ONE_getInstance = kotlin_org_androidworks_engine_engine.$_$.p;
   var BlurSize_KERNEL_3_getInstance = kotlin_org_androidworks_engine_engine.$_$.b;
-  var get_HINT_VRS_2X2 = kotlin_org_androidworks_engine_engine.$_$.j2;
-  var ColorMode_Sepia_getInstance = kotlin_org_androidworks_engine_engine.$_$.i;
+  var get_HINT_VRS_2X2 = kotlin_org_androidworks_engine_engine.$_$.k2;
+  var ColorMode_Sepia_getInstance = kotlin_org_androidworks_engine_engine.$_$.j;
   var arrayConcat = kotlin_kotlin.$_$.a;
-  var MathUtils_instance = kotlin_org_androidworks_engine_engine.$_$.t1;
-  var setUniform_3 = kotlin_org_androidworks_engine_engine.$_$.h3;
-  var CullFace_DISABLED_getInstance = kotlin_org_androidworks_engine_engine.$_$.r;
+  var MathUtils_instance = kotlin_org_androidworks_engine_engine.$_$.u1;
+  var setUniform_3 = kotlin_org_androidworks_engine_engine.$_$.i3;
+  var CullFace_DISABLED_getInstance = kotlin_org_androidworks_engine_engine.$_$.s;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.c;
   var copyToArray = kotlin_kotlin.$_$.l;
+  var get_DEPTH_NO_WRITE = kotlin_org_androidworks_engine_engine.$_$.u2;
+  var PrimitiveDrawType_NON_INDEXED_getInstance = kotlin_org_androidworks_engine_engine.$_$.g;
   var getStringHashCode = kotlin_kotlin.$_$.x;
-  var TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance = kotlin_org_androidworks_engine_engine.$_$.u;
-  var TextureWrapping_REPEAT_getInstance = kotlin_org_androidworks_engine_engine.$_$.c1;
-  var AttributeType_NORMAL_getInstance = kotlin_org_androidworks_engine_engine.$_$.j;
-  var CullFace_FRONT_getInstance = kotlin_org_androidworks_engine_engine.$_$.s;
-  var BlendingFactor_SRC_ALPHA_getInstance = kotlin_org_androidworks_engine_engine.$_$.p;
-  var get_DEPTH_NO_WRITE = kotlin_org_androidworks_engine_engine.$_$.t2;
+  var TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance = kotlin_org_androidworks_engine_engine.$_$.v;
+  var TextureWrapping_REPEAT_getInstance = kotlin_org_androidworks_engine_engine.$_$.d1;
+  var AttributeType_NORMAL_getInstance = kotlin_org_androidworks_engine_engine.$_$.k;
+  var CullFace_FRONT_getInstance = kotlin_org_androidworks_engine_engine.$_$.t;
+  var BlendingFactor_SRC_ALPHA_getInstance = kotlin_org_androidworks_engine_engine.$_$.q;
   var objectCreate = kotlin_kotlin.$_$.b1;
   var fillArrayVal = kotlin_kotlin.$_$.u;
   var to = kotlin_kotlin.$_$.l1;
   var mapOf = kotlin_kotlin.$_$.o;
-  var NoopCommand = kotlin_org_androidworks_engine_engine.$_$.m2;
-  var DrawMeshCommand = kotlin_org_androidworks_engine_engine.$_$.f2;
+  var NoopCommand = kotlin_org_androidworks_engine_engine.$_$.n2;
+  var DrawMeshCommand = kotlin_org_androidworks_engine_engine.$_$.g2;
   var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.d;
-  var UniformFloatValue = kotlin_org_androidworks_engine_engine.$_$.a3;
+  var UniformFloatValue = kotlin_org_androidworks_engine_engine.$_$.b3;
   var get_PI = kotlin_kotlin.$_$.g1;
-  var VertexFormat_UBYTE2_NORMALIZED_getInstance = kotlin_org_androidworks_engine_engine.$_$.j1;
-  var VertexFormat_BYTE2_NORMALIZED_getInstance = kotlin_org_androidworks_engine_engine.$_$.d1;
-  var PrimitiveType_POINTS_getInstance = kotlin_org_androidworks_engine_engine.$_$.g;
-  var setUniform_4 = kotlin_org_androidworks_engine_engine.$_$.j3;
-  var TextureType_CUBEMAP_getInstance = kotlin_org_androidworks_engine_engine.$_$.a1;
+  var VertexFormat_UBYTE2_NORMALIZED_getInstance = kotlin_org_androidworks_engine_engine.$_$.k1;
+  var VertexFormat_BYTE2_NORMALIZED_getInstance = kotlin_org_androidworks_engine_engine.$_$.e1;
+  var PrimitiveType_POINTS_getInstance = kotlin_org_androidworks_engine_engine.$_$.h;
+  var setUniform_4 = kotlin_org_androidworks_engine_engine.$_$.k3;
+  var TextureType_CUBEMAP_getInstance = kotlin_org_androidworks_engine_engine.$_$.b1;
   //endregion
   //region block: pre-declaration
   setMetadataFor(AnimatedObjectInfoBase, 'AnimatedObjectInfoBase', classMeta, VOID, VOID, AnimatedObjectInfoBase);
@@ -193,25 +194,25 @@
   setMetadataFor(Timers_3, 'Timers', classMeta, Enum);
   //endregion
   function AnimatedObjectInfoBase() {
-    this.ni_1 = 0.0;
-    this.oi_1 = 0.0;
+    this.ri_1 = 0.0;
+    this.si_1 = 0.0;
   }
   function AnimatedObjectInfo() {
     AnimatedObjectInfoBase.call(this);
-    this.ri_1 = new Vec3();
-    this.si_1 = new Vec3();
+    this.vi_1 = new Vec3();
+    this.wi_1 = new Vec3();
   }
   function SplineAnimatedObjectInfo() {
     AnimatedObjectInfoBase.call(this);
-    this.vi_1 = null;
+    this.zi_1 = null;
   }
   function Animations() {
     Animations_instance = this;
-    this.wi_1 = new TextureAnimationChunked(133, 133, 3);
-    this.xi_1 = new TextureAnimationChunked(341, 341, 15);
-    this.yi_1 = new TextureAnimationChunked(238, 238, 10);
-    this.zi_1 = new TextureAnimationChunked(263, 263, 9);
-    this.aj_1 = new TextureAnimationChunked(263, 263, 12);
+    this.aj_1 = new TextureAnimationChunked(133, 133, 3);
+    this.bj_1 = new TextureAnimationChunked(341, 341, 15);
+    this.cj_1 = new TextureAnimationChunked(238, 238, 10);
+    this.dj_1 = new TextureAnimationChunked(263, 263, 9);
+    this.ej_1 = new TextureAnimationChunked(263, 263, 12);
   }
   var Animations_instance;
   function Animations_getInstance() {
@@ -225,7 +226,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.bj_1 = [new CameraPositionPair(new CameraPosition(new Vec3(-20834.791, 47426.33, 2531.646), new Vec3(-25922.844, 23601.791, 886.872)), new CameraPosition(new Vec3(10194.038, -1464.044, 886.872), new Vec3(918.405, -14209.802, 886.872)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-4109.569, 11284.58, 2531.646), new Vec3(-26652.816, 1825.736, 886.872)), new CameraPosition(new Vec3(4167.435, 9801.106, 886.872), new Vec3(20338.879, -12121.901, 886.872)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1316.869, -26605.557, 730.833), new Vec3(7972.117, -8640.933, 156.916)), new CameraPosition(new Vec3(5633.813, -2835.024, 590.909), new Vec3(7054.362, -11628.732, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(1058.602, -6343.349, 7252.608), new Vec3(12343.629, -9785.771, 156.916)), new CameraPosition(new Vec3(10627.578, -5523.65, 952.352), new Vec3(7975.851, -12773.571, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-15084.583, -6685.166, 1734.204), new Vec3(-7877.742, -11902.989, 156.916)), new CameraPosition(new Vec3(-5300.519, -8189.871, 2864.12), new Vec3(-14072.867, -12477.64, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-12847.906, 6333.75, 388.651), new Vec3(-9402.603, 9611.532, 156.916)), new CameraPosition(new Vec3(-7762.645, 7800.965, 3749.253), new Vec3(-11462.321, 8195.902, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-22389.021, 1075.924, 5119.1), new Vec3(-6829.5, 16726.61, 3154.788)), new CameraPosition(new Vec3(-23767.002, 14537.841, 5001.777), new Vec3(1434.719, 1224.992, 4490.559)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-35127.016, 27564.738, 886.872), new Vec3(-7923.539, 14634.557, 886.872)), new CameraPosition(new Vec3(-24081.432, -14828.664, 886.872), new Vec3(-7150.61, -5201.194, 886.872)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-26917.791, 18527.285, 3173.479), new Vec3(-19059.227, 11528.038, 886.872)), new CameraPosition(new Vec3(1437.67, 4945.704, 571.601), new Vec3(6268.789, -4323.603, 886.872)), 1.0)];
+    tmp.fj_1 = [new CameraPositionPair(new CameraPosition(new Vec3(-20834.791, 47426.33, 2531.646), new Vec3(-25922.844, 23601.791, 886.872)), new CameraPosition(new Vec3(10194.038, -1464.044, 886.872), new Vec3(918.405, -14209.802, 886.872)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-4109.569, 11284.58, 2531.646), new Vec3(-26652.816, 1825.736, 886.872)), new CameraPosition(new Vec3(4167.435, 9801.106, 886.872), new Vec3(20338.879, -12121.901, 886.872)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1316.869, -26605.557, 730.833), new Vec3(7972.117, -8640.933, 156.916)), new CameraPosition(new Vec3(5633.813, -2835.024, 590.909), new Vec3(7054.362, -11628.732, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(1058.602, -6343.349, 7252.608), new Vec3(12343.629, -9785.771, 156.916)), new CameraPosition(new Vec3(10627.578, -5523.65, 952.352), new Vec3(7975.851, -12773.571, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-15084.583, -6685.166, 1734.204), new Vec3(-7877.742, -11902.989, 156.916)), new CameraPosition(new Vec3(-5300.519, -8189.871, 2864.12), new Vec3(-14072.867, -12477.64, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-12847.906, 6333.75, 388.651), new Vec3(-9402.603, 9611.532, 156.916)), new CameraPosition(new Vec3(-7762.645, 7800.965, 3749.253), new Vec3(-11462.321, 8195.902, 156.916)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-22389.021, 1075.924, 5119.1), new Vec3(-6829.5, 16726.61, 3154.788)), new CameraPosition(new Vec3(-23767.002, 14537.841, 5001.777), new Vec3(1434.719, 1224.992, 4490.559)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-35127.016, 27564.738, 886.872), new Vec3(-7923.539, 14634.557, 886.872)), new CameraPosition(new Vec3(-24081.432, -14828.664, 886.872), new Vec3(-7150.61, -5201.194, 886.872)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-26917.791, 18527.285, 3173.479), new Vec3(-19059.227, 11528.038, 886.872)), new CameraPosition(new Vec3(1437.67, 4945.704, 571.601), new Vec3(6268.789, -4323.603, 886.872)), 1.0)];
   }
   var Cameras_instance;
   function Cameras_getInstance() {
@@ -234,29 +235,29 @@
     return Cameras_instance;
   }
   function SceneColors(isDay, isLowSun, drawBirds, birds, clouds, stars, waterColorNear, waterColorFar, distantZFogColor) {
-    this.cj_1 = isDay;
-    this.dj_1 = isLowSun;
-    this.ej_1 = drawBirds;
-    this.fj_1 = birds;
-    this.gj_1 = clouds;
-    this.hj_1 = stars;
-    this.ij_1 = waterColorNear;
-    this.jj_1 = waterColorFar;
-    this.kj_1 = distantZFogColor;
+    this.gj_1 = isDay;
+    this.hj_1 = isLowSun;
+    this.ij_1 = drawBirds;
+    this.jj_1 = birds;
+    this.kj_1 = clouds;
+    this.lj_1 = stars;
+    this.mj_1 = waterColorNear;
+    this.nj_1 = waterColorFar;
+    this.oj_1 = distantZFogColor;
   }
   protoOf(SceneColors).toString = function () {
-    return 'SceneColors(isDay=' + this.cj_1 + ', isLowSun=' + this.dj_1 + ', drawBirds=' + this.ej_1 + ', birds=' + this.fj_1 + ', clouds=' + this.gj_1 + ', stars=' + this.hj_1 + ', waterColorNear=' + this.ij_1 + ', waterColorFar=' + this.jj_1 + ', distantZFogColor=' + this.kj_1 + ')';
+    return 'SceneColors(isDay=' + this.gj_1 + ', isLowSun=' + this.hj_1 + ', drawBirds=' + this.ij_1 + ', birds=' + this.jj_1 + ', clouds=' + this.kj_1 + ', stars=' + this.lj_1 + ', waterColorNear=' + this.mj_1 + ', waterColorFar=' + this.nj_1 + ', distantZFogColor=' + this.oj_1 + ')';
   };
   protoOf(SceneColors).hashCode = function () {
-    var result = getBooleanHashCode(this.cj_1);
-    result = imul(result, 31) + getBooleanHashCode(this.dj_1) | 0;
-    result = imul(result, 31) + getBooleanHashCode(this.ej_1) | 0;
-    result = imul(result, 31) + this.fj_1.hashCode() | 0;
-    result = imul(result, 31) + this.gj_1.hashCode() | 0;
-    result = imul(result, 31) + this.hj_1.hashCode() | 0;
-    result = imul(result, 31) + this.ij_1.hashCode() | 0;
+    var result = getBooleanHashCode(this.gj_1);
+    result = imul(result, 31) + getBooleanHashCode(this.hj_1) | 0;
+    result = imul(result, 31) + getBooleanHashCode(this.ij_1) | 0;
     result = imul(result, 31) + this.jj_1.hashCode() | 0;
     result = imul(result, 31) + this.kj_1.hashCode() | 0;
+    result = imul(result, 31) + this.lj_1.hashCode() | 0;
+    result = imul(result, 31) + this.mj_1.hashCode() | 0;
+    result = imul(result, 31) + this.nj_1.hashCode() | 0;
+    result = imul(result, 31) + this.oj_1.hashCode() | 0;
     return result;
   };
   protoOf(SceneColors).equals = function (other) {
@@ -265,23 +266,23 @@
     if (!(other instanceof SceneColors))
       return false;
     var tmp0_other_with_cast = other instanceof SceneColors ? other : THROW_CCE();
-    if (!(this.cj_1 === tmp0_other_with_cast.cj_1))
+    if (!(this.gj_1 === tmp0_other_with_cast.gj_1))
       return false;
-    if (!(this.dj_1 === tmp0_other_with_cast.dj_1))
+    if (!(this.hj_1 === tmp0_other_with_cast.hj_1))
       return false;
-    if (!(this.ej_1 === tmp0_other_with_cast.ej_1))
-      return false;
-    if (!this.fj_1.equals(tmp0_other_with_cast.fj_1))
-      return false;
-    if (!this.gj_1.equals(tmp0_other_with_cast.gj_1))
-      return false;
-    if (!this.hj_1.equals(tmp0_other_with_cast.hj_1))
-      return false;
-    if (!this.ij_1.equals(tmp0_other_with_cast.ij_1))
+    if (!(this.ij_1 === tmp0_other_with_cast.ij_1))
       return false;
     if (!this.jj_1.equals(tmp0_other_with_cast.jj_1))
       return false;
     if (!this.kj_1.equals(tmp0_other_with_cast.kj_1))
+      return false;
+    if (!this.lj_1.equals(tmp0_other_with_cast.lj_1))
+      return false;
+    if (!this.mj_1.equals(tmp0_other_with_cast.mj_1))
+      return false;
+    if (!this.nj_1.equals(tmp0_other_with_cast.nj_1))
+      return false;
+    if (!this.oj_1.equals(tmp0_other_with_cast.oj_1))
       return false;
     return true;
   };
@@ -291,7 +292,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.lj_1 = [new SceneColors(true, false, true, new Vec4(0.3137254901960784, 0.3137254901960784, 0.3137254901960784, 1.0), new Vec4(0.8666666666666667, 0.9725490196078431, 1.0, 0.3), new Vec4(0.8666666666666667, 0.9725490196078431, 1.0, 0.3), new Vec4(0.21568627450980393, 0.6313725490196078, 0.8274509803921568), new Vec4(0.5137254901960784, 0.8352941176470589, 0.8901960784313725), new Vec4(1.0, 1.0, 1.0, 0.75)), new SceneColors(false, false, false, new Vec4(1.0, 0.0, 0.0, 1.0), new Vec4(0.058823529411764705, 0.2627450980392157, 0.3843137254901961, 0.3), new Vec4(1.0, 1.0, 1.0, 1.0), new Vec4(0.03529411764705882, 0.17254901960784313, 0.3215686274509804), new Vec4(0.043137254901960784, 0.12156862745098039, 0.2196078431372549), new Vec4(0.2627450980392157, 0.4823529411764706, 0.611764705882353, 0.75)), new SceneColors(true, true, true, new Vec4(0.49411764705882355, 0.42745098039215684, 0.26666666666666666, 1.0), new Vec4(0.9294117647058824, 0.7490196078431373, 0.38823529411764707, 0.3), new Vec4(0.8666666666666667, 0.9725490196078431, 1.0, 0.3), new Vec4(0.592156862745098, 0.6313725490196078, 0.5098039215686274), new Vec4(0.8509803921568627, 0.7333333333333333, 0.5372549019607843), new Vec4(0.8980392156862745, 0.8745098039215686, 0.7137254901960784, 0.75)), new SceneColors(true, true, false, new Vec4(0.3686274509803922, 0.17647058823529413, 0.20784313725490197, 1.0), new Vec4(0.4549019607843137, 0.2784313725490196, 0.5019607843137255, 0.3), new Vec4(1.0, 1.0, 1.0, 1.0), new Vec4(0.0784313725490196, 0.20784313725490197, 0.4549019607843137), new Vec4(0.25882352941176473, 0.24313725490196078, 0.5098039215686274), new Vec4(0.8823529411764706, 0.6745098039215687, 0.8392156862745098, 0.75))];
+    tmp.pj_1 = [new SceneColors(true, false, true, new Vec4(0.3137254901960784, 0.3137254901960784, 0.3137254901960784, 1.0), new Vec4(0.8666666666666667, 0.9725490196078431, 1.0, 0.3), new Vec4(0.8666666666666667, 0.9725490196078431, 1.0, 0.3), new Vec4(0.21568627450980393, 0.6313725490196078, 0.8274509803921568), new Vec4(0.5137254901960784, 0.8352941176470589, 0.8901960784313725), new Vec4(1.0, 1.0, 1.0, 0.75)), new SceneColors(false, false, false, new Vec4(1.0, 0.0, 0.0, 1.0), new Vec4(0.058823529411764705, 0.2627450980392157, 0.3843137254901961, 0.3), new Vec4(1.0, 1.0, 1.0, 1.0), new Vec4(0.03529411764705882, 0.17254901960784313, 0.3215686274509804), new Vec4(0.043137254901960784, 0.12156862745098039, 0.2196078431372549), new Vec4(0.2627450980392157, 0.4823529411764706, 0.611764705882353, 0.75)), new SceneColors(true, true, true, new Vec4(0.49411764705882355, 0.42745098039215684, 0.26666666666666666, 1.0), new Vec4(0.9294117647058824, 0.7490196078431373, 0.38823529411764707, 0.3), new Vec4(0.8666666666666667, 0.9725490196078431, 1.0, 0.3), new Vec4(0.592156862745098, 0.6313725490196078, 0.5098039215686274), new Vec4(0.8509803921568627, 0.7333333333333333, 0.5372549019607843), new Vec4(0.8980392156862745, 0.8745098039215686, 0.7137254901960784, 0.75)), new SceneColors(true, true, false, new Vec4(0.3686274509803922, 0.17647058823529413, 0.20784313725490197, 1.0), new Vec4(0.4549019607843137, 0.2784313725490196, 0.5019607843137255, 0.3), new Vec4(1.0, 1.0, 1.0, 1.0), new Vec4(0.0784313725490196, 0.20784313725490197, 0.4549019607843137), new Vec4(0.25882352941176473, 0.24313725490196078, 0.5098039215686274), new Vec4(0.8823529411764706, 0.6745098039215687, 0.8392156862745098, 0.75))];
   }
   var Colors_instance;
   function Colors_getInstance() {
@@ -301,28 +302,28 @@
   }
   function Meshes() {
     Meshes_instance = this;
-    this.mj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_U0_getInstance(), VertexFormat_HALF_getInstance(), 6)]), 8);
-    this.nj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 12)]), 16);
-    this.oj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
-    this.pj_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0)), 8);
-    this.qj_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
-    this.rj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0), new MeshAttribute(AttributeType_U0_getInstance(), VertexFormat_UBYTE_NORMALIZED_getInstance(), 12)]), 16);
-    this.sj_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_FLOAT2_getInstance(), 0)), 4);
-    this.tj_1 = MeshConstructor2('mountains1', this.mj_1);
-    this.uj_1 = MeshConstructor2('mountains_distant1', this.mj_1);
-    this.vj_1 = MeshConstructor2('sun', this.nj_1);
-    this.wj_1 = MeshConstructor2('sun2', this.nj_1);
-    this.xj_1 = MeshConstructor2('water_test', this.oj_1);
-    this.yj_1 = MeshConstructor2('sky', this.nj_1);
-    this.zj_1 = MeshConstructor2('stars', this.qj_1);
-    this.ak_1 = MeshConstructor2('clouds', this.rj_1);
-    this.bk_1 = MeshConstructor2('bird1');
-    this.ck_1 = MeshConstructor2('ship', this.mj_1);
-    this.dk_1 = MeshConstructor2('penguin-idle', this.sj_1);
-    this.ek_1 = MeshConstructor2('penguin-idle2', this.sj_1);
-    this.fk_1 = MeshConstructor2('seal-idle', this.sj_1);
-    this.gk_1 = MeshConstructor2('animals_sleeping', this.nj_1);
-    this.hk_1 = mutableListOf([this.vj_1, this.wj_1, this.tj_1, this.uj_1, this.xj_1, this.yj_1, this.zj_1, this.ak_1, this.bk_1, this.ck_1, this.dk_1, this.ek_1, this.fk_1, this.gk_1]);
+    this.qj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_U0_getInstance(), VertexFormat_HALF_getInstance(), 6)]), 8);
+    this.rj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 12)]), 16);
+    this.sj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
+    this.tj_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0)), 8);
+    this.uj_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
+    this.vj_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0), new MeshAttribute(AttributeType_U0_getInstance(), VertexFormat_UBYTE_NORMALIZED_getInstance(), 12)]), 16);
+    this.wj_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_FLOAT2_getInstance(), 0)), 4);
+    this.xj_1 = MeshConstructor2('mountains1', this.qj_1);
+    this.yj_1 = MeshConstructor2('mountains_distant1', this.qj_1);
+    this.zj_1 = MeshConstructor2('sun', this.rj_1);
+    this.ak_1 = MeshConstructor2('sun2', this.rj_1);
+    this.bk_1 = MeshConstructor2('water_test', this.sj_1);
+    this.ck_1 = MeshConstructor2('sky', this.rj_1);
+    this.dk_1 = MeshConstructor2('stars', this.uj_1);
+    this.ek_1 = MeshConstructor2('clouds', this.vj_1);
+    this.fk_1 = MeshConstructor2('bird1');
+    this.gk_1 = MeshConstructor2('ship', this.qj_1);
+    this.hk_1 = MeshConstructor2('penguin-idle', this.wj_1);
+    this.ik_1 = MeshConstructor2('penguin-idle2', this.wj_1);
+    this.jk_1 = MeshConstructor2('seal-idle', this.wj_1);
+    this.kk_1 = MeshConstructor2('animals_sleeping', this.rj_1);
+    this.lk_1 = mutableListOf([this.zj_1, this.ak_1, this.xj_1, this.yj_1, this.bk_1, this.ck_1, this.dk_1, this.ek_1, this.fk_1, this.gk_1, this.hk_1, this.ik_1, this.jk_1, this.kk_1]);
   }
   var Meshes_instance;
   function Meshes_getInstance() {
@@ -338,143 +339,143 @@
     var this_0 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_0.ri_1 = new Vec3(-10793.156, 7192.894, 37.26);
-    this_0.si_1 = new Vec3(0.0, 0.0, -160.0);
-    this_0.ni_1 = 0.88;
-    this_0.oi_1 = 0.5;
+    this_0.vi_1 = new Vec3(-10793.156, 7192.894, 37.26);
+    this_0.wi_1 = new Vec3(0.0, 0.0, -160.0);
+    this_0.ri_1 = 0.88;
+    this_0.si_1 = 0.5;
     var tmp_0 = this_0;
     // Inline function 'kotlin.apply' call
     var this_1 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_1.ri_1 = new Vec3(-10851.307, 7243.238, 37.26);
-    this_1.si_1 = new Vec3(0.0, 0.0, 70.0);
-    this_1.ni_1 = 0.75;
-    this_1.oi_1 = 0.25;
+    this_1.vi_1 = new Vec3(-10851.307, 7243.238, 37.26);
+    this_1.wi_1 = new Vec3(0.0, 0.0, 70.0);
+    this_1.ri_1 = 0.75;
+    this_1.si_1 = 0.25;
     var tmp_1 = this_1;
     // Inline function 'kotlin.apply' call
     var this_2 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_2.ri_1 = new Vec3(-10762.938, 7258.693, 37.26);
-    this_2.si_1 = new Vec3(0.0, 0.0, 0.0);
-    this_2.ni_1 = 0.65;
-    this_2.oi_1 = 0.77;
+    this_2.vi_1 = new Vec3(-10762.938, 7258.693, 37.26);
+    this_2.wi_1 = new Vec3(0.0, 0.0, 0.0);
+    this_2.ri_1 = 0.65;
+    this_2.si_1 = 0.77;
     var tmp_2 = this_2;
     // Inline function 'kotlin.apply' call
     var this_3 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_3.ri_1 = new Vec3(-10280.157, 8529.577, 69.556);
-    this_3.si_1 = new Vec3(0.0, 0.0, -20.0);
-    this_3.ni_1 = 0.65;
-    this_3.oi_1 = 0.2;
+    this_3.vi_1 = new Vec3(-10280.157, 8529.577, 69.556);
+    this_3.wi_1 = new Vec3(0.0, 0.0, -20.0);
+    this_3.ri_1 = 0.65;
+    this_3.si_1 = 0.2;
     var tmp_3 = this_3;
     // Inline function 'kotlin.apply' call
     var this_4 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_4.ri_1 = new Vec3(-10359.45, 8782.093, 69.556);
-    this_4.si_1 = new Vec3(0.0, 0.0, 70.0);
-    this_4.ni_1 = 0.77;
-    this_4.oi_1 = 0.35;
+    this_4.vi_1 = new Vec3(-10359.45, 8782.093, 69.556);
+    this_4.wi_1 = new Vec3(0.0, 0.0, 70.0);
+    this_4.ri_1 = 0.77;
+    this_4.si_1 = 0.35;
     var tmp_4 = this_4;
     // Inline function 'kotlin.apply' call
     var this_5 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_5.ri_1 = new Vec3(-10081.696, 8657.917, 69.556);
-    this_5.si_1 = new Vec3(0.0, 0.0, -160.0);
-    this_5.ni_1 = 0.85;
-    this_5.oi_1 = 0.75;
+    this_5.vi_1 = new Vec3(-10081.696, 8657.917, 69.556);
+    this_5.wi_1 = new Vec3(0.0, 0.0, -160.0);
+    this_5.ri_1 = 0.85;
+    this_5.si_1 = 0.75;
     var tmp_5 = this_5;
     // Inline function 'kotlin.apply' call
     var this_6 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_6.ri_1 = new Vec3(-10150.821, 9009.801, 69.556);
-    this_6.si_1 = new Vec3(0.0, 0.0, 130.0);
-    this_6.ni_1 = 0.7;
-    this_6.oi_1 = 0.66;
+    this_6.vi_1 = new Vec3(-10150.821, 9009.801, 69.556);
+    this_6.wi_1 = new Vec3(0.0, 0.0, 130.0);
+    this_6.ri_1 = 0.7;
+    this_6.si_1 = 0.66;
     var tmp_6 = this_6;
     // Inline function 'kotlin.apply' call
     var this_7 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_7.ri_1 = new Vec3(-10006.514, 8820.707, 69.556);
-    this_7.si_1 = new Vec3(0.0, 0.0, -90.0);
-    this_7.ni_1 = 0.8;
-    this_7.oi_1 = 0.8;
+    this_7.vi_1 = new Vec3(-10006.514, 8820.707, 69.556);
+    this_7.wi_1 = new Vec3(0.0, 0.0, -90.0);
+    this_7.ri_1 = 0.8;
+    this_7.si_1 = 0.8;
     var tmp_7 = this_7;
     // Inline function 'kotlin.apply' call
     var this_8 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE.<anonymous>' call
-    this_8.ri_1 = new Vec3(-9890.24, 8932.688, 69.556);
-    this_8.si_1 = new Vec3(0.0, 0.0, 140.0);
-    this_8.ni_1 = 0.85;
-    this_8.oi_1 = 0.5;
+    this_8.vi_1 = new Vec3(-9890.24, 8932.688, 69.556);
+    this_8.wi_1 = new Vec3(0.0, 0.0, 140.0);
+    this_8.ri_1 = 0.85;
+    this_8.si_1 = 0.5;
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.ik_1 = [tmp_0, tmp_1, tmp_2, tmp_3, tmp_4, tmp_5, tmp_6, tmp_7, this_8];
+    tmp.mk_1 = [tmp_0, tmp_1, tmp_2, tmp_3, tmp_4, tmp_5, tmp_6, tmp_7, this_8];
     var tmp_8 = this;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.apply' call
     var this_9 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE2.<anonymous>' call
-    this_9.ri_1 = new Vec3(-12338.941, 6764.751, 33.536);
-    this_9.si_1 = new Vec3(0.0, 0.0, 180.0);
-    this_9.ni_1 = 0.9;
-    this_9.oi_1 = 0.2;
+    this_9.vi_1 = new Vec3(-12338.941, 6764.751, 33.536);
+    this_9.wi_1 = new Vec3(0.0, 0.0, 180.0);
+    this_9.ri_1 = 0.9;
+    this_9.si_1 = 0.2;
     var tmp_9 = this_9;
     // Inline function 'kotlin.apply' call
     var this_10 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE2.<anonymous>' call
-    this_10.ri_1 = new Vec3(-12192.411, 6887.637, 33.536);
-    this_10.si_1 = new Vec3(0.0, 0.0, -135.0);
-    this_10.ni_1 = 0.8;
-    this_10.oi_1 = 0.33;
+    this_10.vi_1 = new Vec3(-12192.411, 6887.637, 33.536);
+    this_10.wi_1 = new Vec3(0.0, 0.0, -135.0);
+    this_10.ri_1 = 0.8;
+    this_10.si_1 = 0.33;
     var tmp_10 = this_10;
     // Inline function 'kotlin.apply' call
     var this_11 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE2.<anonymous>' call
-    this_11.ri_1 = new Vec3(-12480.681, 6825.791, 33.536);
-    this_11.si_1 = new Vec3(0.0, 0.0, 160.0);
-    this_11.ni_1 = 0.75;
-    this_11.oi_1 = 0.5;
+    this_11.vi_1 = new Vec3(-12480.681, 6825.791, 33.536);
+    this_11.wi_1 = new Vec3(0.0, 0.0, 160.0);
+    this_11.ri_1 = 0.75;
+    this_11.si_1 = 0.5;
     var tmp_11 = this_11;
     // Inline function 'kotlin.apply' call
     var this_12 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE2.<anonymous>' call
-    this_12.ri_1 = new Vec3(-10744.105, 7007.923, 33.536);
-    this_12.si_1 = new Vec3(0.0, 0.0, -160.0);
-    this_12.ni_1 = 0.75;
-    this_12.oi_1 = 0.5;
+    this_12.vi_1 = new Vec3(-10744.105, 7007.923, 33.536);
+    this_12.wi_1 = new Vec3(0.0, 0.0, -160.0);
+    this_12.ri_1 = 0.75;
+    this_12.si_1 = 0.5;
     var tmp_12 = this_12;
     // Inline function 'kotlin.apply' call
     var this_13 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE2.<anonymous>' call
-    this_13.ri_1 = new Vec3(-11312.577, 8120.395, 33.536);
-    this_13.si_1 = new Vec3(0.0, 0.0, 50.0);
-    this_13.ni_1 = 0.75;
-    this_13.oi_1 = 0.75;
+    this_13.vi_1 = new Vec3(-11312.577, 8120.395, 33.536);
+    this_13.wi_1 = new Vec3(0.0, 0.0, 50.0);
+    this_13.ri_1 = 0.75;
+    this_13.si_1 = 0.75;
     var tmp_13 = this_13;
     // Inline function 'kotlin.apply' call
     var this_14 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Penguins.IDLE2.<anonymous>' call
-    this_14.ri_1 = new Vec3(-10070.444, 7941.108, 65.833);
-    this_14.si_1 = new Vec3(0.0, 0.0, 155.0);
-    this_14.ni_1 = 0.75;
-    this_14.oi_1 = 0.8;
+    this_14.vi_1 = new Vec3(-10070.444, 7941.108, 65.833);
+    this_14.wi_1 = new Vec3(0.0, 0.0, 155.0);
+    this_14.ri_1 = 0.75;
+    this_14.si_1 = 0.8;
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp_8.jk_1 = [tmp_9, tmp_10, tmp_11, tmp_12, tmp_13, this_14];
+    tmp_8.nk_1 = [tmp_9, tmp_10, tmp_11, tmp_12, tmp_13, this_14];
   }
   var Penguins_instance;
   function Penguins_getInstance() {
@@ -483,7 +484,7 @@
     return Penguins_instance;
   }
   function toggleDayNightObjects($this) {
-    var isDay = Colors_getInstance().lj_1[$this.settings.timeOfDay.g4_1].cj_1;
+    var isDay = Colors_getInstance().pj_1[$this.settings.timeOfDay.g4_1].gj_1;
     $this.commandStars.enabled = !isDay;
     $this.groupBirds.enabled = isDay;
     $this.groupAnimalsAnimated.enabled = isDay;
@@ -491,44 +492,44 @@
     $this.groupShips.enabled = isDay;
   }
   function updateColors($this) {
-    var colors = Colors_getInstance().lj_1[$this.settings.timeOfDay.g4_1];
-    setUniform($this.bl_1.s(2), colors.kj_1.r, colors.kj_1.g, colors.kj_1.b, colors.kj_1.a);
-    setUniform_0($this.bl_1.s(3), 0.0, 1500.0);
-    setUniform($this.dl_1.s(1), colors.hj_1.r, colors.hj_1.g, colors.hj_1.b, colors.hj_1.a);
-    setUniform($this.el_1.s(1), colors.gj_1.r, colors.gj_1.g, colors.gj_1.b, colors.gj_1.a);
-    var tmp = $this.el_1.s(2);
+    var colors = Colors_getInstance().pj_1[$this.settings.timeOfDay.g4_1];
+    setUniform($this.fl_1.s(2), colors.oj_1.r, colors.oj_1.g, colors.oj_1.b, colors.oj_1.a);
+    setUniform_0($this.fl_1.s(3), 0.0, 1500.0);
+    setUniform($this.hl_1.s(1), colors.lj_1.r, colors.lj_1.g, colors.lj_1.b, colors.lj_1.a);
+    setUniform($this.il_1.s(1), colors.kj_1.r, colors.kj_1.g, colors.kj_1.b, colors.kj_1.a);
+    var tmp = $this.il_1.s(2);
     // Inline function 'kotlin.math.sin' call
-    var x = $this.timers.ji(Timers_CloudsAnimation_getInstance()) * $this.PIf * 2.0;
+    var x = $this.timers.ni(Timers_CloudsAnimation_getInstance()) * $this.PIf * 2.0;
     var tmp$ret$0 = Math.sin(x);
     setUniform_1(tmp, tmp$ret$0);
-    $this.commandClouds.transform.r9_1.z = $this.timers.ji(Timers_CloudsRotation_getInstance()) * 360.0;
+    $this.commandClouds.transform.r9_1.z = $this.timers.ni(Timers_CloudsRotation_getInstance()) * 360.0;
   }
   function updateWater($this) {
-    var colors = Colors_getInstance().lj_1[$this.settings.timeOfDay.g4_1];
+    var colors = Colors_getInstance().pj_1[$this.settings.timeOfDay.g4_1];
     var k = 0.2;
-    var timeFract = $this.timers.ji(Timers_Water_getInstance()) * 80.0 * k % 1.0;
+    var timeFract = $this.timers.ni(Timers_Water_getInstance()) * 80.0 * k % 1.0;
     timeFract = timeFract / k;
-    setUniform_1($this.cl_1.s(2), timeFract);
-    setUniform_1($this.cl_1.s(3), $this.timers.ji(Timers_WaterLarge_getInstance()));
-    setUniform_1($this.cl_1.s(4), 15.0);
-    setUniform($this.cl_1.s(7), colors.ij_1.r, colors.ij_1.g, colors.ij_1.b, colors.ij_1.a);
-    setUniform($this.cl_1.s(8), colors.jj_1.r, colors.jj_1.g, colors.jj_1.b, colors.jj_1.a);
-    setUniform_0($this.cl_1.s(5), 10000.0, 15000.0);
-    setUniform($this.cl_1.s(6), 5000.0, 2000.0, 1.0, $this.settings.blurred ? 100.0 : 20000.0);
+    setUniform_1($this.gl_1.s(2), timeFract);
+    setUniform_1($this.gl_1.s(3), $this.timers.ni(Timers_WaterLarge_getInstance()));
+    setUniform_1($this.gl_1.s(4), 15.0);
+    setUniform($this.gl_1.s(7), colors.mj_1.r, colors.mj_1.g, colors.mj_1.b, colors.mj_1.a);
+    setUniform($this.gl_1.s(8), colors.nj_1.r, colors.nj_1.g, colors.nj_1.b, colors.nj_1.a);
+    setUniform_0($this.gl_1.s(5), 10000.0, 15000.0);
+    setUniform($this.gl_1.s(6), 5000.0, 2000.0, 1.0, $this.settings.blurred ? 100.0 : 20000.0);
   }
   function updateTimeOfDayTextures($this) {
-    $this.uniformPaletteTexture.value = Textures_getInstance().vl_1[$this.settings.timeOfDay.g4_1];
-    $this.uniformSkyTexture.value = Textures_getInstance().wl_1[$this.settings.timeOfDay.g4_1];
+    $this.uniformPaletteTexture.value = Textures_getInstance().zl_1[$this.settings.timeOfDay.g4_1];
+    $this.uniformSkyTexture.value = Textures_getInstance().am_1[$this.settings.timeOfDay.g4_1];
   }
   function updateSun($this) {
-    var colors = Colors_getInstance().lj_1[$this.settings.timeOfDay.g4_1];
-    $this.commandSun.enabled = !colors.dj_1;
-    $this.commandSunLow.enabled = colors.dj_1;
+    var colors = Colors_getInstance().pj_1[$this.settings.timeOfDay.g4_1];
+    $this.commandSun.enabled = !colors.hj_1;
+    $this.commandSunLow.enabled = colors.hj_1;
   }
   function updateBirds($this) {
     var tmp = $this.groupBirds.commands;
     var commands = isInterface(tmp, List) ? tmp : THROW_CCE();
-    var angle = $this.timers.ji(Timers_BirdsFly_getInstance()) * $this.PIf * 2.0;
+    var angle = $this.timers.ni(Timers_BirdsFly_getInstance()) * $this.PIf * 2.0;
     setBirdPosition($this, angle, 0.0, 0.0, commands.s(0).transform.q9_1);
     setBirdPosition($this, -angle - $this.PIf, 0.0, -4000.0, commands.s(1).transform.q9_1);
     setBirdPosition($this, -angle - $this.PIf, 0.0, 3000.0, commands.s(2).transform.q9_1);
@@ -541,14 +542,14 @@
     commands.s(3).transform.r9_1.z = (-angle + $this.PIf / 2.0) * 57.29578;
     commands.s(4).transform.r9_1.z = (angle + $this.PIf / 2.0) * 57.29578;
     commands.s(5).transform.r9_1.z = (-angle + $this.PIf / 2.0) * 57.29578;
-    var wingTimer1 = $this.timers.ji(Timers_BirdWings1_getInstance());
-    var wingTimer2 = $this.timers.ji(Timers_BirdWings2_getInstance());
-    setAnimationUniforms$default($this, wingTimer1, Animations_getInstance().wi_1, commands.s(0).uniforms);
-    setAnimationUniforms$default($this, wingTimer2, Animations_getInstance().wi_1, commands.s(1).uniforms);
-    setAnimationUniforms$default($this, wingTimer1 + 0.3, Animations_getInstance().wi_1, commands.s(2).uniforms);
-    setAnimationUniforms$default($this, wingTimer2 + 0.5, Animations_getInstance().wi_1, commands.s(3).uniforms);
-    setAnimationUniforms$default($this, wingTimer1 + 0.5, Animations_getInstance().wi_1, commands.s(4).uniforms);
-    setAnimationUniforms$default($this, wingTimer2 + 0.6, Animations_getInstance().wi_1, commands.s(5).uniforms);
+    var wingTimer1 = $this.timers.ni(Timers_BirdWings1_getInstance());
+    var wingTimer2 = $this.timers.ni(Timers_BirdWings2_getInstance());
+    setAnimationUniforms$default($this, wingTimer1, Animations_getInstance().aj_1, commands.s(0).uniforms);
+    setAnimationUniforms$default($this, wingTimer2, Animations_getInstance().aj_1, commands.s(1).uniforms);
+    setAnimationUniforms$default($this, wingTimer1 + 0.3, Animations_getInstance().aj_1, commands.s(2).uniforms);
+    setAnimationUniforms$default($this, wingTimer2 + 0.5, Animations_getInstance().aj_1, commands.s(3).uniforms);
+    setAnimationUniforms$default($this, wingTimer1 + 0.5, Animations_getInstance().aj_1, commands.s(4).uniforms);
+    setAnimationUniforms$default($this, wingTimer2 + 0.6, Animations_getInstance().aj_1, commands.s(5).uniforms);
     var tmp0_iterator = commands.j();
     while (tmp0_iterator.q()) {
       var command = tmp0_iterator.r();
@@ -574,33 +575,33 @@
   function updateShips($this) {
     var tmp = $this.groupShips.commands;
     var commandsShips = isInterface(tmp, List) ? tmp : THROW_CCE();
-    var timerSpline = $this.timers.ji(Timers_Ships_getInstance());
+    var timerSpline = $this.timers.ni(Timers_Ships_getInstance());
     var inductionVariable = 0;
-    var last = ShipsConfig_getInstance().xl_1.length;
+    var last = ShipsConfig_getInstance().bm_1.length;
     if (inductionVariable < last)
       do {
         var i = inductionVariable;
         inductionVariable = inductionVariable + 1 | 0;
-        var ship = ShipsConfig_getInstance().xl_1[i];
+        var ship = ShipsConfig_getInstance().bm_1[i];
         var command = commandsShips.s(i);
-        var position = ship.yl_1.rd(timerSpline);
-        var rotation = ship.yl_1.yd(timerSpline).z + 180.0;
+        var position = ship.cm_1.rd(timerSpline);
+        var rotation = ship.cm_1.yd(timerSpline).z + 180.0;
         command.transform.q9_1.x = position.x;
         command.transform.q9_1.y = position.y;
         command.transform.q9_1.z = position.z;
         command.transform.r9_1.z = rotation;
-        command.transform.s9_1.x = ship.zl_1;
-        command.transform.s9_1.y = ship.zl_1;
-        command.transform.s9_1.z = ship.zl_1;
+        command.transform.s9_1.x = ship.dm_1;
+        command.transform.s9_1.y = ship.dm_1;
+        command.transform.s9_1.z = ship.dm_1;
       }
        while (inductionVariable < last);
   }
   function updateAnimalsAnimated($this) {
-    var timerPenguinIdle = $this.timers.ji(Timers_PenguinIdle_getInstance());
-    var timerPenguinIdle2 = $this.timers.ji(Timers_PenguinIdle2_getInstance());
-    var timerSealIdle = $this.timers.ji(Timers_SealIdleAnim_getInstance());
-    var timerSealWalk = $this.timers.ji(Timers_SealWalkAnim_getInstance());
-    var timerSealSpline = $this.timers.ji(Timers_SealWalkSpline_getInstance());
+    var timerPenguinIdle = $this.timers.ni(Timers_PenguinIdle_getInstance());
+    var timerPenguinIdle2 = $this.timers.ni(Timers_PenguinIdle2_getInstance());
+    var timerSealIdle = $this.timers.ni(Timers_SealIdleAnim_getInstance());
+    var timerSealWalk = $this.timers.ni(Timers_SealWalkAnim_getInstance());
+    var timerSealSpline = $this.timers.ni(Timers_SealWalkSpline_getInstance());
     var tmp = $this.groupPenguinsIdle.commands;
     var commandsPenguins1 = isInterface(tmp, List) ? tmp : THROW_CCE();
     var tmp_0 = $this.groupPenguinsIdle2.commands;
@@ -610,59 +611,59 @@
     var tmp_2 = $this.groupSealWalking.commands;
     var commandsSealsWalking = isInterface(tmp_2, List) ? tmp_2 : THROW_CCE();
     var inductionVariable = 0;
-    var last = Penguins_getInstance().ik_1.length;
+    var last = Penguins_getInstance().mk_1.length;
     if (inductionVariable < last)
       do {
         var i = inductionVariable;
         inductionVariable = inductionVariable + 1 | 0;
         var command = commandsPenguins1.s(i);
-        var config = Penguins_getInstance().ik_1[i];
-        setAnimationUniforms$default($this, timerPenguinIdle + config.oi_1, Animations_getInstance().xi_1, command.uniforms);
+        var config = Penguins_getInstance().mk_1[i];
+        setAnimationUniforms$default($this, timerPenguinIdle + config.si_1, Animations_getInstance().bj_1, command.uniforms);
       }
        while (inductionVariable < last);
     var inductionVariable_0 = 0;
-    var last_0 = Penguins_getInstance().jk_1.length;
+    var last_0 = Penguins_getInstance().nk_1.length;
     if (inductionVariable_0 < last_0)
       do {
         var i_0 = inductionVariable_0;
         inductionVariable_0 = inductionVariable_0 + 1 | 0;
         var command_0 = commandsPenguins2.s(i_0);
-        var config_0 = Penguins_getInstance().jk_1[i_0];
-        setAnimationUniforms$default($this, timerPenguinIdle2 + config_0.oi_1, Animations_getInstance().yi_1, command_0.uniforms);
+        var config_0 = Penguins_getInstance().nk_1[i_0];
+        setAnimationUniforms$default($this, timerPenguinIdle2 + config_0.si_1, Animations_getInstance().cj_1, command_0.uniforms);
       }
        while (inductionVariable_0 < last_0);
     var inductionVariable_1 = 0;
-    var last_1 = Seals_getInstance().bm_1.length;
+    var last_1 = Seals_getInstance().fm_1.length;
     if (inductionVariable_1 < last_1)
       do {
         var i_1 = inductionVariable_1;
         inductionVariable_1 = inductionVariable_1 + 1 | 0;
         var command_1 = commandsSealsIdle.s(i_1);
-        var config_1 = Seals_getInstance().bm_1[i_1];
-        setAnimationUniforms($this, timerSealIdle + config_1.oi_1, Animations_getInstance().zi_1, command_1.uniforms, false);
+        var config_1 = Seals_getInstance().fm_1[i_1];
+        setAnimationUniforms($this, timerSealIdle + config_1.si_1, Animations_getInstance().dj_1, command_1.uniforms, false);
       }
        while (inductionVariable_1 < last_1);
     var inductionVariable_2 = 0;
-    var last_2 = Seals_getInstance().cm_1.length;
+    var last_2 = Seals_getInstance().gm_1.length;
     if (inductionVariable_2 < last_2)
       $l$loop: do {
         var i_2 = inductionVariable_2;
         inductionVariable_2 = inductionVariable_2 + 1 | 0;
         var command_2 = commandsSealsWalking.s(i_2);
-        var config_2 = Seals_getInstance().cm_1[i_2];
-        if (config_2.vi_1 == null) {
+        var config_2 = Seals_getInstance().gm_1[i_2];
+        if (config_2.zi_1 == null) {
           continue $l$loop;
         }
-        var position = ensureNotNull(config_2.vi_1).rd(timerSealSpline);
-        var rotation = ensureNotNull(config_2.vi_1).yd(timerSealSpline).z - 90.0;
-        setAnimationUniforms($this, timerSealWalk + config_2.oi_1, Animations_getInstance().aj_1, command_2.uniforms, false);
+        var position = ensureNotNull(config_2.zi_1).rd(timerSealSpline);
+        var rotation = ensureNotNull(config_2.zi_1).yd(timerSealSpline).z - 90.0;
+        setAnimationUniforms($this, timerSealWalk + config_2.si_1, Animations_getInstance().ej_1, command_2.uniforms, false);
         command_2.transform.q9_1.x = position.x;
         command_2.transform.q9_1.y = position.y;
         command_2.transform.q9_1.z = position.z;
         command_2.transform.r9_1.z = rotation;
-        command_2.transform.s9_1.x = config_2.ni_1;
-        command_2.transform.s9_1.y = config_2.ni_1;
-        command_2.transform.s9_1.z = config_2.ni_1;
+        command_2.transform.s9_1.x = config_2.ri_1;
+        command_2.transform.s9_1.y = config_2.ri_1;
+        command_2.transform.s9_1.z = config_2.ri_1;
       }
        while (inductionVariable_2 < last_2);
   }
@@ -671,19 +672,19 @@
   function ArcticScene() {
     Scene.call(this);
     this.timers = new TimersMap();
-    this.pk_1 = 1000000.0;
-    this.qk_1 = 23000.0;
-    this.rk_1 = 2000.0;
+    this.tk_1 = 1000000.0;
+    this.uk_1 = 23000.0;
+    this.vk_1 = 2000.0;
     this.FOV_TRANSITION = 20.0;
-    this.zk_1 = mutableListOf([get_HINT_VRS_4X4()]);
-    this.uniformPaletteTexture = new UniformTextureValue(Textures_getInstance().fl_1);
-    this.uniformSkyTexture = new UniformTextureValue(Textures_getInstance().jl_1);
+    this.dl_1 = mutableListOf([get_HINT_VRS_4X4()]);
+    this.uniformPaletteTexture = new UniformTextureValue(Textures_getInstance().jl_1);
+    this.uniformSkyTexture = new UniformTextureValue(Textures_getInstance().nl_1);
     this.BIRD_FLIGHT_RADIUS = 19000.0;
     this.PIf = 3.1415927;
-    this.meshes = Meshes_getInstance().hk_1;
-    this.textures = Textures_getInstance().ul_1;
-    this.shaders = Shaders_getInstance().nm_1;
-    Companion_instance.om(this.timers);
+    this.meshes = Meshes_getInstance().lk_1;
+    this.textures = Textures_getInstance().yl_1;
+    this.shaders = Shaders_getInstance().rm_1;
+    Companion_instance.sm(this.timers);
     this.Z_NEAR = 20.0;
     this.Z_FAR = 115000.0;
     this.FOV_LANDSCAPE = 50.0;
@@ -699,8 +700,8 @@
     this_0.autoSwitchCameras = true;
     this_0.timeOfDay = TimeOfDay_Day_getInstance();
     tmp.settings = this_0;
-    this.cameraAnimator = new CameraPathAnimator(this.pk_1, this.qk_1, this.rk_1, true);
-    this.cameraAnimator.setCameras(Cameras_getInstance().bj_1);
+    this.cameraAnimator = new CameraPathAnimator(this.tk_1, this.uk_1, this.vk_1, true);
+    this.cameraAnimator.setCameras(Cameras_getInstance().fj_1);
     this.cameraAnimator.minDurationCoefficient = this.settings.cameraPeriod;
     var tmp_0 = this;
     // Inline function 'kotlin.apply' call
@@ -710,25 +711,25 @@
     this_1.color = new Vec4(1.0, 0.0, 1.0, 1.0);
     this_1.name = 'clear color';
     this_1.enabled = true;
-    tmp_0.wk_1 = this_1;
-    var statePaletteFp16 = new DrawMeshState(Shaders_getInstance().dm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_U0_getInstance(), 1, VertexFormat_HALF_getInstance(), 6)]), 8));
-    var stateDiffuseFp16 = new DrawMeshState(Shaders_getInstance().em_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 12)]), 16));
-    var stateWater = new DrawMeshState(Shaders_getInstance().gm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
-    var stateDiffuseZFog = new DrawMeshState(Shaders_getInstance().fm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_U0_getInstance(), 1, VertexFormat_HALF_getInstance(), 6)]), 8));
+    tmp_0.al_1 = this_1;
+    var statePaletteFp16 = new DrawMeshState(Shaders_getInstance().hm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_U0_getInstance(), 1, VertexFormat_HALF_getInstance(), 6)]), 8));
+    var stateDiffuseFp16 = new DrawMeshState(Shaders_getInstance().im_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 12)]), 16));
+    var stateWater = new DrawMeshState(Shaders_getInstance().km_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
+    var stateDiffuseZFog = new DrawMeshState(Shaders_getInstance().jm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_U0_getInstance(), 1, VertexFormat_HALF_getInstance(), 6)]), 8));
     var txOrigin = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(1.0, 1.0, 1.0));
     var tmp_1 = this;
     // Inline function 'kotlin.apply' call
-    var this_2 = DrawStaticMeshCommandConstructor(Meshes_getInstance().vj_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), stateDiffuseFp16, txOrigin);
+    var this_2 = DrawStaticMeshCommandConstructor(Meshes_getInstance().zj_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), stateDiffuseFp16, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_2.hints = this.zk_1;
+    this_2.hints = this.dl_1;
     tmp_1.commandSun = this_2;
     var tmp_2 = this;
     // Inline function 'kotlin.apply' call
-    var this_3 = DrawStaticMeshCommandConstructor(Meshes_getInstance().wj_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), stateDiffuseFp16, txOrigin);
+    var this_3 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ak_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), stateDiffuseFp16, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_3.hints = this.zk_1;
+    this_3.hints = this.dl_1;
     tmp_2.commandSunLow = this_3;
     // Inline function 'kotlin.apply' call
     var this_4 = new GroupCommand();
@@ -738,8 +739,8 @@
     this_4.enabled = true;
     this_4.commands = mutableListOf([this.commandSun, this.commandSunLow]);
     var groupSun = this_4;
-    this.al_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]);
-    this.bl_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(2))]);
+    this.el_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]);
+    this.fl_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(2))]);
     // Inline function 'kotlin.apply' call
     var this_5 = new GroupCommand();
     // Inline function 'kotlin.contracts.contract' call
@@ -748,265 +749,265 @@
     this_5.enabled = true;
     var tmp_3 = this_5;
     // Inline function 'kotlin.apply' call
-    var this_6 = DrawStaticMeshCommandConstructor(Meshes_getInstance().tj_1, this.al_1, statePaletteFp16, txOrigin);
+    var this_6 = DrawStaticMeshCommandConstructor(Meshes_getInstance().xj_1, this.el_1, statePaletteFp16, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>.<anonymous>' call
-    this_6.hints = this.zk_1;
+    this_6.hints = this.dl_1;
     var tmp_4 = this_6;
     // Inline function 'kotlin.apply' call
-    var this_7 = DrawStaticMeshCommandConstructor(Meshes_getInstance().uj_1, this.bl_1, stateDiffuseZFog, txOrigin);
+    var this_7 = DrawStaticMeshCommandConstructor(Meshes_getInstance().yj_1, this.fl_1, stateDiffuseZFog, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>.<anonymous>' call
-    this_7.hints = this.zk_1;
+    this_7.hints = this.dl_1;
     tmp_3.commands = mutableListOf([tmp_4, this_7]);
     var groupMountains = this_5;
-    this.cl_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance().ol_1), UniformFloatValueWithArray(new Float32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), UniformFloatValueWithArray(new Float32Array(2)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4))]);
-    var commandWater = DrawStaticMeshCommandConstructor(Meshes_getInstance().xj_1, this.cl_1, stateWater, txOrigin);
-    var stateSky = new DrawMeshState(Shaders_getInstance().hm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 12)]), 16));
-    var commandSky = DrawStaticMeshCommandConstructor(Meshes_getInstance().yj_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformSkyTexture, new UniformTextureValue(Textures_getInstance().nl_1)]), stateSky, txOrigin);
-    var stateStars = new DrawMeshState(Shaders_getInstance().im_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0)), 12));
-    this.dl_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4))]);
+    this.gl_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), UniformFloatValueWithArray(new Float32Array(2)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4))]);
+    var commandWater = DrawStaticMeshCommandConstructor(Meshes_getInstance().bk_1, this.gl_1, stateWater, txOrigin);
+    var stateSky = new DrawMeshState(Shaders_getInstance().lm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 12)]), 16));
+    var commandSky = DrawStaticMeshCommandConstructor(Meshes_getInstance().ck_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformSkyTexture, new UniformTextureValue(Textures_getInstance().rl_1)]), stateSky, txOrigin);
+    var stateStars = new DrawMeshState(Shaders_getInstance().mm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0)), 12));
+    this.hl_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4))]);
     var tmp_5 = this;
     // Inline function 'kotlin.apply' call
-    var this_8 = DrawStaticMeshCommandConstructor(Meshes_getInstance().zj_1, this.dl_1, stateStars, txOrigin);
+    var this_8 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, this.hl_1, stateStars, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_8.hints = this.zk_1;
+    this_8.hints = this.dl_1;
     tmp_5.commandStars = this_8;
-    var stateClouds = new DrawMeshState(Shaders_getInstance().km_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0), new VertexAttribute(AttributeType_U0_getInstance(), 1, VertexFormat_UBYTE_NORMALIZED_getInstance(), 12)]), 16));
-    this.el_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(1))]);
+    var stateClouds = new DrawMeshState(Shaders_getInstance().om_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0), new VertexAttribute(AttributeType_U0_getInstance(), 1, VertexFormat_UBYTE_NORMALIZED_getInstance(), 12)]), 16));
+    this.il_1 = listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(1))]);
     var tmp_6 = this;
     // Inline function 'kotlin.apply' call
-    var this_9 = new DrawTransformedMeshCommand(Meshes_getInstance().ak_1, this.el_1, stateClouds, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(1.0, 1.0, 1.0)));
+    var this_9 = new DrawTransformedMeshCommand(Meshes_getInstance().ek_1, this.il_1, stateClouds, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(1.0, 1.0, 1.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_9.hints = this.zk_1;
+    this_9.hints = this.dl_1;
     tmp_6.commandClouds = this_9;
-    var stateBird = new DrawMeshState(Shaders_getInstance().lm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), null);
+    var stateBird = new DrawMeshState(Shaders_getInstance().pm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), null);
     var tmp_7 = this;
     // Inline function 'kotlin.apply' call
-    var this_10 = new DrawTransformedMeshCommand(Meshes_getInstance().bk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().pl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 10000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
+    var this_10 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 10000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_10.hints = this.zk_1;
+    this_10.hints = this.dl_1;
     var tmp_8 = this_10;
     // Inline function 'kotlin.apply' call
-    var this_11 = new DrawTransformedMeshCommand(Meshes_getInstance().bk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().pl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 11000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
+    var this_11 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 11000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_11.hints = this.zk_1;
+    this_11.hints = this.dl_1;
     var tmp_9 = this_11;
     // Inline function 'kotlin.apply' call
-    var this_12 = new DrawTransformedMeshCommand(Meshes_getInstance().bk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().pl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 12000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
+    var this_12 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 12000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_12.hints = this.zk_1;
+    this_12.hints = this.dl_1;
     var tmp_10 = this_12;
     // Inline function 'kotlin.apply' call
-    var this_13 = new DrawTransformedMeshCommand(Meshes_getInstance().bk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().pl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 13000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
+    var this_13 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 13000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_13.hints = this.zk_1;
+    this_13.hints = this.dl_1;
     var tmp_11 = this_13;
     // Inline function 'kotlin.apply' call
-    var this_14 = new DrawTransformedMeshCommand(Meshes_getInstance().bk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().pl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 14000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
+    var this_14 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 14000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_14.hints = this.zk_1;
+    this_14.hints = this.dl_1;
     var tmp_12 = this_14;
     // Inline function 'kotlin.apply' call
-    var this_15 = new DrawTransformedMeshCommand(Meshes_getInstance().bk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().pl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 15000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
+    var this_15 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateBird, new AffineTranformation(new Vec3(0.0, 0.0, 15000.0), new Vec3(0.0, 0.0, 0.0), new Vec3(6.0, 3.0, 3.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_15.hints = this.zk_1;
+    this_15.hints = this.dl_1;
     tmp_7.groupBirds = GroupCommandArr(true, [tmp_8, tmp_9, tmp_10, tmp_11, tmp_12, this_15]);
     var tmp_13 = this;
     // Inline function 'kotlin.apply' call
-    var this_16 = new DrawTransformedMeshCommand(Meshes_getInstance().ck_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), statePaletteFp16, new AffineTranformation());
+    var this_16 = new DrawTransformedMeshCommand(Meshes_getInstance().gk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), statePaletteFp16, new AffineTranformation());
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_16.hints = this.zk_1;
+    this_16.hints = this.dl_1;
     var tmp_14 = this_16;
     // Inline function 'kotlin.apply' call
-    var this_17 = new DrawTransformedMeshCommand(Meshes_getInstance().ck_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), statePaletteFp16, new AffineTranformation());
+    var this_17 = new DrawTransformedMeshCommand(Meshes_getInstance().gk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), statePaletteFp16, new AffineTranformation());
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_17.hints = this.zk_1;
+    this_17.hints = this.dl_1;
     var tmp_15 = this_17;
     // Inline function 'kotlin.apply' call
-    var this_18 = new DrawTransformedMeshCommand(Meshes_getInstance().ck_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), statePaletteFp16, new AffineTranformation());
+    var this_18 = new DrawTransformedMeshCommand(Meshes_getInstance().gk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), statePaletteFp16, new AffineTranformation());
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_18.hints = this.zk_1;
+    this_18.hints = this.dl_1;
     tmp_13.groupShips = GroupCommandArr(true, [tmp_14, tmp_15, this_18]);
-    var stateAnimatedTextured = new DrawMeshState(Shaders_getInstance().mm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_UV0_getInstance(), 0, VertexFormat_HALF2_getInstance(), 0)), 4));
+    var stateAnimatedTextured = new DrawMeshState(Shaders_getInstance().qm_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_UV0_getInstance(), 0, VertexFormat_HALF2_getInstance(), 0)), 4));
     var tmp_16 = this;
     // Inline function 'kotlin.apply' call
-    var this_19 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[0].ri_1, Penguins_getInstance().ik_1[0].si_1, new Vec3(Penguins_getInstance().ik_1[0].ni_1, Penguins_getInstance().ik_1[0].ni_1, Penguins_getInstance().ik_1[0].ni_1)));
+    var this_19 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[0].vi_1, Penguins_getInstance().mk_1[0].wi_1, new Vec3(Penguins_getInstance().mk_1[0].ri_1, Penguins_getInstance().mk_1[0].ri_1, Penguins_getInstance().mk_1[0].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_19.hints = this.zk_1;
+    this_19.hints = this.dl_1;
     var tmp_17 = this_19;
     // Inline function 'kotlin.apply' call
-    var this_20 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[1].ri_1, Penguins_getInstance().ik_1[1].si_1, new Vec3(Penguins_getInstance().ik_1[1].ni_1, Penguins_getInstance().ik_1[1].ni_1, Penguins_getInstance().ik_1[1].ni_1)));
+    var this_20 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[1].vi_1, Penguins_getInstance().mk_1[1].wi_1, new Vec3(Penguins_getInstance().mk_1[1].ri_1, Penguins_getInstance().mk_1[1].ri_1, Penguins_getInstance().mk_1[1].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_20.hints = this.zk_1;
+    this_20.hints = this.dl_1;
     var tmp_18 = this_20;
     // Inline function 'kotlin.apply' call
-    var this_21 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[2].ri_1, Penguins_getInstance().ik_1[2].si_1, new Vec3(Penguins_getInstance().ik_1[2].ni_1, Penguins_getInstance().ik_1[2].ni_1, Penguins_getInstance().ik_1[2].ni_1)));
+    var this_21 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[2].vi_1, Penguins_getInstance().mk_1[2].wi_1, new Vec3(Penguins_getInstance().mk_1[2].ri_1, Penguins_getInstance().mk_1[2].ri_1, Penguins_getInstance().mk_1[2].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_21.hints = this.zk_1;
+    this_21.hints = this.dl_1;
     var tmp_19 = this_21;
     // Inline function 'kotlin.apply' call
-    var this_22 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[3].ri_1, Penguins_getInstance().ik_1[3].si_1, new Vec3(Penguins_getInstance().ik_1[3].ni_1, Penguins_getInstance().ik_1[3].ni_1, Penguins_getInstance().ik_1[3].ni_1)));
+    var this_22 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[3].vi_1, Penguins_getInstance().mk_1[3].wi_1, new Vec3(Penguins_getInstance().mk_1[3].ri_1, Penguins_getInstance().mk_1[3].ri_1, Penguins_getInstance().mk_1[3].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_22.hints = this.zk_1;
+    this_22.hints = this.dl_1;
     var tmp_20 = this_22;
     // Inline function 'kotlin.apply' call
-    var this_23 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[4].ri_1, Penguins_getInstance().ik_1[4].si_1, new Vec3(Penguins_getInstance().ik_1[4].ni_1, Penguins_getInstance().ik_1[4].ni_1, Penguins_getInstance().ik_1[4].ni_1)));
+    var this_23 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[4].vi_1, Penguins_getInstance().mk_1[4].wi_1, new Vec3(Penguins_getInstance().mk_1[4].ri_1, Penguins_getInstance().mk_1[4].ri_1, Penguins_getInstance().mk_1[4].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_23.hints = this.zk_1;
+    this_23.hints = this.dl_1;
     var tmp_21 = this_23;
     // Inline function 'kotlin.apply' call
-    var this_24 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[5].ri_1, Penguins_getInstance().ik_1[5].si_1, new Vec3(Penguins_getInstance().ik_1[5].ni_1, Penguins_getInstance().ik_1[5].ni_1, Penguins_getInstance().ik_1[5].ni_1)));
+    var this_24 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[5].vi_1, Penguins_getInstance().mk_1[5].wi_1, new Vec3(Penguins_getInstance().mk_1[5].ri_1, Penguins_getInstance().mk_1[5].ri_1, Penguins_getInstance().mk_1[5].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_24.hints = this.zk_1;
+    this_24.hints = this.dl_1;
     var tmp_22 = this_24;
     // Inline function 'kotlin.apply' call
-    var this_25 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[6].ri_1, Penguins_getInstance().ik_1[6].si_1, new Vec3(Penguins_getInstance().ik_1[6].ni_1, Penguins_getInstance().ik_1[6].ni_1, Penguins_getInstance().ik_1[6].ni_1)));
+    var this_25 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[6].vi_1, Penguins_getInstance().mk_1[6].wi_1, new Vec3(Penguins_getInstance().mk_1[6].ri_1, Penguins_getInstance().mk_1[6].ri_1, Penguins_getInstance().mk_1[6].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_25.hints = this.zk_1;
+    this_25.hints = this.dl_1;
     var tmp_23 = this_25;
     // Inline function 'kotlin.apply' call
-    var this_26 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[7].ri_1, Penguins_getInstance().ik_1[7].si_1, new Vec3(Penguins_getInstance().ik_1[7].ni_1, Penguins_getInstance().ik_1[7].ni_1, Penguins_getInstance().ik_1[7].ni_1)));
+    var this_26 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[7].vi_1, Penguins_getInstance().mk_1[7].wi_1, new Vec3(Penguins_getInstance().mk_1[7].ri_1, Penguins_getInstance().mk_1[7].ri_1, Penguins_getInstance().mk_1[7].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_26.hints = this.zk_1;
+    this_26.hints = this.dl_1;
     var tmp_24 = this_26;
     // Inline function 'kotlin.apply' call
-    var this_27 = DrawStaticMeshCommandConstructor(Meshes_getInstance().dk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ql_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().ik_1[8].ri_1, Penguins_getInstance().ik_1[8].si_1, new Vec3(Penguins_getInstance().ik_1[8].ni_1, Penguins_getInstance().ik_1[8].ni_1, Penguins_getInstance().ik_1[8].ni_1)));
+    var this_27 = DrawStaticMeshCommandConstructor(Meshes_getInstance().hk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().ul_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().mk_1[8].vi_1, Penguins_getInstance().mk_1[8].wi_1, new Vec3(Penguins_getInstance().mk_1[8].ri_1, Penguins_getInstance().mk_1[8].ri_1, Penguins_getInstance().mk_1[8].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_27.hints = this.zk_1;
+    this_27.hints = this.dl_1;
     tmp_16.groupPenguinsIdle = GroupCommandArr(true, [tmp_17, tmp_18, tmp_19, tmp_20, tmp_21, tmp_22, tmp_23, tmp_24, this_27]);
     var tmp_25 = this;
     // Inline function 'kotlin.apply' call
-    var this_28 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ek_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().rl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().jk_1[0].ri_1, Penguins_getInstance().jk_1[0].si_1, new Vec3(Penguins_getInstance().jk_1[0].ni_1, Penguins_getInstance().jk_1[0].ni_1, Penguins_getInstance().jk_1[0].ni_1)));
+    var this_28 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ik_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().vl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().nk_1[0].vi_1, Penguins_getInstance().nk_1[0].wi_1, new Vec3(Penguins_getInstance().nk_1[0].ri_1, Penguins_getInstance().nk_1[0].ri_1, Penguins_getInstance().nk_1[0].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_28.hints = this.zk_1;
+    this_28.hints = this.dl_1;
     var tmp_26 = this_28;
     // Inline function 'kotlin.apply' call
-    var this_29 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ek_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().rl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().jk_1[1].ri_1, Penguins_getInstance().jk_1[1].si_1, new Vec3(Penguins_getInstance().jk_1[1].ni_1, Penguins_getInstance().jk_1[1].ni_1, Penguins_getInstance().jk_1[1].ni_1)));
+    var this_29 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ik_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().vl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().nk_1[1].vi_1, Penguins_getInstance().nk_1[1].wi_1, new Vec3(Penguins_getInstance().nk_1[1].ri_1, Penguins_getInstance().nk_1[1].ri_1, Penguins_getInstance().nk_1[1].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_29.hints = this.zk_1;
+    this_29.hints = this.dl_1;
     var tmp_27 = this_29;
     // Inline function 'kotlin.apply' call
-    var this_30 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ek_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().rl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().jk_1[2].ri_1, Penguins_getInstance().jk_1[2].si_1, new Vec3(Penguins_getInstance().jk_1[2].ni_1, Penguins_getInstance().jk_1[2].ni_1, Penguins_getInstance().jk_1[2].ni_1)));
+    var this_30 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ik_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().vl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().nk_1[2].vi_1, Penguins_getInstance().nk_1[2].wi_1, new Vec3(Penguins_getInstance().nk_1[2].ri_1, Penguins_getInstance().nk_1[2].ri_1, Penguins_getInstance().nk_1[2].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_30.hints = this.zk_1;
+    this_30.hints = this.dl_1;
     var tmp_28 = this_30;
     // Inline function 'kotlin.apply' call
-    var this_31 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ek_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().rl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().jk_1[3].ri_1, Penguins_getInstance().jk_1[3].si_1, new Vec3(Penguins_getInstance().jk_1[3].ni_1, Penguins_getInstance().jk_1[3].ni_1, Penguins_getInstance().jk_1[3].ni_1)));
+    var this_31 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ik_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().vl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().nk_1[3].vi_1, Penguins_getInstance().nk_1[3].wi_1, new Vec3(Penguins_getInstance().nk_1[3].ri_1, Penguins_getInstance().nk_1[3].ri_1, Penguins_getInstance().nk_1[3].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_31.hints = this.zk_1;
+    this_31.hints = this.dl_1;
     var tmp_29 = this_31;
     // Inline function 'kotlin.apply' call
-    var this_32 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ek_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().rl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().jk_1[4].ri_1, Penguins_getInstance().jk_1[4].si_1, new Vec3(Penguins_getInstance().jk_1[4].ni_1, Penguins_getInstance().jk_1[4].ni_1, Penguins_getInstance().jk_1[4].ni_1)));
+    var this_32 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ik_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().vl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().nk_1[4].vi_1, Penguins_getInstance().nk_1[4].wi_1, new Vec3(Penguins_getInstance().nk_1[4].ri_1, Penguins_getInstance().nk_1[4].ri_1, Penguins_getInstance().nk_1[4].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_32.hints = this.zk_1;
+    this_32.hints = this.dl_1;
     var tmp_30 = this_32;
     // Inline function 'kotlin.apply' call
-    var this_33 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ek_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().rl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().jk_1[5].ri_1, Penguins_getInstance().jk_1[5].si_1, new Vec3(Penguins_getInstance().jk_1[5].ni_1, Penguins_getInstance().jk_1[5].ni_1, Penguins_getInstance().jk_1[5].ni_1)));
+    var this_33 = DrawStaticMeshCommandConstructor(Meshes_getInstance().ik_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().vl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Penguins_getInstance().nk_1[5].vi_1, Penguins_getInstance().nk_1[5].wi_1, new Vec3(Penguins_getInstance().nk_1[5].ri_1, Penguins_getInstance().nk_1[5].ri_1, Penguins_getInstance().nk_1[5].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_33.hints = this.zk_1;
+    this_33.hints = this.dl_1;
     tmp_25.groupPenguinsIdle2 = GroupCommandArr(true, [tmp_26, tmp_27, tmp_28, tmp_29, tmp_30, this_33]);
     var tmp_31 = this;
     // Inline function 'kotlin.apply' call
-    var this_34 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[0].ri_1, Seals_getInstance().bm_1[0].si_1, new Vec3(Seals_getInstance().bm_1[0].ni_1, Seals_getInstance().bm_1[0].ni_1, Seals_getInstance().bm_1[0].ni_1)));
+    var this_34 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[0].vi_1, Seals_getInstance().fm_1[0].wi_1, new Vec3(Seals_getInstance().fm_1[0].ri_1, Seals_getInstance().fm_1[0].ri_1, Seals_getInstance().fm_1[0].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_34.hints = this.zk_1;
+    this_34.hints = this.dl_1;
     var tmp_32 = this_34;
     // Inline function 'kotlin.apply' call
-    var this_35 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[1].ri_1, Seals_getInstance().bm_1[1].si_1, new Vec3(Seals_getInstance().bm_1[1].ni_1, Seals_getInstance().bm_1[1].ni_1, Seals_getInstance().bm_1[1].ni_1)));
+    var this_35 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[1].vi_1, Seals_getInstance().fm_1[1].wi_1, new Vec3(Seals_getInstance().fm_1[1].ri_1, Seals_getInstance().fm_1[1].ri_1, Seals_getInstance().fm_1[1].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_35.hints = this.zk_1;
+    this_35.hints = this.dl_1;
     var tmp_33 = this_35;
     // Inline function 'kotlin.apply' call
-    var this_36 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[2].ri_1, Seals_getInstance().bm_1[2].si_1, new Vec3(Seals_getInstance().bm_1[2].ni_1, Seals_getInstance().bm_1[2].ni_1, Seals_getInstance().bm_1[2].ni_1)));
+    var this_36 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[2].vi_1, Seals_getInstance().fm_1[2].wi_1, new Vec3(Seals_getInstance().fm_1[2].ri_1, Seals_getInstance().fm_1[2].ri_1, Seals_getInstance().fm_1[2].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_36.hints = this.zk_1;
+    this_36.hints = this.dl_1;
     var tmp_34 = this_36;
     // Inline function 'kotlin.apply' call
-    var this_37 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[3].ri_1, Seals_getInstance().bm_1[3].si_1, new Vec3(Seals_getInstance().bm_1[3].ni_1, Seals_getInstance().bm_1[3].ni_1, Seals_getInstance().bm_1[3].ni_1)));
+    var this_37 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[3].vi_1, Seals_getInstance().fm_1[3].wi_1, new Vec3(Seals_getInstance().fm_1[3].ri_1, Seals_getInstance().fm_1[3].ri_1, Seals_getInstance().fm_1[3].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_37.hints = this.zk_1;
+    this_37.hints = this.dl_1;
     var tmp_35 = this_37;
     // Inline function 'kotlin.apply' call
-    var this_38 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[4].ri_1, Seals_getInstance().bm_1[4].si_1, new Vec3(Seals_getInstance().bm_1[4].ni_1, Seals_getInstance().bm_1[4].ni_1, Seals_getInstance().bm_1[4].ni_1)));
+    var this_38 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[4].vi_1, Seals_getInstance().fm_1[4].wi_1, new Vec3(Seals_getInstance().fm_1[4].ri_1, Seals_getInstance().fm_1[4].ri_1, Seals_getInstance().fm_1[4].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_38.hints = this.zk_1;
+    this_38.hints = this.dl_1;
     var tmp_36 = this_38;
     // Inline function 'kotlin.apply' call
-    var this_39 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[5].ri_1, Seals_getInstance().bm_1[5].si_1, new Vec3(Seals_getInstance().bm_1[5].ni_1, Seals_getInstance().bm_1[5].ni_1, Seals_getInstance().bm_1[5].ni_1)));
+    var this_39 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[5].vi_1, Seals_getInstance().fm_1[5].wi_1, new Vec3(Seals_getInstance().fm_1[5].ri_1, Seals_getInstance().fm_1[5].ri_1, Seals_getInstance().fm_1[5].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_39.hints = this.zk_1;
+    this_39.hints = this.dl_1;
     var tmp_37 = this_39;
     // Inline function 'kotlin.apply' call
-    var this_40 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[6].ri_1, Seals_getInstance().bm_1[6].si_1, new Vec3(Seals_getInstance().bm_1[6].ni_1, Seals_getInstance().bm_1[6].ni_1, Seals_getInstance().bm_1[6].ni_1)));
+    var this_40 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[6].vi_1, Seals_getInstance().fm_1[6].wi_1, new Vec3(Seals_getInstance().fm_1[6].ri_1, Seals_getInstance().fm_1[6].ri_1, Seals_getInstance().fm_1[6].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_40.hints = this.zk_1;
+    this_40.hints = this.dl_1;
     var tmp_38 = this_40;
     // Inline function 'kotlin.apply' call
-    var this_41 = DrawStaticMeshCommandConstructor(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().sl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().bm_1[7].ri_1, Seals_getInstance().bm_1[7].si_1, new Vec3(Seals_getInstance().bm_1[7].ni_1, Seals_getInstance().bm_1[7].ni_1, Seals_getInstance().bm_1[7].ni_1)));
+    var this_41 = DrawStaticMeshCommandConstructor(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().wl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation(Seals_getInstance().fm_1[7].vi_1, Seals_getInstance().fm_1[7].wi_1, new Vec3(Seals_getInstance().fm_1[7].ri_1, Seals_getInstance().fm_1[7].ri_1, Seals_getInstance().fm_1[7].ri_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_41.hints = this.zk_1;
+    this_41.hints = this.dl_1;
     tmp_31.groupSealIdle = GroupCommandArr(true, [tmp_32, tmp_33, tmp_34, tmp_35, tmp_36, tmp_37, tmp_38, this_41]);
     var tmp_39 = this;
     // Inline function 'kotlin.apply' call
-    var this_42 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation());
+    var this_42 = new DrawTransformedMeshCommand(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().xl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation());
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_42.hints = this.zk_1;
+    this_42.hints = this.dl_1;
     var tmp_40 = this_42;
     // Inline function 'kotlin.apply' call
-    var this_43 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation());
+    var this_43 = new DrawTransformedMeshCommand(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().xl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation());
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_43.hints = this.zk_1;
+    this_43.hints = this.dl_1;
     var tmp_41 = this_43;
     // Inline function 'kotlin.apply' call
-    var this_44 = new DrawTransformedMeshCommand(Meshes_getInstance().fk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().tl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation());
+    var this_44 = new DrawTransformedMeshCommand(Meshes_getInstance().jk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture, UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(Textures_getInstance().xl_1), UniformFloatValueWithArray(new Float32Array(4))]), stateAnimatedTextured, new AffineTranformation());
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_44.hints = this.zk_1;
+    this_44.hints = this.dl_1;
     tmp_39.groupSealWalking = GroupCommandArr(true, [tmp_40, tmp_41, this_44]);
     this.groupAnimalsAnimated = GroupCommandArr(true, [this.groupPenguinsIdle, this.groupPenguinsIdle2, this.groupSealIdle, this.groupSealWalking]);
     var tmp_42 = this;
     // Inline function 'kotlin.apply' call
-    var this_45 = DrawStaticMeshCommandConstructor(Meshes_getInstance().gk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), stateDiffuseFp16, txOrigin);
+    var this_45 = DrawStaticMeshCommandConstructor(Meshes_getInstance().kk_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), this.uniformPaletteTexture]), stateDiffuseFp16, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
-    this_45.hints = this.zk_1;
+    this_45.hints = this.dl_1;
     tmp_42.groupAnimalsSleeping = GroupCommandArr(true, [this_45]);
     var tmp_43 = this;
     // Inline function 'kotlin.apply' call
@@ -1014,7 +1015,7 @@
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
     this_46.clearType = ClearCommandClearType_COLOR_AND_DEPTH_getInstance();
-    tmp_43.vk_1 = GroupCommandArr(true, [this.wk_1, this_46]);
+    tmp_43.zk_1 = GroupCommandArr(true, [this.al_1, this_46]);
     var tmp_44 = this;
     // Inline function 'kotlin.apply' call
     var this_47 = new VignetteCommand();
@@ -1022,8 +1023,8 @@
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
     this_47.color0 = new Vec4(0.65, 0.65, 0.65, 1.0);
     this_47.color1 = new Vec4(1.0, 1.0, 1.0, 1.0);
-    tmp_44.xk_1 = this_47;
-    this.sk_1 = GroupCommandArr(true, [MainPassCommandArr(true, [this.vk_1, this.groupBirds, this.groupShips, this.groupAnimalsAnimated, this.groupAnimalsSleeping, groupSun, groupMountains, commandWater, this.commandStars, this.commandClouds, commandSky, this.xk_1])]);
+    tmp_44.bl_1 = this_47;
+    this.wk_1 = GroupCommandArr(true, [MainPassCommandArr(true, [this.zk_1, this.groupBirds, this.groupShips, this.groupAnimalsAnimated, this.groupAnimalsSleeping, groupSun, groupMountains, commandWater, this.commandStars, this.commandClouds, commandSky, this.bl_1])]);
     var tmp_45 = this;
     // Inline function 'kotlin.apply' call
     var this_48 = new BlurredPassCommand();
@@ -1034,8 +1035,8 @@
     this_48.minSize = 220;
     this_48.brightness = 0.91;
     this_48.blurSize = BlurSize_KERNEL_4_getInstance();
-    this_48.commands = mutableListOf([this.vk_1, this.groupShips, this.groupAnimalsAnimated, this.groupAnimalsSleeping, groupSun, groupMountains, commandWater, this.commandStars, this.commandClouds, commandSky, this.xk_1]);
-    tmp_45.uk_1 = this_48;
+    this_48.commands = mutableListOf([this.zk_1, this.groupShips, this.groupAnimalsAnimated, this.groupAnimalsSleeping, groupSun, groupMountains, commandWater, this.commandStars, this.commandClouds, commandSky, this.bl_1]);
+    tmp_45.yk_1 = this_48;
     var tmp_46 = this;
     // Inline function 'kotlin.apply' call
     var this_49 = new DrawBlurredCommand();
@@ -1043,72 +1044,72 @@
     // Inline function 'org.androidworks.arctic.ArcticScene.<anonymous>' call
     this_49.name = 'draw blurred';
     this_49.blending = get_BLENDING_NONE();
-    tmp_46.yk_1 = this_49;
-    this.tk_1 = GroupCommandArr(false, [this.uk_1, MainPassCommandArr(true, [this.vk_1, this.yk_1])]);
-    this.commands = mutableListOf([this.sk_1, this.tk_1]);
+    tmp_46.cl_1 = this_49;
+    this.xk_1 = GroupCommandArr(false, [this.yk_1, MainPassCommandArr(true, [this.zk_1, this.cl_1])]);
+    this.commands = mutableListOf([this.wk_1, this.xk_1]);
   }
-  protoOf(ArcticScene).pm = function () {
+  protoOf(ArcticScene).tm = function () {
     return this.timers;
   };
-  protoOf(ArcticScene).qm = function () {
+  protoOf(ArcticScene).um = function () {
     return this.cameraAnimator;
   };
-  protoOf(ArcticScene).rm = function () {
+  protoOf(ArcticScene).vm = function () {
     return this.FOV_TRANSITION;
   };
-  protoOf(ArcticScene).sm = function () {
+  protoOf(ArcticScene).wm = function () {
     return this.settings;
   };
-  protoOf(ArcticScene).tm = function () {
+  protoOf(ArcticScene).xm = function () {
     return this.uniformPaletteTexture;
   };
-  protoOf(ArcticScene).um = function () {
+  protoOf(ArcticScene).ym = function () {
     return this.uniformSkyTexture;
   };
-  protoOf(ArcticScene).vm = function () {
+  protoOf(ArcticScene).zm = function () {
     return this.commandClouds;
   };
-  protoOf(ArcticScene).wm = function () {
+  protoOf(ArcticScene).an = function () {
     return this.commandStars;
   };
-  protoOf(ArcticScene).xm = function () {
+  protoOf(ArcticScene).bn = function () {
     return this.groupBirds;
   };
-  protoOf(ArcticScene).ym = function () {
+  protoOf(ArcticScene).cn = function () {
     return this.BIRD_FLIGHT_RADIUS;
   };
-  protoOf(ArcticScene).zm = function () {
+  protoOf(ArcticScene).dn = function () {
     return this.groupShips;
   };
-  protoOf(ArcticScene).an = function () {
+  protoOf(ArcticScene).en = function () {
     return this.groupAnimalsAnimated;
   };
-  protoOf(ArcticScene).bn = function () {
+  protoOf(ArcticScene).fn = function () {
     return this.groupAnimalsSleeping;
   };
-  protoOf(ArcticScene).cn = function () {
+  protoOf(ArcticScene).gn = function () {
     return this.groupPenguinsIdle;
   };
-  protoOf(ArcticScene).dn = function () {
+  protoOf(ArcticScene).hn = function () {
     return this.groupPenguinsIdle2;
   };
-  protoOf(ArcticScene).en = function () {
+  protoOf(ArcticScene).in = function () {
     return this.groupSealIdle;
   };
-  protoOf(ArcticScene).fn = function () {
+  protoOf(ArcticScene).jn = function () {
     return this.groupSealWalking;
   };
-  protoOf(ArcticScene).gn = function () {
+  protoOf(ArcticScene).kn = function () {
     return this.commandSun;
   };
-  protoOf(ArcticScene).hn = function () {
+  protoOf(ArcticScene).ln = function () {
     return this.commandSunLow;
   };
-  protoOf(ArcticScene).in = function () {
+  protoOf(ArcticScene).mn = function () {
     return this.PIf;
   };
   protoOf(ArcticScene).updateTimers = function (time) {
-    this.timers.mi(time);
+    this.timers.qi(time);
     this.cameraAnimator.animate(time);
     this.animate();
     protoOf(Scene).updateTimers.call(this, time);
@@ -1119,9 +1120,9 @@
   protoOf(ArcticScene).initialize = function () {
   };
   protoOf(ArcticScene).applySettings = function () {
-    this.sk_1.enabled = !this.settings.blurred;
-    this.tk_1.enabled = this.settings.blurred;
-    this.xk_1.enabled = this.settings.vignette;
+    this.wk_1.enabled = !this.settings.blurred;
+    this.xk_1.enabled = this.settings.blurred;
+    this.bl_1.enabled = this.settings.vignette;
     if (!(this.cameraAnimator.minDurationCoefficient === this.settings.cameraPeriod)) {
       this.cameraAnimator.minDurationCoefficient = this.settings.cameraPeriod;
     }
@@ -1136,7 +1137,7 @@
     var eye = cameraPositionInterpolator.cameraPosition;
     var lookat = cameraPositionInterpolator.cameraRotation;
     if (!this.useExternalViewMatrix) {
-      Matrix_getInstance().zg(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
+      Matrix_getInstance().dh(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
     }
     toggleDayNightObjects(this);
     updateTimeOfDayTextures(this);
@@ -1167,76 +1168,76 @@
     var this_0 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_0.ri_1 = new Vec3(-10197.612, -11412.881, 163.703);
-    this_0.si_1 = new Vec3(0.0, 0.0, 305.0);
-    this_0.ni_1 = 21.6;
-    this_0.oi_1 = 0.1;
+    this_0.vi_1 = new Vec3(-10197.612, -11412.881, 163.703);
+    this_0.wi_1 = new Vec3(0.0, 0.0, 305.0);
+    this_0.ri_1 = 21.6;
+    this_0.si_1 = 0.1;
     var tmp_0 = this_0;
     // Inline function 'kotlin.apply' call
     var this_1 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_1.ri_1 = new Vec3(-11490.098, -10868.786, 163.703);
-    this_1.si_1 = new Vec3(0.0, 0.0, 180.0);
-    this_1.ni_1 = 21.0;
-    this_1.oi_1 = 0.2;
+    this_1.vi_1 = new Vec3(-11490.098, -10868.786, 163.703);
+    this_1.wi_1 = new Vec3(0.0, 0.0, 180.0);
+    this_1.ri_1 = 21.0;
+    this_1.si_1 = 0.2;
     var tmp_1 = this_1;
     // Inline function 'kotlin.apply' call
     var this_2 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_2.ri_1 = new Vec3(-12481.07, -9990.127, 163.703);
-    this_2.si_1 = new Vec3(0.0, 0.0, 40.0);
-    this_2.ni_1 = 24.0;
-    this_2.oi_1 = 0.0;
+    this_2.vi_1 = new Vec3(-12481.07, -9990.127, 163.703);
+    this_2.wi_1 = new Vec3(0.0, 0.0, 40.0);
+    this_2.ri_1 = 24.0;
+    this_2.si_1 = 0.0;
     var tmp_2 = this_2;
     // Inline function 'kotlin.apply' call
     var this_3 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_3.ri_1 = new Vec3(-8848.467, -10551.67, 163.703);
-    this_3.si_1 = new Vec3(0.0, 0.0, 270.0);
-    this_3.ni_1 = 23.0;
-    this_3.oi_1 = 0.66;
+    this_3.vi_1 = new Vec3(-8848.467, -10551.67, 163.703);
+    this_3.wi_1 = new Vec3(0.0, 0.0, 270.0);
+    this_3.ri_1 = 23.0;
+    this_3.si_1 = 0.66;
     var tmp_3 = this_3;
     // Inline function 'kotlin.apply' call
     var this_4 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_4.ri_1 = new Vec3(-11421.474, -8197.367, 163.703);
-    this_4.si_1 = new Vec3(0.0, 0.0, 155.0);
-    this_4.ni_1 = 22.0;
-    this_4.oi_1 = 0.3;
+    this_4.vi_1 = new Vec3(-11421.474, -8197.367, 163.703);
+    this_4.wi_1 = new Vec3(0.0, 0.0, 155.0);
+    this_4.ri_1 = 22.0;
+    this_4.si_1 = 0.3;
     var tmp_4 = this_4;
     // Inline function 'kotlin.apply' call
     var this_5 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_5.ri_1 = new Vec3(-9098.065, -9784.568, 163.703);
-    this_5.si_1 = new Vec3(0.0, 0.0, 180.0);
-    this_5.ni_1 = 21.0;
-    this_5.oi_1 = 0.7;
+    this_5.vi_1 = new Vec3(-9098.065, -9784.568, 163.703);
+    this_5.wi_1 = new Vec3(0.0, 0.0, 180.0);
+    this_5.ri_1 = 21.0;
+    this_5.si_1 = 0.7;
     var tmp_5 = this_5;
     // Inline function 'kotlin.apply' call
     var this_6 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_6.ri_1 = new Vec3(-8929.758, -9630.826, 163.703);
-    this_6.si_1 = new Vec3(0.0, 0.0, 260.0);
-    this_6.ni_1 = 20.0;
-    this_6.oi_1 = 0.2;
+    this_6.vi_1 = new Vec3(-8929.758, -9630.826, 163.703);
+    this_6.wi_1 = new Vec3(0.0, 0.0, 260.0);
+    this_6.ri_1 = 20.0;
+    this_6.si_1 = 0.2;
     var tmp_6 = this_6;
     // Inline function 'kotlin.apply' call
     var this_7 = new AnimatedObjectInfo();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.arctic.Seals.IDLE.<anonymous>' call
-    this_7.ri_1 = new Vec3(-9159.626, -9498.492, 163.703);
-    this_7.si_1 = new Vec3(0.0, 0.0, 25.0);
-    this_7.ni_1 = 22.0;
-    this_7.oi_1 = 0.4;
+    this_7.vi_1 = new Vec3(-9159.626, -9498.492, 163.703);
+    this_7.wi_1 = new Vec3(0.0, 0.0, 25.0);
+    this_7.ri_1 = 22.0;
+    this_7.si_1 = 0.4;
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.bm_1 = [tmp_0, tmp_1, tmp_2, tmp_3, tmp_4, tmp_5, tmp_6, this_7];
+    tmp.fm_1 = [tmp_0, tmp_1, tmp_2, tmp_3, tmp_4, tmp_5, tmp_6, this_7];
     var tmp_7 = this;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.apply' call
@@ -1250,9 +1251,9 @@
     var tmp_10 = new Float64Array([0.0, 0.0, -11242.3720703125, -10794.060546875, -10646.896484375, -10959.65625, -11507.3251953125, -12299.8046875, -12791.134765625, -12134.208984375, 0.0, 0.0]);
     // Inline function 'kotlin.doubleArrayOf' call
     var tmp$ret$13 = new Float64Array([0.0, 0.0, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 0.0, 0.0]);
-    tmp_8.vi_1 = Spline3D_init_$Create$(true, tmp_9, tmp_10, tmp$ret$13);
-    this_8.ni_1 = 25.0;
-    this_8.oi_1 = 0.4;
+    tmp_8.zi_1 = Spline3D_init_$Create$(true, tmp_9, tmp_10, tmp$ret$13);
+    this_8.ri_1 = 25.0;
+    this_8.si_1 = 0.4;
     var tmp_11 = this_8;
     // Inline function 'kotlin.apply' call
     var this_9 = new SplineAnimatedObjectInfo();
@@ -1265,9 +1266,9 @@
     var tmp_14 = new Float64Array([0.0, 0.0, -9073.04296875, -8490.494140625, -8394.025390625, -9009.2021484375, -9902.9755859375, -10920.896484375, -11452.736328125, -10402.1875, 0.0, 0.0]);
     // Inline function 'kotlin.doubleArrayOf' call
     var tmp$ret$17 = new Float64Array([0.0, 0.0, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 0.0, 0.0]);
-    tmp_12.vi_1 = Spline3D_init_$Create$(true, tmp_13, tmp_14, tmp$ret$17);
-    this_9.ni_1 = 22.0;
-    this_9.oi_1 = 0.6;
+    tmp_12.zi_1 = Spline3D_init_$Create$(true, tmp_13, tmp_14, tmp$ret$17);
+    this_9.ri_1 = 22.0;
+    this_9.si_1 = 0.6;
     var tmp_15 = this_9;
     // Inline function 'kotlin.apply' call
     var this_10 = new SplineAnimatedObjectInfo();
@@ -1280,12 +1281,12 @@
     var tmp_18 = new Float64Array([0.0, 0.0, -9078.6171875, -9745.982421875, -10364.9296875, -10400.5146484375, -10125.8681640625, -9503.888671875, -8930.3291015625, -8849.357421875, 0.0, 0.0]);
     // Inline function 'kotlin.doubleArrayOf' call
     var tmp$ret$21 = new Float64Array([0.0, 0.0, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 204.815673828125, 0.0, 0.0]);
-    tmp_16.vi_1 = Spline3D_init_$Create$(true, tmp_17, tmp_18, tmp$ret$21);
-    this_10.ni_1 = 23.0;
-    this_10.oi_1 = 0.88;
+    tmp_16.zi_1 = Spline3D_init_$Create$(true, tmp_17, tmp_18, tmp$ret$21);
+    this_10.ri_1 = 23.0;
+    this_10.si_1 = 0.88;
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp_7.cm_1 = [tmp_11, tmp_15, this_10];
+    tmp_7.gm_1 = [tmp_11, tmp_15, this_10];
   }
   var Seals_instance;
   function Seals_getInstance() {
@@ -1338,46 +1339,46 @@
     this.clock = false;
     this.lowQuality = false;
   }
-  protoOf(ArcticSettings).ln = function (_set____db54di) {
+  protoOf(ArcticSettings).pn = function (_set____db54di) {
     this.cameraPeriod = _set____db54di;
   };
-  protoOf(ArcticSettings).mn = function () {
+  protoOf(ArcticSettings).qn = function () {
     return this.cameraPeriod;
   };
-  protoOf(ArcticSettings).nn = function (_set____db54di) {
+  protoOf(ArcticSettings).rn = function (_set____db54di) {
     this.vignette = _set____db54di;
   };
-  protoOf(ArcticSettings).on = function () {
+  protoOf(ArcticSettings).sn = function () {
     return this.vignette;
   };
-  protoOf(ArcticSettings).pn = function (_set____db54di) {
+  protoOf(ArcticSettings).tn = function (_set____db54di) {
     this.blurred = _set____db54di;
   };
-  protoOf(ArcticSettings).qn = function () {
+  protoOf(ArcticSettings).un = function () {
     return this.blurred;
   };
-  protoOf(ArcticSettings).rn = function (_set____db54di) {
+  protoOf(ArcticSettings).vn = function (_set____db54di) {
     this.autoSwitchCameras = _set____db54di;
   };
-  protoOf(ArcticSettings).sn = function () {
+  protoOf(ArcticSettings).wn = function () {
     return this.autoSwitchCameras;
   };
-  protoOf(ArcticSettings).tn = function (_set____db54di) {
+  protoOf(ArcticSettings).xn = function (_set____db54di) {
     this.timeOfDay = _set____db54di;
   };
-  protoOf(ArcticSettings).un = function () {
+  protoOf(ArcticSettings).yn = function () {
     return this.timeOfDay;
   };
-  protoOf(ArcticSettings).vn = function (_set____db54di) {
+  protoOf(ArcticSettings).zn = function (_set____db54di) {
     this.clock = _set____db54di;
   };
-  protoOf(ArcticSettings).wn = function () {
+  protoOf(ArcticSettings).ao = function () {
     return this.clock;
   };
-  protoOf(ArcticSettings).xn = function (_set____db54di) {
+  protoOf(ArcticSettings).bo = function (_set____db54di) {
     this.lowQuality = _set____db54di;
   };
-  protoOf(ArcticSettings).yn = function () {
+  protoOf(ArcticSettings).co = function () {
     return this.lowQuality;
   };
   function TimeOfDay_Day_getInstance() {
@@ -1398,17 +1399,17 @@
   }
   function Shaders() {
     Shaders_instance = this;
-    this.dm_1 = new Shader('Palette');
-    this.em_1 = new Shader('Diffuse');
-    this.fm_1 = new Shader('DiffuseZFog');
-    this.gm_1 = new Shader('CausticsWater');
-    this.hm_1 = new Shader('SkyDither');
-    this.im_1 = new Shader('Color');
-    this.jm_1 = new Shader('ColorAnimatedTextureChunked');
-    this.km_1 = new Shader('Cloud');
-    this.lm_1 = new Shader('ColorAnimatedTextureChunked');
-    this.mm_1 = new Shader('DiffuseAnimatedTextureChunked');
-    this.nm_1 = mutableListOf([this.em_1, this.dm_1, this.fm_1, this.gm_1, this.hm_1, this.im_1, this.jm_1, this.km_1, this.lm_1, this.mm_1]);
+    this.hm_1 = new Shader('Palette');
+    this.im_1 = new Shader('Diffuse');
+    this.jm_1 = new Shader('DiffuseZFog');
+    this.km_1 = new Shader('CausticsWater');
+    this.lm_1 = new Shader('SkyDither');
+    this.mm_1 = new Shader('Color');
+    this.nm_1 = new Shader('ColorAnimatedTextureChunked');
+    this.om_1 = new Shader('Cloud');
+    this.pm_1 = new Shader('ColorAnimatedTextureChunked');
+    this.qm_1 = new Shader('DiffuseAnimatedTextureChunked');
+    this.rm_1 = mutableListOf([this.im_1, this.hm_1, this.jm_1, this.km_1, this.lm_1, this.mm_1, this.nm_1, this.om_1, this.pm_1, this.qm_1]);
   }
   var Shaders_instance;
   function Shaders_getInstance() {
@@ -1417,9 +1418,9 @@
     return Shaders_instance;
   }
   function ShipConfig(spline, scale, animTimerOffset) {
-    this.yl_1 = spline;
-    this.zl_1 = scale;
-    this.am_1 = animTimerOffset;
+    this.cm_1 = spline;
+    this.dm_1 = scale;
+    this.em_1 = animTimerOffset;
   }
   function ShipsConfig() {
     ShipsConfig_instance = this;
@@ -1447,7 +1448,7 @@
     var tmp$ret$8 = new Float64Array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]);
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.xl_1 = [tmp_2, tmp_5, new ShipConfig(Spline3D_init_$Create$(true, tmp_6, tmp_7, tmp$ret$8), 1.4, 0.88)];
+    tmp.bm_1 = [tmp_2, tmp_5, new ShipConfig(Spline3D_init_$Create$(true, tmp_6, tmp_7, tmp$ret$8), 1.4, 0.88)];
   }
   var ShipsConfig_instance;
   function ShipsConfig_getInstance() {
@@ -1468,7 +1469,7 @@
     this_0.minFilter = TextureFiltering_NEAREST_getInstance();
     this_0.magFilter = TextureFiltering_NEAREST_getInstance();
     this_0.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp.fl_1 = this_0;
+    tmp.jl_1 = this_0;
     var tmp_0 = this;
     // Inline function 'kotlin.apply' call
     var this_1 = new Texture();
@@ -1480,7 +1481,7 @@
     this_1.minFilter = TextureFiltering_NEAREST_getInstance();
     this_1.magFilter = TextureFiltering_NEAREST_getInstance();
     this_1.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_0.gl_1 = this_1;
+    tmp_0.kl_1 = this_1;
     var tmp_1 = this;
     // Inline function 'kotlin.apply' call
     var this_2 = new Texture();
@@ -1492,7 +1493,7 @@
     this_2.minFilter = TextureFiltering_NEAREST_getInstance();
     this_2.magFilter = TextureFiltering_NEAREST_getInstance();
     this_2.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_1.hl_1 = this_2;
+    tmp_1.ll_1 = this_2;
     var tmp_2 = this;
     // Inline function 'kotlin.apply' call
     var this_3 = new Texture();
@@ -1504,7 +1505,7 @@
     this_3.minFilter = TextureFiltering_NEAREST_getInstance();
     this_3.magFilter = TextureFiltering_NEAREST_getInstance();
     this_3.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_2.il_1 = this_3;
+    tmp_2.ml_1 = this_3;
     var tmp_3 = this;
     // Inline function 'kotlin.apply' call
     var this_4 = new Texture();
@@ -1516,7 +1517,7 @@
     this_4.minFilter = TextureFiltering_LINEAR_getInstance();
     this_4.magFilter = TextureFiltering_LINEAR_getInstance();
     this_4.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_3.jl_1 = this_4;
+    tmp_3.nl_1 = this_4;
     var tmp_4 = this;
     // Inline function 'kotlin.apply' call
     var this_5 = new Texture();
@@ -1528,7 +1529,7 @@
     this_5.minFilter = TextureFiltering_LINEAR_getInstance();
     this_5.magFilter = TextureFiltering_LINEAR_getInstance();
     this_5.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_4.kl_1 = this_5;
+    tmp_4.ol_1 = this_5;
     var tmp_5 = this;
     // Inline function 'kotlin.apply' call
     var this_6 = new Texture();
@@ -1540,7 +1541,7 @@
     this_6.minFilter = TextureFiltering_LINEAR_getInstance();
     this_6.magFilter = TextureFiltering_LINEAR_getInstance();
     this_6.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_5.ll_1 = this_6;
+    tmp_5.pl_1 = this_6;
     var tmp_6 = this;
     // Inline function 'kotlin.apply' call
     var this_7 = new Texture();
@@ -1552,7 +1553,7 @@
     this_7.minFilter = TextureFiltering_LINEAR_getInstance();
     this_7.magFilter = TextureFiltering_LINEAR_getInstance();
     this_7.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_6.ml_1 = this_7;
+    tmp_6.ql_1 = this_7;
     var tmp_7 = this;
     // Inline function 'kotlin.apply' call
     var this_8 = new Texture();
@@ -1563,7 +1564,7 @@
     this_8.format = TextureFormat_ASTC_getInstance();
     this_8.minFilter = TextureFiltering_NEAREST_getInstance();
     this_8.magFilter = TextureFiltering_NEAREST_getInstance();
-    tmp_7.nl_1 = this_8;
+    tmp_7.rl_1 = this_8;
     var tmp_8 = this;
     // Inline function 'kotlin.apply' call
     var this_9 = new Texture();
@@ -1575,7 +1576,7 @@
     this_9.minFilter = TextureFiltering_LINEAR_getInstance();
     this_9.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_9.mipmaps = 6;
-    tmp_8.ol_1 = this_9;
+    tmp_8.sl_1 = this_9;
     var tmp_9 = this;
     // Inline function 'kotlin.apply' call
     var this_10 = new Texture();
@@ -1586,9 +1587,9 @@
     this_10.format = TextureFormat_RGBA16F_getInstance();
     this_10.minFilter = TextureFiltering_NEAREST_getInstance();
     this_10.magFilter = TextureFiltering_NEAREST_getInstance();
-    this_10.width = Animations_getInstance().wi_1.mb_1;
-    this_10.height = Animations_getInstance().wi_1.rb_1;
-    tmp_9.pl_1 = this_10;
+    this_10.width = Animations_getInstance().aj_1.mb_1;
+    this_10.height = Animations_getInstance().aj_1.rb_1;
+    tmp_9.tl_1 = this_10;
     var tmp_10 = this;
     // Inline function 'kotlin.apply' call
     var this_11 = new Texture();
@@ -1599,9 +1600,9 @@
     this_11.format = TextureFormat_RGBA16F_getInstance();
     this_11.minFilter = TextureFiltering_NEAREST_getInstance();
     this_11.magFilter = TextureFiltering_NEAREST_getInstance();
-    this_11.width = Animations_getInstance().xi_1.mb_1;
-    this_11.height = Animations_getInstance().xi_1.rb_1;
-    tmp_10.ql_1 = this_11;
+    this_11.width = Animations_getInstance().bj_1.mb_1;
+    this_11.height = Animations_getInstance().bj_1.rb_1;
+    tmp_10.ul_1 = this_11;
     var tmp_11 = this;
     // Inline function 'kotlin.apply' call
     var this_12 = new Texture();
@@ -1612,9 +1613,9 @@
     this_12.format = TextureFormat_RGBA16F_getInstance();
     this_12.minFilter = TextureFiltering_NEAREST_getInstance();
     this_12.magFilter = TextureFiltering_NEAREST_getInstance();
-    this_12.width = Animations_getInstance().yi_1.mb_1;
-    this_12.height = Animations_getInstance().yi_1.rb_1;
-    tmp_11.rl_1 = this_12;
+    this_12.width = Animations_getInstance().cj_1.mb_1;
+    this_12.height = Animations_getInstance().cj_1.rb_1;
+    tmp_11.vl_1 = this_12;
     var tmp_12 = this;
     // Inline function 'kotlin.apply' call
     var this_13 = new Texture();
@@ -1625,9 +1626,9 @@
     this_13.format = TextureFormat_RGBA16F_getInstance();
     this_13.minFilter = TextureFiltering_NEAREST_getInstance();
     this_13.magFilter = TextureFiltering_NEAREST_getInstance();
-    this_13.width = Animations_getInstance().zi_1.mb_1;
-    this_13.height = Animations_getInstance().zi_1.rb_1;
-    tmp_12.sl_1 = this_13;
+    this_13.width = Animations_getInstance().dj_1.mb_1;
+    this_13.height = Animations_getInstance().dj_1.rb_1;
+    tmp_12.wl_1 = this_13;
     var tmp_13 = this;
     // Inline function 'kotlin.apply' call
     var this_14 = new Texture();
@@ -1638,20 +1639,20 @@
     this_14.format = TextureFormat_RGBA16F_getInstance();
     this_14.minFilter = TextureFiltering_NEAREST_getInstance();
     this_14.magFilter = TextureFiltering_NEAREST_getInstance();
-    this_14.width = Animations_getInstance().aj_1.mb_1;
-    this_14.height = Animations_getInstance().aj_1.rb_1;
-    tmp_13.tl_1 = this_14;
-    this.ul_1 = mutableListOf([this.fl_1, this.gl_1, this.hl_1, this.il_1, this.jl_1, this.kl_1, this.ll_1, this.ml_1, this.nl_1, this.ol_1, this.pl_1, this.ql_1, this.rl_1, this.sl_1, this.tl_1]);
+    this_14.width = Animations_getInstance().ej_1.mb_1;
+    this_14.height = Animations_getInstance().ej_1.rb_1;
+    tmp_13.xl_1 = this_14;
+    this.yl_1 = mutableListOf([this.jl_1, this.kl_1, this.ll_1, this.ml_1, this.nl_1, this.ol_1, this.pl_1, this.ql_1, this.rl_1, this.sl_1, this.tl_1, this.ul_1, this.vl_1, this.wl_1, this.xl_1]);
     var tmp_14 = this;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp_14.vl_1 = [this.fl_1, this.gl_1, this.hl_1, this.il_1];
+    tmp_14.zl_1 = [this.jl_1, this.kl_1, this.ll_1, this.ml_1];
     var tmp_15 = this;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp_15.wl_1 = [this.jl_1, this.kl_1, this.ll_1, this.ml_1];
+    tmp_15.am_1 = [this.nl_1, this.ol_1, this.pl_1, this.ql_1];
   }
   var Textures_instance;
   function Textures_getInstance() {
@@ -1675,20 +1676,20 @@
   var Timers_SealWalkSpline_instance;
   function Companion() {
   }
-  protoOf(Companion).om = function (timers) {
-    timers.hi(Timers_Water_getInstance(), 720000.0);
-    timers.hi(Timers_WaterLarge_getInstance(), 60000.0);
-    timers.hi(Timers_CloudsRotation_getInstance(), 300000.0);
-    timers.hi(Timers_CloudsAnimation_getInstance(), 15000.0);
-    timers.hi(Timers_BirdWings1_getInstance(), 1000.0);
-    timers.hi(Timers_BirdWings2_getInstance(), 900.0);
-    timers.hi(Timers_BirdsFly_getInstance(), 75000.0);
-    timers.hi(Timers_Ships_getInstance(), 200000.0);
-    timers.hi(Timers_PenguinIdle_getInstance(), 5000.0);
-    timers.hi(Timers_PenguinIdle2_getInstance(), 5000.0);
-    timers.hi(Timers_SealIdleAnim_getInstance(), 4000.0);
-    timers.hi(Timers_SealWalkAnim_getInstance(), 1900.0);
-    timers.hi(Timers_SealWalkSpline_getInstance(), 114000.0);
+  protoOf(Companion).sm = function (timers) {
+    timers.li(Timers_Water_getInstance(), 720000.0);
+    timers.li(Timers_WaterLarge_getInstance(), 60000.0);
+    timers.li(Timers_CloudsRotation_getInstance(), 300000.0);
+    timers.li(Timers_CloudsAnimation_getInstance(), 15000.0);
+    timers.li(Timers_BirdWings1_getInstance(), 1000.0);
+    timers.li(Timers_BirdWings2_getInstance(), 900.0);
+    timers.li(Timers_BirdsFly_getInstance(), 75000.0);
+    timers.li(Timers_Ships_getInstance(), 200000.0);
+    timers.li(Timers_PenguinIdle_getInstance(), 5000.0);
+    timers.li(Timers_PenguinIdle2_getInstance(), 5000.0);
+    timers.li(Timers_SealIdleAnim_getInstance(), 4000.0);
+    timers.li(Timers_SealWalkAnim_getInstance(), 1900.0);
+    timers.li(Timers_SealWalkSpline_getInstance(), 114000.0);
   };
   var Companion_instance;
   function Companion_getInstance() {
@@ -1782,7 +1783,7 @@
     // Inline function 'kotlin.js.asDynamic' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.zn_1 = [tmp_0, [new CameraPositionPair(new CameraPosition(new Vec3(-842.0926, -846.5076, 129.98555), new Vec3(-674.4083, 775.07825, 47.71223)), new CameraPosition(new Vec3(-828.56775, 790.18756, 129.86708), new Vec3(940.84375, 1304.5559, 46.237785)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1442.4281, -137.39117, 400.79602), new Vec3(98.2589, -729.51196, 445.23422)), new CameraPosition(new Vec3(-165.14899, 2.8690004, 130.22337), new Vec3(1178.7565, 470.28696, 214.73752)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-451.56958, -252.30167, 587.1848), new Vec3(-898.23376, 597.8059, 38.427677)), new CameraPosition(new Vec3(1161.2458, -52.537415, 721.2996), new Vec3(1249.9236, 615.2596, 46.237785)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1809.4268, 206.302, 822.04504), new Vec3(-704.4282, -1200.5166, 570.46594)), new CameraPosition(new Vec3(485.292, 0.00439453, 654.2626), new Vec3(740.58057, 152.70099, 570.47485)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1201.3511, -321.01813, 1267.3562), new Vec3(-1091.3955, 484.66968, -120.63285)), new CameraPosition(new Vec3(348.40283, 333.19476, 531.56305), new Vec3(1243.907, 207.53552, 454.83487)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(1280.2383, 0.00817871, 765.05676), new Vec3(1020.4136, -0.0057373, 681.30115)), new CameraPosition(new Vec3(-542.4983, -0.00439453, 765.0978), new Vec3(-716.4851, 0.00195313, 656.9107)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(684.19763, -906.22656, 562.2279), new Vec3(293.5536, -235.00806, 457.9884)), new CameraPosition(new Vec3(-355.00952, 702.02734, 585.4181), new Vec3(582.56335, 400.67163, 433.59796)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(255.49573, -216.34082, 356.14874), new Vec3(621.0696, 213.13354, 377.2011)), new CameraPosition(new Vec3(-261.60974, 210.44629, 9.956253), new Vec3(444.66296, 48.16748, 614.7096)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(187.09607, -779.0669, 151.3941), new Vec3(-729.9801, -1107.8511, 366.46796)), new CameraPosition(new Vec3(181.64563, 716.58813, 151.3935), new Vec3(-921.05164, -237.90332, 366.46844)), 1.0)]];
+    tmp.do_1 = [tmp_0, [new CameraPositionPair(new CameraPosition(new Vec3(-842.0926, -846.5076, 129.98555), new Vec3(-674.4083, 775.07825, 47.71223)), new CameraPosition(new Vec3(-828.56775, 790.18756, 129.86708), new Vec3(940.84375, 1304.5559, 46.237785)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1442.4281, -137.39117, 400.79602), new Vec3(98.2589, -729.51196, 445.23422)), new CameraPosition(new Vec3(-165.14899, 2.8690004, 130.22337), new Vec3(1178.7565, 470.28696, 214.73752)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-451.56958, -252.30167, 587.1848), new Vec3(-898.23376, 597.8059, 38.427677)), new CameraPosition(new Vec3(1161.2458, -52.537415, 721.2996), new Vec3(1249.9236, 615.2596, 46.237785)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1809.4268, 206.302, 822.04504), new Vec3(-704.4282, -1200.5166, 570.46594)), new CameraPosition(new Vec3(485.292, 0.00439453, 654.2626), new Vec3(740.58057, 152.70099, 570.47485)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-1201.3511, -321.01813, 1267.3562), new Vec3(-1091.3955, 484.66968, -120.63285)), new CameraPosition(new Vec3(348.40283, 333.19476, 531.56305), new Vec3(1243.907, 207.53552, 454.83487)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(1280.2383, 0.00817871, 765.05676), new Vec3(1020.4136, -0.0057373, 681.30115)), new CameraPosition(new Vec3(-542.4983, -0.00439453, 765.0978), new Vec3(-716.4851, 0.00195313, 656.9107)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(684.19763, -906.22656, 562.2279), new Vec3(293.5536, -235.00806, 457.9884)), new CameraPosition(new Vec3(-355.00952, 702.02734, 585.4181), new Vec3(582.56335, 400.67163, 433.59796)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(255.49573, -216.34082, 356.14874), new Vec3(621.0696, 213.13354, 377.2011)), new CameraPosition(new Vec3(-261.60974, 210.44629, 9.956253), new Vec3(444.66296, 48.16748, 614.7096)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(187.09607, -779.0669, 151.3941), new Vec3(-729.9801, -1107.8511, 366.46796)), new CameraPosition(new Vec3(181.64563, 716.58813, 151.3935), new Vec3(-921.05164, -237.90332, 366.46844)), 1.0)]];
   }
   var Cameras_instance_0;
   function Cameras_getInstance_0() {
@@ -1792,19 +1793,19 @@
   }
   function DrawClockCommand() {
     Command.call(this);
-    this.ao_1 = CommandType_CUSTOM_getInstance();
+    this.eo_1 = CommandType_CUSTOM_getInstance();
   }
   protoOf(DrawClockCommand).fa = function () {
-    return this.ao_1;
+    return this.eo_1;
   };
   function BrutalismScene() {
     Scene.call(this);
     this.timers = new TimersMap();
-    this.go_1 = 1000000.0;
-    this.ho_1 = 22000.0;
-    this.io_1 = 3500.0;
+    this.ko_1 = 1000000.0;
+    this.lo_1 = 22000.0;
+    this.mo_1 = 3500.0;
     this.FOV_TRANSITION = 20.0;
-    this.ap_1 = mutableListOf([get_HINT_VRS_NONE()]);
+    this.ep_1 = mutableListOf([get_HINT_VRS_NONE()]);
     this.Z_NEAR = 20.0;
     this.Z_FAR = 10000.0;
     this.FOV_LANDSCAPE = 85.0;
@@ -1822,20 +1823,20 @@
     this_0.colorMode = ColorMode_Normal_getInstance();
     this_0.autoSwitchCameras = true;
     tmp.settings = this_0;
-    this.cameraAnimator = new CameraPathAnimator(this.go_1, this.ho_1, this.io_1, true);
-    this.cameraAnimator.setCameras(Cameras_getInstance_0().zn_1[1]);
+    this.cameraAnimator = new CameraPathAnimator(this.ko_1, this.lo_1, this.mo_1, true);
+    this.cameraAnimator.setCameras(Cameras_getInstance_0().do_1[1]);
     this.cameraAnimator.minDurationCoefficient = this.settings.cameraPeriod;
-    this.yo_1 = new Vec4(1.0, 1.0, 1.0, 1.0);
-    this.zo_1 = new Vec4(0.74, 0.55, 0.3, 1.0);
+    this.cp_1 = new Vec4(1.0, 1.0, 1.0, 1.0);
+    this.dp_1 = new Vec4(0.74, 0.55, 0.3, 1.0);
     var tmp_0 = this;
     // Inline function 'kotlin.apply' call
     var this_1 = new ClearColorCommand();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>' call
-    this_1.color = this.yo_1;
+    this_1.color = this.cp_1;
     this_1.name = 'clear color';
     this_1.enabled = true;
-    tmp_0.xo_1 = this_1;
+    tmp_0.bp_1 = this_1;
     var attribs = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
     // Inline function 'kotlin.apply' call
     var this_2 = MeshConstructor1();
@@ -1930,9 +1931,9 @@
     var this_12 = new DrawTransformedMeshCommand(meshRoom1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(texRoom1)]), stateDiffuseFp16, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>.<anonymous>' call
-    this_12.hints = this.ap_1;
+    this_12.hints = this.ep_1;
     tmp_2.commands = mutableListOf([this_12]);
-    tmp_1.jo_1 = this_11;
+    tmp_1.no_1 = this_11;
     var tmp_3 = this;
     // Inline function 'kotlin.apply' call
     var this_13 = new GroupCommand();
@@ -1946,7 +1947,7 @@
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>.<anonymous>' call
     this_14.hints = mutableListOf([get_HINT_VRS_4X4()]);
     tmp_4.commands = mutableListOf([this_14]);
-    tmp_3.ko_1 = this_13;
+    tmp_3.oo_1 = this_13;
     var tmp_5 = this;
     // Inline function 'kotlin.apply' call
     var this_15 = new GroupCommand();
@@ -1959,7 +1960,7 @@
     var this_16 = new DrawTransformedMeshCommand(meshRoom20, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(texRoom20)]), stateDiffuseFp16, txOriginRoom2);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>.<anonymous>' call
-    this_16.hints = this.ap_1;
+    this_16.hints = this.ep_1;
     var tmp_7 = this_16;
     // Inline function 'kotlin.apply' call
     var this_17 = new DrawTransformedMeshCommand(meshRoom21, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(texRoom21)]), stateDiffuseFp16, txOriginRoom2);
@@ -1973,7 +1974,7 @@
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>.<anonymous>' call
     this_18.hints = mutableListOf([get_HINT_VRS_4X4()]);
     tmp_6.commands = mutableListOf([tmp_7, tmp_8, this_18]);
-    tmp_5.lo_1 = this_15;
+    tmp_5.po_1 = this_15;
     var tmp_9 = this;
     // Inline function 'kotlin.apply' call
     var this_19 = new GroupCommand();
@@ -1999,7 +2000,7 @@
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>.<anonymous>' call
     this_22.hints = mutableListOf([get_HINT_VRS_4X4()]);
     tmp_10.commands = mutableListOf([tmp_11, tmp_12, this_22]);
-    tmp_9.mo_1 = this_19;
+    tmp_9.qo_1 = this_19;
     var tmp_13 = this;
     // Inline function 'kotlin.apply' call
     var this_23 = new GroupCommand();
@@ -2011,8 +2012,8 @@
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>.<anonymous>' call
     this_24.clearType = ClearCommandClearType_COLOR_AND_DEPTH_getInstance();
-    tmp_14.commands = mutableListOf([this.xo_1, this_24]);
-    tmp_13.no_1 = this_23;
+    tmp_14.commands = mutableListOf([this.bp_1, this_24]);
+    tmp_13.ro_1 = this_23;
     var tmp_15 = this;
     // Inline function 'kotlin.apply' call
     var this_25 = new BlurredPassCommand();
@@ -2023,9 +2024,9 @@
     this_25.minSize = 170;
     this_25.brightness = 1.0;
     this_25.blurSize = BlurSize_KERNEL_5_getInstance();
-    this_25.commands = mutableListOf([this.no_1, this.ko_1]);
+    this_25.commands = mutableListOf([this.ro_1, this.oo_1]);
     this_25.id = 0;
-    tmp_15.oo_1 = this_25;
+    tmp_15.so_1 = this_25;
     var tmp_16 = this;
     // Inline function 'kotlin.apply' call
     var this_26 = new BlurredPassCommand();
@@ -2036,9 +2037,9 @@
     this_26.minSize = 170;
     this_26.brightness = 1.0;
     this_26.blurSize = BlurSize_KERNEL_5_getInstance();
-    this_26.commands = mutableListOf([this.no_1, this.mo_1]);
+    this_26.commands = mutableListOf([this.ro_1, this.qo_1]);
     this_26.id = 1;
-    tmp_16.po_1 = this_26;
+    tmp_16.to_1 = this_26;
     var tmp_17 = this;
     // Inline function 'kotlin.apply' call
     var this_27 = new DrawBlurredCommand();
@@ -2055,7 +2056,7 @@
     this_28.sourceFactorColor = BlendingFactor_ONE_getInstance();
     this_28.destinationFactorColor = BlendingFactor_ONE_getInstance();
     tmp_18.blending = this_28;
-    tmp_17.qo_1 = this_27;
+    tmp_17.uo_1 = this_27;
     var tmp_19 = this;
     // Inline function 'kotlin.apply' call
     var this_29 = new DrawBlurredCommand();
@@ -2063,7 +2064,7 @@
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>' call
     this_29.name = 'draw blurred';
     this_29.blending = get_BLENDING_NONE();
-    tmp_19.ro_1 = this_29;
+    tmp_19.vo_1 = this_29;
     var tmp_20 = this;
     // Inline function 'kotlin.apply' call
     var this_30 = new VignetteCommand();
@@ -2071,9 +2072,9 @@
     // Inline function 'org.androidworks.brutalism.BrutalismScene.<anonymous>' call
     this_30.color0 = new Vec4(0.4, 0.4, 0.4, 1.0);
     this_30.color1 = new Vec4(1.0, 1.0, 1.0, 1.0);
-    tmp_20.so_1 = this_30;
-    this.to_1 = new DrawClockCommand();
-    this.uo_1 = GroupCommandArr(true, [this.oo_1, this.po_1, MainPassCommandArr(true, [this.no_1, this.jo_1, this.lo_1, this.qo_1, this.so_1, this.to_1])]);
+    tmp_20.wo_1 = this_30;
+    this.xo_1 = new DrawClockCommand();
+    this.yo_1 = GroupCommandArr(true, [this.so_1, this.to_1, MainPassCommandArr(true, [this.ro_1, this.no_1, this.po_1, this.uo_1, this.wo_1, this.xo_1])]);
     var tmp_21 = this;
     // Inline function 'kotlin.apply' call
     var this_31 = new BlurredPassCommand();
@@ -2084,26 +2085,26 @@
     this_31.minSize = 200;
     this_31.brightness = 0.93;
     this_31.blurSize = BlurSize_KERNEL_3_getInstance();
-    this_31.commands = mutableListOf([this.no_1, this.jo_1, this.lo_1, this.so_1]);
+    this_31.commands = mutableListOf([this.ro_1, this.no_1, this.po_1, this.wo_1]);
     this_31.id = 2;
-    tmp_21.wo_1 = this_31;
-    this.vo_1 = GroupCommandArr(true, [this.wo_1, MainPassCommandArr(true, [this.no_1, this.ro_1])]);
-    this.commands = mutableListOf([this.uo_1, this.vo_1]);
+    tmp_21.ap_1 = this_31;
+    this.zo_1 = GroupCommandArr(true, [this.ap_1, MainPassCommandArr(true, [this.ro_1, this.vo_1])]);
+    this.commands = mutableListOf([this.yo_1, this.zo_1]);
   }
-  protoOf(BrutalismScene).pm = function () {
+  protoOf(BrutalismScene).tm = function () {
     return this.timers;
   };
-  protoOf(BrutalismScene).qm = function () {
+  protoOf(BrutalismScene).um = function () {
     return this.cameraAnimator;
   };
-  protoOf(BrutalismScene).rm = function () {
+  protoOf(BrutalismScene).vm = function () {
     return this.FOV_TRANSITION;
   };
-  protoOf(BrutalismScene).sm = function () {
+  protoOf(BrutalismScene).wm = function () {
     return this.settings;
   };
   protoOf(BrutalismScene).updateTimers = function (time) {
-    this.timers.mi(time);
+    this.timers.qi(time);
     this.cameraAnimator.animate(time);
     this.animate();
     protoOf(Scene).updateTimers.call(this, time);
@@ -2114,20 +2115,20 @@
   protoOf(BrutalismScene).initialize = function () {
   };
   protoOf(BrutalismScene).applySettings = function () {
-    this.uo_1.enabled = !this.settings.blurred;
-    this.vo_1.enabled = this.settings.blurred;
-    this.oo_1.blurSize = this.settings.lowQuality ? BlurSize_KERNEL_3_getInstance() : BlurSize_KERNEL_5_getInstance();
-    this.po_1.blurSize = this.settings.lowQuality ? BlurSize_KERNEL_3_getInstance() : BlurSize_KERNEL_5_getInstance();
-    this.ap_1.v(0, this.settings.lowQuality ? get_HINT_VRS_2X2() : get_HINT_VRS_NONE());
-    this.so_1.enabled = this.settings.vignette;
+    this.yo_1.enabled = !this.settings.blurred;
+    this.zo_1.enabled = this.settings.blurred;
+    this.so_1.blurSize = this.settings.lowQuality ? BlurSize_KERNEL_3_getInstance() : BlurSize_KERNEL_5_getInstance();
+    this.to_1.blurSize = this.settings.lowQuality ? BlurSize_KERNEL_3_getInstance() : BlurSize_KERNEL_5_getInstance();
+    this.ep_1.v(0, this.settings.lowQuality ? get_HINT_VRS_2X2() : get_HINT_VRS_NONE());
+    this.wo_1.enabled = this.settings.vignette;
     if (!(this.cameraAnimator.minDurationCoefficient === this.settings.cameraPeriod)) {
       this.cameraAnimator.minDurationCoefficient = this.settings.cameraPeriod;
     }
-    this.to_1.enabled = this.settings.clock;
+    this.xo_1.enabled = this.settings.clock;
     if ((this.cameraAnimator.timer > 0.98 ? this.settings.autoSwitchCameras : false) ? Default_getInstance().v5() < 0.5 : false) {
       this.randomCameraOrNextRoom();
     }
-    this.xo_1.color = this.settings.colorMode.equals(ColorMode_Sepia_getInstance()) ? this.zo_1 : this.yo_1;
+    this.bp_1.color = this.settings.colorMode.equals(ColorMode_Sepia_getInstance()) ? this.dp_1 : this.cp_1;
   };
   protoOf(BrutalismScene).animate = function () {
     this.applySettings();
@@ -2136,7 +2137,7 @@
     var eye = cameraPositionInterpolator.cameraPosition;
     var lookat = cameraPositionInterpolator.cameraRotation;
     if (!this.useExternalViewMatrix) {
-      Matrix_getInstance().zg(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
+      Matrix_getInstance().dh(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
     }
     this.updateMeshTransformations(this.commands);
   };
@@ -2144,25 +2145,25 @@
     this.cameraAnimator.nextCamera();
   };
   protoOf(BrutalismScene).nextRoom = function () {
-    if (this.jo_1.enabled) {
-      this.jo_1.enabled = false;
-      this.lo_1.enabled = true;
-      this.oo_1.enabled = false;
+    if (this.no_1.enabled) {
+      this.no_1.enabled = false;
       this.po_1.enabled = true;
-      this.cameraAnimator.setCameras(Cameras_getInstance_0().zn_1[1], true);
-    } else if (this.lo_1.enabled) {
-      this.jo_1.enabled = true;
-      this.lo_1.enabled = false;
-      this.oo_1.enabled = true;
+      this.so_1.enabled = false;
+      this.to_1.enabled = true;
+      this.cameraAnimator.setCameras(Cameras_getInstance_0().do_1[1], true);
+    } else if (this.po_1.enabled) {
+      this.no_1.enabled = true;
       this.po_1.enabled = false;
-      this.cameraAnimator.setCameras(Cameras_getInstance_0().zn_1[0], true);
+      this.so_1.enabled = true;
+      this.to_1.enabled = false;
+      this.cameraAnimator.setCameras(Cameras_getInstance_0().do_1[0], true);
     }
   };
   protoOf(BrutalismScene).nextCameraOrRoom = function () {
     if (this.cameraAnimator.state.equals(CameraState_TRANSITIONING_getInstance())) {
       return Unit_instance;
     }
-    var switchRoomProbability = this.jo_1.enabled ? 0.75 : 0.25;
+    var switchRoomProbability = this.no_1.enabled ? 0.75 : 0.25;
     if (Default_getInstance().v5() < switchRoomProbability) {
       this.nextRoom();
     } else {
@@ -2173,7 +2174,7 @@
     if (this.cameraAnimator.state.equals(CameraState_TRANSITIONING_getInstance())) {
       return Unit_instance;
     }
-    var switchRoomProbability = this.jo_1.enabled ? 0.75 : 0.25;
+    var switchRoomProbability = this.no_1.enabled ? 0.75 : 0.25;
     if (Default_getInstance().v5() < switchRoomProbability) {
       this.nextRoom();
     } else {
@@ -2190,46 +2191,46 @@
     this.colorMode = ColorMode_Normal_getInstance();
     this.autoSwitchCameras = true;
   }
-  protoOf(BrutalismSettings).xn = function (_set____db54di) {
+  protoOf(BrutalismSettings).bo = function (_set____db54di) {
     this.lowQuality = _set____db54di;
   };
-  protoOf(BrutalismSettings).yn = function () {
+  protoOf(BrutalismSettings).co = function () {
     return this.lowQuality;
   };
-  protoOf(BrutalismSettings).ln = function (_set____db54di) {
+  protoOf(BrutalismSettings).pn = function (_set____db54di) {
     this.cameraPeriod = _set____db54di;
   };
-  protoOf(BrutalismSettings).mn = function () {
+  protoOf(BrutalismSettings).qn = function () {
     return this.cameraPeriod;
   };
-  protoOf(BrutalismSettings).nn = function (_set____db54di) {
+  protoOf(BrutalismSettings).rn = function (_set____db54di) {
     this.vignette = _set____db54di;
   };
-  protoOf(BrutalismSettings).on = function () {
+  protoOf(BrutalismSettings).sn = function () {
     return this.vignette;
   };
-  protoOf(BrutalismSettings).vn = function (_set____db54di) {
+  protoOf(BrutalismSettings).zn = function (_set____db54di) {
     this.clock = _set____db54di;
   };
-  protoOf(BrutalismSettings).wn = function () {
+  protoOf(BrutalismSettings).ao = function () {
     return this.clock;
   };
-  protoOf(BrutalismSettings).pn = function (_set____db54di) {
+  protoOf(BrutalismSettings).tn = function (_set____db54di) {
     this.blurred = _set____db54di;
   };
-  protoOf(BrutalismSettings).qn = function () {
+  protoOf(BrutalismSettings).un = function () {
     return this.blurred;
   };
-  protoOf(BrutalismSettings).bp = function (_set____db54di) {
+  protoOf(BrutalismSettings).fp = function (_set____db54di) {
     this.colorMode = _set____db54di;
   };
-  protoOf(BrutalismSettings).cp = function () {
+  protoOf(BrutalismSettings).gp = function () {
     return this.colorMode;
   };
-  protoOf(BrutalismSettings).rn = function (_set____db54di) {
+  protoOf(BrutalismSettings).vn = function (_set____db54di) {
     this.autoSwitchCameras = _set____db54di;
   };
-  protoOf(BrutalismSettings).sn = function () {
+  protoOf(BrutalismSettings).wn = function () {
     return this.autoSwitchCameras;
   };
   function Cameras_1() {
@@ -2238,7 +2239,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.dp_1 = [new CameraPositionPair(new CameraPosition(new Vec3(4.70217, 28.08873, 270.66443), new Vec3(5.00588, -3.6056, 275.06628)), new CameraPosition(new Vec3(3.12283, 192.89926, 247.77449), new Vec3(5.00588, -3.6056, 275.06628)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-167.48071, -247.32603, 395.07346), new Vec3(0.846, 0.52085, 0.0)), new CameraPosition(new Vec3(152.95543, -114.2289, 420.22528), new Vec3(1.062, 5.25603, 0.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(158.38203, -171.77576, 113.49699), new Vec3(81.33907, -44.77591, 97.18001)), new CameraPosition(new Vec3(142.91772, 36.96619, 102.5881), new Vec3(81.33907, -44.77591, 97.18001)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-103.18249, -51.5279, 135.98773), new Vec3(-69.98534, 2.29645, 78.0)), new CameraPosition(new Vec3(-102.42075, 79.90053, 96.44623), new Vec3(-69.98534, 2.29645, 78.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-60.00303, -233.00087, 134.61186), new Vec3(-2.0, -171.0, 152.0)), new CameraPosition(new Vec3(59.45997, -200.96883, 192.98213), new Vec3(-2.0, -171.0, 152.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-37.85454, 253.6224, 86.5639), new Vec3(-11.55309, 91.53834, 40.85777)), new CameraPosition(new Vec3(78.33339, 78.01169, 391.95297), new Vec3(20.69628, -1.54488, 246.84042)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-285.20566, 143.63365, 294.8095), new Vec3(0.492, 1.944, 100.0)), new CameraPosition(new Vec3(-208.13516, -316.1127, 249.54102), new Vec3(0.474, 0.84, 150.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-0.54002, 275.47906, 29.0), new Vec3(-33.0, -7.0, 85.0)), new CameraPosition(new Vec3(-237.66232, 128.6006, 29.0), new Vec3(-33.0, -7.0, 85.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(385.65573, -254.91086, 34.32199), new Vec3(172.69778, -349.50497, 89.22903)), new CameraPosition(new Vec3(228.97934, 319.29816, 34.32199), new Vec3(6.75666, 258.66278, 89.22903)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-170.00986, -272.70618, 22.899), new Vec3(0.0, 0.0, 100.0)), new CameraPosition(new Vec3(223.77429, -293.52405, 22.77371), new Vec3(0.0, 0.0, 200.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(154.41058, -342.53302, 229.82729), new Vec3(0.0, 0.0, 0.0)), new CameraPosition(new Vec3(281.98663, 86.11906, 272.93246), new Vec3(63.22815, 10.94927, 260.0)), 1.0)];
+    tmp.hp_1 = [new CameraPositionPair(new CameraPosition(new Vec3(4.70217, 28.08873, 270.66443), new Vec3(5.00588, -3.6056, 275.06628)), new CameraPosition(new Vec3(3.12283, 192.89926, 247.77449), new Vec3(5.00588, -3.6056, 275.06628)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-167.48071, -247.32603, 395.07346), new Vec3(0.846, 0.52085, 0.0)), new CameraPosition(new Vec3(152.95543, -114.2289, 420.22528), new Vec3(1.062, 5.25603, 0.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(158.38203, -171.77576, 113.49699), new Vec3(81.33907, -44.77591, 97.18001)), new CameraPosition(new Vec3(142.91772, 36.96619, 102.5881), new Vec3(81.33907, -44.77591, 97.18001)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-103.18249, -51.5279, 135.98773), new Vec3(-69.98534, 2.29645, 78.0)), new CameraPosition(new Vec3(-102.42075, 79.90053, 96.44623), new Vec3(-69.98534, 2.29645, 78.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-60.00303, -233.00087, 134.61186), new Vec3(-2.0, -171.0, 152.0)), new CameraPosition(new Vec3(59.45997, -200.96883, 192.98213), new Vec3(-2.0, -171.0, 152.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-37.85454, 253.6224, 86.5639), new Vec3(-11.55309, 91.53834, 40.85777)), new CameraPosition(new Vec3(78.33339, 78.01169, 391.95297), new Vec3(20.69628, -1.54488, 246.84042)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-285.20566, 143.63365, 294.8095), new Vec3(0.492, 1.944, 100.0)), new CameraPosition(new Vec3(-208.13516, -316.1127, 249.54102), new Vec3(0.474, 0.84, 150.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-0.54002, 275.47906, 29.0), new Vec3(-33.0, -7.0, 85.0)), new CameraPosition(new Vec3(-237.66232, 128.6006, 29.0), new Vec3(-33.0, -7.0, 85.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(385.65573, -254.91086, 34.32199), new Vec3(172.69778, -349.50497, 89.22903)), new CameraPosition(new Vec3(228.97934, 319.29816, 34.32199), new Vec3(6.75666, 258.66278, 89.22903)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-170.00986, -272.70618, 22.899), new Vec3(0.0, 0.0, 100.0)), new CameraPosition(new Vec3(223.77429, -293.52405, 22.77371), new Vec3(0.0, 0.0, 200.0)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(154.41058, -342.53302, 229.82729), new Vec3(0.0, 0.0, 0.0)), new CameraPosition(new Vec3(281.98663, 86.11906, 272.93246), new Vec3(63.22815, 10.94927, 260.0)), 1.0)];
   }
   var Cameras_instance_1;
   function Cameras_getInstance_1() {
@@ -2248,23 +2249,24 @@
   }
   function Meshes_0() {
     Meshes_instance_0 = this;
-    this.ep_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
-    this.fp_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0)), 8);
-    this.gp_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
-    this.hp_1 = MeshConstructor2('grass', this.ep_1);
-    this.ip_1 = MeshConstructor2('bouy1', this.ep_1);
-    this.jp_1 = MeshConstructor2('boat', this.ep_1);
-    this.kp_1 = MeshConstructor2('bird1', this.ep_1);
-    this.lp_1 = MeshConstructor2('bird2', this.ep_1);
-    this.mp_1 = MeshConstructor2('grid30', this.fp_1);
-    this.np_1 = MeshConstructor2('stars', this.gp_1);
-    this.op_1 = MeshConstructor2('clouds', this.ep_1);
+    this.ip_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
+    this.jp_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0)), 8);
+    this.kp_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
+    this.lp_1 = MeshConstructor2('grass', this.ip_1);
+    this.mp_1 = MeshConstructor2('bouy1', this.ip_1);
+    this.np_1 = MeshConstructor2('boat', this.ip_1);
+    this.op_1 = MeshConstructor2('bird1', this.ip_1);
+    this.pp_1 = MeshConstructor2('bird2', this.ip_1);
+    this.qp_1 = MeshConstructor2('grid30', this.jp_1);
+    this.rp_1 = MeshConstructor2('stars', this.kp_1);
+    this.sp_1 = MeshConstructor2('clouds', this.ip_1);
+    this.tp_1 = MeshConstructor2('fishnet', this.ip_1);
     var tmp = this;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.pp_1 = [MeshConstructor2('arrow', this.ep_1), MeshConstructor2('barrel', this.ep_1), MeshConstructor2('box', this.ep_1), MeshConstructor2('bricks', this.ep_1), MeshConstructor2('dock', this.ep_1), MeshConstructor2('fence', this.ep_1), MeshConstructor2('fence_topLighthouse', this.ep_1), MeshConstructor2('fish', this.ep_1), MeshConstructor2('fishingspot', this.ep_1), MeshConstructor2('fish_rope', this.ep_1), MeshConstructor2('hengel', this.ep_1), MeshConstructor2('house', this.ep_1), MeshConstructor2('lifebouy-rope', this.ep_1), MeshConstructor2('lifebouy', this.ep_1), MeshConstructor2('lighthouse', this.ep_1), MeshConstructor2('poles', this.ep_1), MeshConstructor2('rock', this.ep_1), MeshConstructor2('roof-tile', this.ep_1), MeshConstructor2('sign', this.ep_1), MeshConstructor2('smallPoles', this.ep_1), MeshConstructor2('SupportBeams', this.ep_1), MeshConstructor2('telescope', this.ep_1), MeshConstructor2('tree', this.ep_1)];
-    this.qp_1 = mutableListOf(arrayConcat([this.pp_1, [this.hp_1, this.ip_1, this.jp_1, this.kp_1, this.lp_1, this.mp_1, this.np_1, this.op_1]]));
+    tmp.up_1 = [MeshConstructor2('arrow', this.ip_1), MeshConstructor2('barrel', this.ip_1), MeshConstructor2('box', this.ip_1), MeshConstructor2('bricks', this.ip_1), MeshConstructor2('dock', this.ip_1), MeshConstructor2('fence', this.ip_1), MeshConstructor2('fence_topLighthouse', this.ip_1), MeshConstructor2('fish', this.ip_1), MeshConstructor2('fishingspot', this.ip_1), MeshConstructor2('fish_rope', this.ip_1), MeshConstructor2('hengel', this.ip_1), MeshConstructor2('house', this.ip_1), MeshConstructor2('lifebouy-rope', this.ip_1), MeshConstructor2('lifebouy', this.ip_1), MeshConstructor2('lighthouse', this.ip_1), MeshConstructor2('poles', this.ip_1), MeshConstructor2('rock', this.ip_1), MeshConstructor2('roof-tile', this.ip_1), MeshConstructor2('sign', this.ip_1), MeshConstructor2('smallPoles', this.ip_1), MeshConstructor2('SupportBeams', this.ip_1), MeshConstructor2('telescope', this.ip_1), MeshConstructor2('tree', this.ip_1)];
+    this.vp_1 = mutableListOf(arrayConcat([this.up_1, [this.lp_1, this.mp_1, this.np_1, this.op_1, this.pp_1, this.qp_1, this.rp_1, this.sp_1, this.tp_1]]));
   }
   var Meshes_instance_0;
   function Meshes_getInstance_0() {
@@ -2278,21 +2280,21 @@
     highlightColor = highlightColor === VOID ? new Vec4() : highlightColor;
     tintColor = tintColor === VOID ? new Vec4() : tintColor;
     cloudsColor = cloudsColor === VOID ? new Vec4() : cloudsColor;
-    this.rp_1 = fogColor;
-    this.sp_1 = waterColor;
-    this.tp_1 = highlightColor;
-    this.up_1 = tintColor;
-    this.vp_1 = cloudsColor;
+    this.wp_1 = fogColor;
+    this.xp_1 = waterColor;
+    this.yp_1 = highlightColor;
+    this.zp_1 = tintColor;
+    this.aq_1 = cloudsColor;
   }
   protoOf(Preset).toString = function () {
-    return 'Preset(fogColor=' + this.rp_1 + ', waterColor=' + this.sp_1 + ', highlightColor=' + this.tp_1 + ', tintColor=' + this.up_1 + ', cloudsColor=' + this.vp_1 + ')';
+    return 'Preset(fogColor=' + this.wp_1 + ', waterColor=' + this.xp_1 + ', highlightColor=' + this.yp_1 + ', tintColor=' + this.zp_1 + ', cloudsColor=' + this.aq_1 + ')';
   };
   protoOf(Preset).hashCode = function () {
-    var result = this.rp_1.hashCode();
-    result = imul(result, 31) + this.sp_1.hashCode() | 0;
-    result = imul(result, 31) + this.tp_1.hashCode() | 0;
-    result = imul(result, 31) + this.up_1.hashCode() | 0;
-    result = imul(result, 31) + this.vp_1.hashCode() | 0;
+    var result = this.wp_1.hashCode();
+    result = imul(result, 31) + this.xp_1.hashCode() | 0;
+    result = imul(result, 31) + this.yp_1.hashCode() | 0;
+    result = imul(result, 31) + this.zp_1.hashCode() | 0;
+    result = imul(result, 31) + this.aq_1.hashCode() | 0;
     return result;
   };
   protoOf(Preset).equals = function (other) {
@@ -2301,15 +2303,15 @@
     if (!(other instanceof Preset))
       return false;
     var tmp0_other_with_cast = other instanceof Preset ? other : THROW_CCE();
-    if (!this.rp_1.equals(tmp0_other_with_cast.rp_1))
+    if (!this.wp_1.equals(tmp0_other_with_cast.wp_1))
       return false;
-    if (!this.sp_1.equals(tmp0_other_with_cast.sp_1))
+    if (!this.xp_1.equals(tmp0_other_with_cast.xp_1))
       return false;
-    if (!this.tp_1.equals(tmp0_other_with_cast.tp_1))
+    if (!this.yp_1.equals(tmp0_other_with_cast.yp_1))
       return false;
-    if (!this.up_1.equals(tmp0_other_with_cast.up_1))
+    if (!this.zp_1.equals(tmp0_other_with_cast.zp_1))
       return false;
-    if (!this.vp_1.equals(tmp0_other_with_cast.vp_1))
+    if (!this.aq_1.equals(tmp0_other_with_cast.aq_1))
       return false;
     return true;
   };
@@ -2319,7 +2321,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.wp_1 = [new Preset(new Vec4(0.7647058823529411, 0.9098039215686274, 0.9450980392156862, 1.0), new Vec4(0.387, 0.75, 0.795, 1.0), new Vec4(0.7843137254901961, 0.7843137254901961, 0.7843137254901961, 1.0), new Vec4(1.0, 1.0, 1.0, 1.0), new Vec4(1.0, 1.0, 1.0, 1.0)), new Preset(new Vec4(0.03137254901960784, 0.11372549019607843, 0.1843137254901961, 1.0), new Vec4(0.03529411764705882, 0.17254901960784313, 0.3176470588235294, 1.0), new Vec4(0.3137254901960784, 0.3137254901960784, 0.3137254901960784, 1.0), new Vec4(0.5215686274509804, 0.8705882352941177, 1.0, 1.0), new Vec4(0.0784313725490196, 0.3254901960784314, 0.47058823529411764, 1.0)), new Preset(new Vec4(1.0, 0.7686274509803922, 0.35294117647058826, 1.0), new Vec4(0.592156862745098, 0.6313725490196078, 0.5098039215686274, 1.0), new Vec4(0.5019607843137255, 0.43529411764705883, 0.23529411764705882, 1.0), new Vec4(1.0, 0.8705882352941177, 0.4745098039215686, 1.0), new Vec4(1.0, 0.8705882352941177, 0.47058823529411764, 1.0)), new Preset(new Vec4(0.21568627450980393, 0.2196078431372549, 0.47058823529411764, 1.0), new Vec4(0.0784313725490196, 0.20784313725490197, 0.4549019607843137, 1.0), new Vec4(0.5294117647058824, 0.3215686274509804, 0.48627450980392156, 1.0), new Vec4(0.9607843137254902, 0.7529411764705882, 0.9176470588235294, 1.0), new Vec4(0.9607843137254902, 0.7137254901960784, 0.8784313725490196, 1.0))];
+    tmp.bq_1 = [new Preset(new Vec4(0.7647058823529411, 0.9098039215686274, 0.9450980392156862, 1.0), new Vec4(0.387, 0.75, 0.795, 1.0), new Vec4(0.7843137254901961, 0.7843137254901961, 0.7843137254901961, 1.0), new Vec4(1.0, 1.0, 1.0, 1.0), new Vec4(1.0, 1.0, 1.0, 1.0)), new Preset(new Vec4(0.03137254901960784, 0.11372549019607843, 0.1843137254901961, 1.0), new Vec4(0.03529411764705882, 0.17254901960784313, 0.3176470588235294, 1.0), new Vec4(0.3137254901960784, 0.3137254901960784, 0.3137254901960784, 1.0), new Vec4(0.5215686274509804, 0.8705882352941177, 1.0, 1.0), new Vec4(0.0784313725490196, 0.3254901960784314, 0.47058823529411764, 1.0)), new Preset(new Vec4(1.0, 0.7686274509803922, 0.35294117647058826, 1.0), new Vec4(0.592156862745098, 0.6313725490196078, 0.5098039215686274, 1.0), new Vec4(0.5019607843137255, 0.43529411764705883, 0.23529411764705882, 1.0), new Vec4(1.0, 0.8705882352941177, 0.4745098039215686, 1.0), new Vec4(1.0, 0.8705882352941177, 0.47058823529411764, 1.0)), new Preset(new Vec4(0.21568627450980393, 0.2196078431372549, 0.47058823529411764, 1.0), new Vec4(0.0784313725490196, 0.20784313725490197, 0.4549019607843137, 1.0), new Vec4(0.5294117647058824, 0.3215686274509804, 0.48627450980392156, 1.0), new Vec4(0.9607843137254902, 0.7529411764705882, 0.9176470588235294, 1.0), new Vec4(0.9607843137254902, 0.7137254901960784, 0.8784313725490196, 1.0))];
   }
   var Presets_instance;
   function Presets_getInstance() {
@@ -2328,19 +2330,19 @@
     return Presets_instance;
   }
   function applySettings($this) {
-    $this.qq_1.v(0, $this.settings.lowQuality ? get_HINT_VRS_2X2() : get_HINT_VRS_NONE());
-    $this.dq_1.enabled = !$this.settings.blurred;
-    $this.eq_1.enabled = $this.settings.blurred;
-    $this.iq_1.enabled = $this.settings.vignette;
-    $this.fq_1.additionalBlur = !$this.settings.lowQuality;
-    $this.iq_1.enabled = !$this.settings.lowQuality;
+    $this.zq_1.v(0, $this.settings.lowQuality ? get_HINT_VRS_2X2() : get_HINT_VRS_NONE());
+    $this.iq_1.enabled = !$this.settings.blurred;
+    $this.jq_1.enabled = $this.settings.blurred;
+    $this.nq_1.enabled = $this.settings.vignette;
+    $this.kq_1.additionalBlur = !$this.settings.lowQuality;
+    $this.nq_1.enabled = !$this.settings.lowQuality;
     if (!($this.cameraAnimator.minDurationCoefficient === $this.settings.cameraPeriod)) {
       $this.cameraAnimator.minDurationCoefficient = $this.settings.cameraPeriod;
     }
     if (($this.cameraAnimator.timer > 0.99 ? $this.settings.autoSwitchCameras : false) ? Default_getInstance().v5() < 0.5 : false) {
       $this.randomCamera();
     }
-    $this.oq_1.enabled = $this.settings.timeOfDay.equals(TimeOfDay_Night_getInstance_0());
+    $this.tq_1.enabled = $this.settings.timeOfDay.equals(TimeOfDay_Night_getInstance_0());
   }
   function animate($this) {
     applySettings($this);
@@ -2349,11 +2351,12 @@
     animateBouys($this);
     animateBirds($this);
     animateWater($this);
+    animateFishnet($this);
     $this.updateMeshTransformations($this.commands);
   }
   function animateBouys($this) {
-    var timerBob = $this.cq_1.ji(Timers_BouysBobbing_getInstance());
-    var timerRot = $this.cq_1.ji(Timers_BouysRotation_getInstance());
+    var timerBob = $this.hq_1.ni(Timers_BouysBobbing_getInstance());
+    var timerRot = $this.hq_1.ni(Timers_BouysRotation_getInstance());
     // Inline function 'kotlin.math.sin' call
     var x = timerBob * $this.PIf * 2.0;
     var bob1 = Math.sin(x) * 4.0;
@@ -2370,54 +2373,54 @@
     // Inline function 'kotlin.math.sin' call
     var x_3 = timerRot * $this.PIf * 6.0;
     var tmp$ret$4 = Math.sin(x_3);
-    var rot1y = tmp.tg(tmp$ret$4 * 0.3);
+    var rot1y = tmp.xg(tmp$ret$4 * 0.3);
     var tmp_0 = MathUtils_instance;
     // Inline function 'kotlin.math.cos' call
     var x_4 = timerRot * $this.PIf * 4.0;
     var tmp$ret$5 = Math.cos(x_4);
-    var rot1x = tmp_0.tg(tmp$ret$5 * 0.3);
+    var rot1x = tmp_0.xg(tmp$ret$5 * 0.3);
     var tmp_1 = MathUtils_instance;
     // Inline function 'kotlin.math.sin' call
     var x_5 = timerRot * $this.PIf * 4.0 + 2.0;
     var tmp$ret$6 = Math.sin(x_5);
-    var rot2y = tmp_1.tg(tmp$ret$6 * 0.3);
+    var rot2y = tmp_1.xg(tmp$ret$6 * 0.3);
     var tmp_2 = MathUtils_instance;
     // Inline function 'kotlin.math.cos' call
     var x_6 = timerRot * $this.PIf * 6.0 + 2.0;
     var tmp$ret$7 = Math.cos(x_6);
-    var rot2x = tmp_2.tg(tmp$ret$7 * 0.3);
+    var rot2x = tmp_2.xg(tmp$ret$7 * 0.3);
     // Inline function 'kotlin.math.sin' call
     var x_7 = timerBob * $this.PIf * 2.0;
     var bobBoat = Math.sin(x_7) * 2.0;
-    var tmp_3 = $this.lq_1.commands.s(0);
+    var tmp_3 = $this.qq_1.commands.s(0);
     (tmp_3 instanceof DrawTransformedMeshCommand ? tmp_3 : THROW_CCE()).transform.q9_1.z = -5 + bob1;
-    var tmp_4 = $this.lq_1.commands.s(1);
+    var tmp_4 = $this.qq_1.commands.s(1);
     (tmp_4 instanceof DrawTransformedMeshCommand ? tmp_4 : THROW_CCE()).transform.q9_1.z = -5 + bob2;
-    var tmp_5 = $this.lq_1.commands.s(2);
+    var tmp_5 = $this.qq_1.commands.s(2);
     (tmp_5 instanceof DrawTransformedMeshCommand ? tmp_5 : THROW_CCE()).transform.q9_1.z = -5 + bob3;
-    var tmp_6 = $this.lq_1.commands.s(3);
+    var tmp_6 = $this.qq_1.commands.s(3);
     (tmp_6 instanceof DrawTransformedMeshCommand ? tmp_6 : THROW_CCE()).transform.q9_1.z = -5 + bob4;
-    var tmp_7 = $this.lq_1.commands.s(0);
+    var tmp_7 = $this.qq_1.commands.s(0);
     (tmp_7 instanceof DrawTransformedMeshCommand ? tmp_7 : THROW_CCE()).transform.r9_1.x = rot1x;
-    var tmp_8 = $this.lq_1.commands.s(0);
+    var tmp_8 = $this.qq_1.commands.s(0);
     (tmp_8 instanceof DrawTransformedMeshCommand ? tmp_8 : THROW_CCE()).transform.r9_1.y = rot1y;
-    var tmp_9 = $this.lq_1.commands.s(1);
+    var tmp_9 = $this.qq_1.commands.s(1);
     (tmp_9 instanceof DrawTransformedMeshCommand ? tmp_9 : THROW_CCE()).transform.r9_1.x = rot2x;
-    var tmp_10 = $this.lq_1.commands.s(1);
+    var tmp_10 = $this.qq_1.commands.s(1);
     (tmp_10 instanceof DrawTransformedMeshCommand ? tmp_10 : THROW_CCE()).transform.r9_1.y = rot2y;
-    var tmp_11 = $this.lq_1.commands.s(2);
+    var tmp_11 = $this.qq_1.commands.s(2);
     (tmp_11 instanceof DrawTransformedMeshCommand ? tmp_11 : THROW_CCE()).transform.r9_1.x = rot2x;
-    var tmp_12 = $this.lq_1.commands.s(2);
+    var tmp_12 = $this.qq_1.commands.s(2);
     (tmp_12 instanceof DrawTransformedMeshCommand ? tmp_12 : THROW_CCE()).transform.r9_1.y = rot2y;
-    var tmp_13 = $this.lq_1.commands.s(3);
+    var tmp_13 = $this.qq_1.commands.s(3);
     (tmp_13 instanceof DrawTransformedMeshCommand ? tmp_13 : THROW_CCE()).transform.r9_1.x = rot1x;
-    var tmp_14 = $this.lq_1.commands.s(3);
+    var tmp_14 = $this.qq_1.commands.s(3);
     (tmp_14 instanceof DrawTransformedMeshCommand ? tmp_14 : THROW_CCE()).transform.r9_1.y = rot1y;
-    var tmp_15 = $this.lq_1.commands.s(4);
+    var tmp_15 = $this.qq_1.commands.s(4);
     (tmp_15 instanceof DrawTransformedMeshCommand ? tmp_15 : THROW_CCE()).transform.q9_1.z = -1 + bobBoat;
   }
   function animateBirds($this) {
-    var timerBob = $this.cq_1.ji(Timers_BirdBobbing_getInstance()) * 100.0;
+    var timerBob = $this.hq_1.ni(Timers_BirdBobbing_getInstance()) * 100.0;
     // Inline function 'kotlin.math.max' call
     // Inline function 'kotlin.math.sin' call
     var tmp = Math.sin(timerBob);
@@ -2450,72 +2453,80 @@
     var bob2 = b_1 * 1.3;
     var bob3 = c * 2.0;
     var bob4 = d * 1.3;
-    var tmp_3 = $this.mq_1.commands.s(0);
+    var tmp_3 = $this.rq_1.commands.s(0);
     (tmp_3 instanceof DrawTransformedMeshCommand ? tmp_3 : THROW_CCE()).transform.q9_1.z = bob1;
-    var tmp_4 = $this.mq_1.commands.s(1);
+    var tmp_4 = $this.rq_1.commands.s(1);
     (tmp_4 instanceof DrawTransformedMeshCommand ? tmp_4 : THROW_CCE()).transform.q9_1.z = bob2;
-    var tmp_5 = $this.mq_1.commands.s(2);
+    var tmp_5 = $this.rq_1.commands.s(2);
     (tmp_5 instanceof DrawTransformedMeshCommand ? tmp_5 : THROW_CCE()).transform.q9_1.z = -192.1 + bob3;
-    var tmp_6 = $this.mq_1.commands.s(3);
+    var tmp_6 = $this.rq_1.commands.s(3);
     (tmp_6 instanceof DrawTransformedMeshCommand ? tmp_6 : THROW_CCE()).transform.q9_1.z = -75.1 + bob4;
   }
   function animateWater($this) {
-    var preset = Presets_getInstance().wp_1[$this.settings.timeOfDay.g4_1];
-    var time = $this.cq_1.ji(Timers_Water_getInstance_0());
-    setUniform_1($this.nq_1.uniforms.s(1), time);
-    setUniform_3($this.nq_1.uniforms.s(6), preset.sp_1);
-    setUniform_3($this.nq_1.uniforms.s(7), preset.tp_1);
-    setUniform_3($this.nq_1.uniforms.s(8), preset.rp_1);
-    setUniform_3($this.pq_1.uniforms.s(2), preset.vp_1);
-    $this.hq_1.color = preset.rp_1;
-    $this.rq_1.value[0] = preset.up_1.r;
-    $this.rq_1.value[1] = preset.up_1.g;
-    $this.rq_1.value[2] = preset.up_1.b;
+    var preset = Presets_getInstance().bq_1[$this.settings.timeOfDay.g4_1];
+    var time = $this.hq_1.ni(Timers_Water_getInstance_0());
+    setUniform_1($this.sq_1.uniforms.s(1), time);
+    setUniform_3($this.sq_1.uniforms.s(6), preset.xp_1);
+    setUniform_3($this.sq_1.uniforms.s(7), preset.yp_1);
+    setUniform_3($this.sq_1.uniforms.s(8), preset.wp_1);
+    setUniform_3($this.uq_1.uniforms.s(2), preset.aq_1);
+    $this.mq_1.color = preset.wp_1;
+    $this.ar_1.value[0] = preset.zp_1.r;
+    $this.ar_1.value[1] = preset.zp_1.g;
+    $this.ar_1.value[2] = preset.zp_1.b;
+  }
+  function animateFishnet($this) {
+    var preset = Presets_getInstance().bq_1[$this.settings.timeOfDay.g4_1];
+    var time = $this.hq_1.ni(Timers_Fishnet_getInstance());
+    setUniform_3($this.vq_1.uniforms.s(2), preset.yp_1);
+    setUniform_1($this.vq_1.uniforms.s(3), time);
   }
   function positionCamera($this) {
     var cameraPositionInterpolator = $this.cameraAnimator.positionInterpolator;
     var eye = cameraPositionInterpolator.cameraPosition;
     var lookat = cameraPositionInterpolator.cameraRotation;
     if (!$this.useExternalViewMatrix) {
-      Matrix_getInstance().zg($this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
+      Matrix_getInstance().dh($this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
     }
   }
   function randomizeCamera($this) {
-    if ($this.cq_1.ji(Timers_Camera_getInstance()) === 0.0) {
-      $this.sq_1 = Default_getInstance().v5() * $this.PIf * 2.0;
-      $this.tq_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
-      $this.uq_1 = Default_getInstance().v5() * $this.PIf * 2.0;
-      $this.vq_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
+    if ($this.hq_1.ni(Timers_Camera_getInstance()) === 0.0) {
+      $this.br_1 = Default_getInstance().v5() * $this.PIf * 2.0;
+      $this.cr_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
+      $this.dr_1 = Default_getInstance().v5() * $this.PIf * 2.0;
+      $this.er_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
     } else {
-      $this.sq_1 = $this.uq_1;
-      $this.tq_1 = $this.vq_1;
-      $this.uq_1 = Default_getInstance().v5() * $this.PIf * 2.0;
-      $this.vq_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
+      $this.br_1 = $this.dr_1;
+      $this.cr_1 = $this.er_1;
+      $this.dr_1 = Default_getInstance().v5() * $this.PIf * 2.0;
+      $this.er_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
     }
-    $this.wq_1 = 3300.0;
+    $this.fr_1 = 3300.0;
   }
   function CartoonLighthouseScene() {
     Scene.call(this);
-    this.cq_1 = new TimersMap();
-    this.qq_1 = mutableListOf([get_HINT_VRS_NONE()]);
+    this.hq_1 = new TimersMap();
+    this.xq_1 = 45;
+    this.yq_1 = 0.13;
+    this.zq_1 = mutableListOf([get_HINT_VRS_NONE()]);
     this.PIf = 3.1415927;
     var tmp = this;
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$0 = new Float32Array([1.0, 1.0, 1.0, 1.0]);
-    tmp.rq_1 = UniformFloatValueWithArray(tmp$ret$0);
-    this.sq_1 = 0.0;
-    this.tq_1 = 0.0;
-    this.uq_1 = 0.0;
-    this.vq_1 = 0.0;
-    this.wq_1 = 3000.0;
-    this.xq_1 = new Vec3();
-    this.yq_1 = 1000000.0;
-    this.zq_1 = 23000.0;
-    this.ar_1 = 2000.0;
-    this.meshes = Meshes_getInstance_0().qp_1;
-    this.textures = Textures_getInstance_0().jr_1;
-    this.shaders = Shaders_getInstance_0().qr_1;
-    Companion_instance_0.sr(this.cq_1);
+    tmp.ar_1 = UniformFloatValueWithArray(tmp$ret$0);
+    this.br_1 = 0.0;
+    this.cr_1 = 0.0;
+    this.dr_1 = 0.0;
+    this.er_1 = 0.0;
+    this.fr_1 = 3000.0;
+    this.gr_1 = new Vec3();
+    this.hr_1 = 1000000.0;
+    this.ir_1 = 23000.0;
+    this.jr_1 = 2000.0;
+    this.meshes = Meshes_getInstance_0().vp_1;
+    this.textures = Textures_getInstance_0().tr_1;
+    this.shaders = Shaders_getInstance_0().as_1;
+    Companion_instance_0.cs(this.hq_1);
     this.Z_NEAR = 20.0;
     this.Z_FAR = 5000.0;
     this.FOV_LANDSCAPE = 70.0;
@@ -2533,8 +2544,8 @@
     this_0.clock = false;
     this_0.timeOfDay = TimeOfDay_Day_getInstance_0();
     tmp_0.settings = this_0;
-    this.cameraAnimator = new CameraPathAnimator(this.yq_1, this.zq_1, this.ar_1, true);
-    this.cameraAnimator.setCameras(Cameras_getInstance_1().dp_1);
+    this.cameraAnimator = new CameraPathAnimator(this.hr_1, this.ir_1, this.jr_1, true);
+    this.cameraAnimator.setCameras(Cameras_getInstance_1().hp_1);
     this.cameraAnimator.minDurationCoefficient = this.settings.cameraPeriod;
     var tmp_1 = this;
     // Inline function 'kotlin.apply' call
@@ -2544,15 +2555,15 @@
     this_1.color = new Vec4(0.0, 0.7843137254901961, 0.0, 1.0);
     this_1.name = 'clear color';
     this_1.enabled = true;
-    tmp_1.hq_1 = this_1;
+    tmp_1.mq_1 = this_1;
     var txOrigin = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0));
     var txSceneObjects = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(1.0, 1.0, 1.0));
     var commonVertexAttributesDescriptor = new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12);
-    var stateDiffuseColoredFp16 = new DrawMeshState(Shaders_getInstance_0().kr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), commonVertexAttributesDescriptor);
-    var stateDiffuseColoredAtFp16 = new DrawMeshState(Shaders_getInstance_0().lr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_DISABLED_getInstance(), commonVertexAttributesDescriptor);
+    var stateDiffuseColoredFp16 = new DrawMeshState(Shaders_getInstance_0().ur_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), commonVertexAttributesDescriptor);
+    var stateDiffuseColoredAtFp16 = new DrawMeshState(Shaders_getInstance_0().vr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_DISABLED_getInstance(), commonVertexAttributesDescriptor);
     // Inline function 'kotlin.collections.toTypedArray' call
     // Inline function 'kotlin.collections.mapIndexed' call
-    var this_2 = Meshes_getInstance_0().pp_1;
+    var this_2 = Meshes_getInstance_0().up_1;
     // Inline function 'kotlin.collections.mapIndexedTo' call
     var destination = ArrayList_init_$Create$(this_2.length);
     var index = 0;
@@ -2564,102 +2575,148 @@
       // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
       var tmp1 = index;
       index = tmp1 + 1 | 0;
-      var tmp$ret$3 = DrawStaticMeshCommandConstructor(item, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().ir_1[tmp1]), this.rq_1]), stateDiffuseColoredFp16, txOrigin);
+      var tmp$ret$3 = DrawStaticMeshCommandConstructor(item, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().sr_1[tmp1]), this.ar_1]), stateDiffuseColoredFp16, txOrigin);
       destination.g(tmp$ret$3);
     }
     var drawStaticParts = copyToArray(destination);
-    this.kq_1 = GroupCommandArr(true, arrayConcat([drawStaticParts, [DrawStaticMeshCommandConstructor(Meshes_getInstance_0().hp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().br_1), this.rq_1]), stateDiffuseColoredAtFp16, txOrigin)]]));
-    this.lq_1 = GroupCommandArr(true, [new DrawTransformedMeshCommand(Meshes_getInstance_0().ip_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().cr_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(-60.0, -215.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().ip_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().cr_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(-80.0, -145.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().ip_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().cr_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(80.0, -150.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().ip_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().cr_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(64.0, 160.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().jp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().dr_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0)))]);
-    this.mq_1 = GroupCommandArr(true, [new DrawTransformedMeshCommand(Meshes_getInstance_0().kp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().er_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().lp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().er_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().kp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().er_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(102.7, -18.7, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().lp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().er_1), this.rq_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(-57.7, 189.4, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0)))]);
-    var stateWater = new DrawMeshState(Shaders_getInstance_0().mr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0)), 8));
     var tmp_2 = this;
     // Inline function 'kotlin.apply' call
-    var tmp_3 = Meshes_getInstance_0().mp_1;
-    var tmp_4 = UniformFloatValueWithArray(new Float32Array(16));
-    // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$7 = new Float32Array([0.0]);
-    var tmp_5 = UniformFloatValueWithArray(tmp$ret$7);
-    // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$8 = new Float32Array([0.002, 0.007, 0.001953125]);
-    var this_3 = DrawStaticMeshCommandConstructor(tmp_3, listOf([tmp_4, tmp_5, UniformFloatValueWithArray(tmp$ret$8), UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().fr_1), new UniformTextureValue(Textures_getInstance_0().gr_1), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4))]), stateWater, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(2500.0, 2500.0, 1.0)));
+    var this_3 = DrawStaticMeshCommandConstructor(Meshes_getInstance_0().lp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().kr_1), this.ar_1]), stateDiffuseColoredAtFp16, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
-    this_3.indexUniformModel = 3;
-    tmp_2.nq_1 = this_3;
-    var stateStars = new DrawMeshState(Shaders_getInstance_0().nr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0)), 12));
-    var tmp_6 = this;
+    this_3.hints = this.zq_1;
+    tmp_2.pq_1 = GroupCommandArr(true, arrayConcat([drawStaticParts, [this_3]]));
+    this.qq_1 = GroupCommandArr(true, [new DrawTransformedMeshCommand(Meshes_getInstance_0().mp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().lr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(-60.0, -215.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().mp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().lr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(-80.0, -145.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().mp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().lr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(80.0, -150.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().mp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().lr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(64.0, 160.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().np_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().mr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0)))]);
+    this.rq_1 = GroupCommandArr(true, [new DrawTransformedMeshCommand(Meshes_getInstance_0().op_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().nr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().pp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().nr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().op_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().nr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(102.7, -18.7, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0))), new DrawTransformedMeshCommand(Meshes_getInstance_0().pp_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().nr_1), this.ar_1]), stateDiffuseColoredFp16, new AffineTranformation(new Vec3(-57.7, 189.4, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 10.0, 10.0)))]);
+    var stateWater = new DrawMeshState(Shaders_getInstance_0().wr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0)), 8));
+    var tmp_3 = this;
     // Inline function 'kotlin.apply' call
-    var tmp_7 = Meshes_getInstance_0().np_1;
-    var tmp_8 = UniformFloatValueWithArray(new Float32Array(16));
+    var tmp_4 = Meshes_getInstance_0().qp_1;
+    var tmp_5 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$10 = new Float32Array([1.0, 1.0, 1.0, 1.0]);
-    var this_4 = DrawStaticMeshCommandConstructor(tmp_7, listOf([tmp_8, UniformFloatValueWithArray(tmp$ret$10)]), stateStars, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(0.06, 0.06, 0.06)));
-    // Inline function 'kotlin.contracts.contract' call
-    // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
-    this_4.hints = this.qq_1;
-    tmp_6.oq_1 = this_4;
-    var tmp_9 = this;
-    // Inline function 'kotlin.apply' call
-    var tmp_10 = Meshes_getInstance_0().op_1;
-    var tmp_11 = UniformFloatValueWithArray(new Float32Array(16));
-    var tmp_12 = new UniformTextureValue(Textures_getInstance_0().hr_1);
+    var tmp$ret$8 = new Float32Array([0.0]);
+    var tmp_6 = UniformFloatValueWithArray(tmp$ret$8);
     // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$12 = new Float32Array([1.0, 1.0, 1.0, 1.0]);
-    var this_5 = DrawStaticMeshCommandConstructor(tmp_10, listOf([tmp_11, tmp_12, UniformFloatValueWithArray(tmp$ret$12)]), stateDiffuseColoredAtFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(80.0, 80.0, 80.0)));
+    var tmp$ret$9 = new Float32Array([0.002, 0.007, 0.001953125]);
+    var this_4 = DrawStaticMeshCommandConstructor(tmp_4, listOf([tmp_5, tmp_6, UniformFloatValueWithArray(tmp$ret$9), UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_0().or_1), new UniformTextureValue(Textures_getInstance_0().pr_1), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4)), UniformFloatValueWithArray(new Float32Array(4))]), stateWater, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(2500.0, 2500.0, 1.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
-    this_5.hints = this.qq_1;
-    tmp_9.pq_1 = this_5;
-    var tmp_13 = this;
+    this_4.indexUniformModel = 3;
+    tmp_3.sq_1 = this_4;
+    var stateStars = new DrawMeshState(Shaders_getInstance_0().xr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0)), 12));
+    var tmp_7 = this;
     // Inline function 'kotlin.apply' call
-    var this_6 = new ClearCommand();
+    var tmp_8 = Meshes_getInstance_0().rp_1;
+    var tmp_9 = UniformFloatValueWithArray(new Float32Array(16));
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$11 = new Float32Array([1.0, 1.0, 1.0, 1.0]);
+    var this_5 = DrawStaticMeshCommandConstructor(tmp_8, listOf([tmp_9, UniformFloatValueWithArray(tmp$ret$11)]), stateStars, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(0.06, 0.06, 0.06)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
-    this_6.clearType = ClearCommandClearType_COLOR_AND_DEPTH_getInstance();
-    tmp_13.gq_1 = GroupCommandArr(true, [this.hq_1, this_6]);
+    this_5.hints = this.zq_1;
+    tmp_7.tq_1 = this_5;
+    var tmp_10 = this;
+    // Inline function 'kotlin.apply' call
+    var tmp_11 = Meshes_getInstance_0().sp_1;
+    var tmp_12 = UniformFloatValueWithArray(new Float32Array(16));
+    var tmp_13 = new UniformTextureValue(Textures_getInstance_0().qr_1);
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$13 = new Float32Array([1.0, 1.0, 1.0, 1.0]);
+    var this_6 = DrawStaticMeshCommandConstructor(tmp_11, listOf([tmp_12, tmp_13, UniformFloatValueWithArray(tmp$ret$13)]), stateDiffuseColoredAtFp16, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(80.0, 80.0, 80.0)));
+    // Inline function 'kotlin.contracts.contract' call
+    // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
+    this_6.hints = this.zq_1;
+    tmp_10.uq_1 = this_6;
+    var stateFishnet = new DrawMeshState(Shaders_getInstance_0().yr_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_DISABLED_getInstance(), commonVertexAttributesDescriptor);
     var tmp_14 = this;
     // Inline function 'kotlin.apply' call
-    var this_7 = new VignetteCommand();
+    var tmp_15 = Meshes_getInstance_0().tp_1;
+    var tmp_16 = UniformFloatValueWithArray(new Float32Array(16));
+    var tmp_17 = new UniformTextureValue(Textures_getInstance_0().rr_1);
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$15 = new Float32Array([1.0, 1.0, 1.0, 1.0]);
+    var tmp_18 = UniformFloatValueWithArray(tmp$ret$15);
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$16 = new Float32Array([1.0]);
+    var this_7 = DrawStaticMeshCommandConstructor(tmp_15, listOf([tmp_16, tmp_17, tmp_18, UniformFloatValueWithArray(tmp$ret$16)]), stateFishnet, txOrigin);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
-    this_7.color0 = new Vec4(0.7, 0.7, 0.7, 1.0);
-    this_7.color1 = new Vec4(1.0, 1.0, 1.0, 1.0);
-    tmp_14.iq_1 = this_7;
-    this.dq_1 = GroupCommandArr(true, [MainPassCommandArr(true, [this.gq_1, this.kq_1, this.lq_1, this.mq_1, this.nq_1, this.oq_1, this.pq_1, this.iq_1])]);
-    var tmp_15 = this;
+    this_7.hints = this.zq_1;
+    tmp_14.vq_1 = this_7;
+    var stateWind = new DrawMeshState(Shaders_getInstance_0().zr_1, get_BLENDING_NONE(), get_DEPTH_NO_WRITE(), CullFace_DISABLED_getInstance(), null);
+    var tmp_19 = this;
     // Inline function 'kotlin.apply' call
-    var this_8 = new BlurredPassCommand();
+    var tmp_20 = UniformFloatValueWithArray(new Float32Array(16));
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$18 = new Float32Array([1.0, 1.0, 1.0, 1.0]);
+    var tmp_21 = UniformFloatValueWithArray(tmp$ret$18);
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$19 = new Float32Array([0.0, 0.0, 0.0]);
+    var tmp_22 = UniformFloatValueWithArray(tmp$ret$19);
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$20 = new Float32Array([(this.xq_1 - 1 | 0) * 2.0, this.yq_1]);
+    var tmp_23 = UniformFloatValueWithArray(tmp$ret$20);
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$21 = new Float32Array([0.2, 0.25, 1.3]);
+    var tmp_24 = UniformFloatValueWithArray(tmp$ret$21);
+    // Inline function 'kotlin.floatArrayOf' call
+    var tmp$ret$22 = new Float32Array([0.032, 0.05, 0.02]);
+    var this_8 = new DrawTransformedMeshCommand(null, listOf([tmp_20, tmp_21, tmp_22, tmp_23, tmp_24, UniformFloatValueWithArray(tmp$ret$22)]), stateWind, new AffineTranformation(new Vec3(0.0, -500.0, 130.0), new Vec3(0.0, 0.0, 0.0), new Vec3(10.0, 1.0, 10.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
-    this_8.name = 'blurred-main';
-    this_8.enabled = true;
-    this_8.minSize = 180;
-    this_8.brightness = 0.95;
-    this_8.blurSize = BlurSize_KERNEL_4_getInstance();
-    this_8.commands = mutableListOf([this.gq_1, this.kq_1, this.lq_1, this.mq_1, this.nq_1, this.pq_1, this.iq_1]);
-    tmp_15.fq_1 = this_8;
-    var tmp_16 = this;
+    this_8.primitiveCount = imul(6, this.xq_1);
+    this_8.primitiveDrawType = PrimitiveDrawType_NON_INDEXED_getInstance();
+    tmp_19.wq_1 = GroupCommandArr(true, [this_8]);
+    var tmp_25 = this;
     // Inline function 'kotlin.apply' call
-    var this_9 = new DrawBlurredCommand();
+    var this_9 = new ClearCommand();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
-    this_9.name = 'draw blurred';
-    this_9.blending = get_BLENDING_NONE();
-    tmp_16.jq_1 = this_9;
-    this.eq_1 = GroupCommandArr(false, [this.fq_1, MainPassCommandArr(true, [this.gq_1, this.jq_1])]);
-    this.commands = mutableListOf([this.dq_1, this.eq_1]);
+    this_9.clearType = ClearCommandClearType_COLOR_AND_DEPTH_getInstance();
+    tmp_25.lq_1 = GroupCommandArr(true, [this.mq_1, this_9]);
+    var tmp_26 = this;
+    // Inline function 'kotlin.apply' call
+    var this_10 = new VignetteCommand();
+    // Inline function 'kotlin.contracts.contract' call
+    // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
+    this_10.color0 = new Vec4(0.7, 0.7, 0.7, 1.0);
+    this_10.color1 = new Vec4(1.0, 1.0, 1.0, 1.0);
+    tmp_26.nq_1 = this_10;
+    this.iq_1 = GroupCommandArr(true, [MainPassCommandArr(true, [this.lq_1, this.pq_1, this.qq_1, this.rq_1, this.vq_1, this.sq_1, this.tq_1, this.uq_1, this.wq_1, this.nq_1])]);
+    var tmp_27 = this;
+    // Inline function 'kotlin.apply' call
+    var this_11 = new BlurredPassCommand();
+    // Inline function 'kotlin.contracts.contract' call
+    // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
+    this_11.name = 'blurred-main';
+    this_11.enabled = true;
+    this_11.minSize = 180;
+    this_11.brightness = 0.95;
+    this_11.blurSize = BlurSize_KERNEL_4_getInstance();
+    this_11.commands = mutableListOf([this.lq_1, this.pq_1, this.qq_1, this.rq_1, this.vq_1, this.sq_1, this.uq_1, this.nq_1]);
+    tmp_27.kq_1 = this_11;
+    var tmp_28 = this;
+    // Inline function 'kotlin.apply' call
+    var this_12 = new DrawBlurredCommand();
+    // Inline function 'kotlin.contracts.contract' call
+    // Inline function 'org.androidworks.cartoonlighthouse.CartoonLighthouseScene.<anonymous>' call
+    this_12.name = 'draw blurred';
+    this_12.blending = get_BLENDING_NONE();
+    tmp_28.oq_1 = this_12;
+    this.jq_1 = GroupCommandArr(false, [this.kq_1, MainPassCommandArr(true, [this.lq_1, this.oq_1])]);
+    this.commands = mutableListOf([this.iq_1, this.jq_1]);
   }
-  protoOf(CartoonLighthouseScene).sm = function () {
+  protoOf(CartoonLighthouseScene).wm = function () {
     return this.settings;
   };
-  protoOf(CartoonLighthouseScene).in = function () {
+  protoOf(CartoonLighthouseScene).mn = function () {
     return this.PIf;
   };
-  protoOf(CartoonLighthouseScene).qm = function () {
+  protoOf(CartoonLighthouseScene).um = function () {
     return this.cameraAnimator;
   };
   protoOf(CartoonLighthouseScene).updateTimers = function (time) {
-    this.cq_1.mi(time);
+    this.hq_1.qi(time);
     this.cameraAnimator.animate(time);
     animate(this);
     protoOf(Scene).updateTimers.call(this, time);
@@ -2725,46 +2782,46 @@
     this.clock = false;
     this.timeOfDay = TimeOfDay_Day_getInstance_0();
   }
-  protoOf(CartoonLighthouseSettings).ln = function (_set____db54di) {
+  protoOf(CartoonLighthouseSettings).pn = function (_set____db54di) {
     this.cameraPeriod = _set____db54di;
   };
-  protoOf(CartoonLighthouseSettings).mn = function () {
+  protoOf(CartoonLighthouseSettings).qn = function () {
     return this.cameraPeriod;
   };
-  protoOf(CartoonLighthouseSettings).nn = function (_set____db54di) {
+  protoOf(CartoonLighthouseSettings).rn = function (_set____db54di) {
     this.vignette = _set____db54di;
   };
-  protoOf(CartoonLighthouseSettings).on = function () {
+  protoOf(CartoonLighthouseSettings).sn = function () {
     return this.vignette;
   };
-  protoOf(CartoonLighthouseSettings).pn = function (_set____db54di) {
+  protoOf(CartoonLighthouseSettings).tn = function (_set____db54di) {
     this.blurred = _set____db54di;
   };
-  protoOf(CartoonLighthouseSettings).qn = function () {
+  protoOf(CartoonLighthouseSettings).un = function () {
     return this.blurred;
   };
-  protoOf(CartoonLighthouseSettings).rn = function (_set____db54di) {
+  protoOf(CartoonLighthouseSettings).vn = function (_set____db54di) {
     this.autoSwitchCameras = _set____db54di;
   };
-  protoOf(CartoonLighthouseSettings).sn = function () {
+  protoOf(CartoonLighthouseSettings).wn = function () {
     return this.autoSwitchCameras;
   };
-  protoOf(CartoonLighthouseSettings).xn = function (_set____db54di) {
+  protoOf(CartoonLighthouseSettings).bo = function (_set____db54di) {
     this.lowQuality = _set____db54di;
   };
-  protoOf(CartoonLighthouseSettings).yn = function () {
+  protoOf(CartoonLighthouseSettings).co = function () {
     return this.lowQuality;
   };
-  protoOf(CartoonLighthouseSettings).vn = function (_set____db54di) {
+  protoOf(CartoonLighthouseSettings).zn = function (_set____db54di) {
     this.clock = _set____db54di;
   };
-  protoOf(CartoonLighthouseSettings).wn = function () {
+  protoOf(CartoonLighthouseSettings).ao = function () {
     return this.clock;
   };
-  protoOf(CartoonLighthouseSettings).vr = function (_set____db54di) {
+  protoOf(CartoonLighthouseSettings).fs = function (_set____db54di) {
     this.timeOfDay = _set____db54di;
   };
-  protoOf(CartoonLighthouseSettings).un = function () {
+  protoOf(CartoonLighthouseSettings).yn = function () {
     return this.timeOfDay;
   };
   function TimeOfDay_Day_getInstance_0() {
@@ -2785,13 +2842,13 @@
   }
   function Shaders_0() {
     Shaders_instance_0 = this;
-    this.kr_1 = new Shader('DiffuseColored');
-    this.lr_1 = new Shader('DiffuseColoredAt');
-    this.mr_1 = new Shader('StylizedWater');
-    this.nr_1 = new Shader('Color');
-    this.or_1 = new Shader('Fishnet');
-    this.pr_1 = new Shader('Wind');
-    this.qr_1 = mutableListOf([this.kr_1, this.lr_1, this.mr_1, this.nr_1]);
+    this.ur_1 = new Shader('DiffuseColored');
+    this.vr_1 = new Shader('DiffuseColoredAt');
+    this.wr_1 = new Shader('StylizedWater');
+    this.xr_1 = new Shader('Color');
+    this.yr_1 = new Shader('Fishnet');
+    this.zr_1 = new Shader('Wind');
+    this.as_1 = mutableListOf([this.ur_1, this.vr_1, this.wr_1, this.xr_1, this.yr_1, this.zr_1]);
   }
   var Shaders_instance_0;
   function Shaders_getInstance_0() {
@@ -2800,15 +2857,15 @@
     return Shaders_instance_0;
   }
   function SimpleTexture(name, mipmaps) {
-    this.wr_1 = name;
-    this.xr_1 = mipmaps;
+    this.gs_1 = name;
+    this.hs_1 = mipmaps;
   }
   protoOf(SimpleTexture).toString = function () {
-    return 'SimpleTexture(name=' + this.wr_1 + ', mipmaps=' + this.xr_1 + ')';
+    return 'SimpleTexture(name=' + this.gs_1 + ', mipmaps=' + this.hs_1 + ')';
   };
   protoOf(SimpleTexture).hashCode = function () {
-    var result = getStringHashCode(this.wr_1);
-    result = imul(result, 31) + this.xr_1 | 0;
+    var result = getStringHashCode(this.gs_1);
+    result = imul(result, 31) + this.hs_1 | 0;
     return result;
   };
   protoOf(SimpleTexture).equals = function (other) {
@@ -2817,9 +2874,9 @@
     if (!(other instanceof SimpleTexture))
       return false;
     var tmp0_other_with_cast = other instanceof SimpleTexture ? other : THROW_CCE();
-    if (!(this.wr_1 === tmp0_other_with_cast.wr_1))
+    if (!(this.gs_1 === tmp0_other_with_cast.gs_1))
       return false;
-    if (!(this.xr_1 === tmp0_other_with_cast.xr_1))
+    if (!(this.hs_1 === tmp0_other_with_cast.hs_1))
       return false;
     return true;
   };
@@ -2837,7 +2894,7 @@
     this_0.minFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_0.magFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_0.mipmaps = 8;
-    tmp.br_1 = this_0;
+    tmp.kr_1 = this_0;
     var tmp_0 = this;
     // Inline function 'kotlin.apply' call
     var this_1 = new Texture();
@@ -2850,7 +2907,7 @@
     this_1.minFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_1.magFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_1.mipmaps = 4;
-    tmp_0.cr_1 = this_1;
+    tmp_0.lr_1 = this_1;
     var tmp_1 = this;
     // Inline function 'kotlin.apply' call
     var this_2 = new Texture();
@@ -2863,7 +2920,7 @@
     this_2.minFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_2.magFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_2.mipmaps = 8;
-    tmp_1.dr_1 = this_2;
+    tmp_1.mr_1 = this_2;
     var tmp_2 = this;
     // Inline function 'kotlin.apply' call
     var this_3 = new Texture();
@@ -2876,7 +2933,7 @@
     this_3.minFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_3.magFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_3.mipmaps = 7;
-    tmp_2.er_1 = this_3;
+    tmp_2.nr_1 = this_3;
     var tmp_3 = this;
     // Inline function 'kotlin.apply' call
     var this_4 = new Texture();
@@ -2889,7 +2946,7 @@
     this_4.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_4.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_4.mipmaps = 7;
-    tmp_3.fr_1 = this_4;
+    tmp_3.or_1 = this_4;
     var tmp_4 = this;
     // Inline function 'kotlin.apply' call
     var this_5 = new Texture();
@@ -2903,7 +2960,7 @@
     this_5.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_5.anisotropy = 4;
     this_5.mipmaps = 6;
-    tmp_4.gr_1 = this_5;
+    tmp_4.pr_1 = this_5;
     var tmp_5 = this;
     // Inline function 'kotlin.apply' call
     var this_6 = new Texture();
@@ -2916,37 +2973,51 @@
     this_6.minFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_6.magFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
     this_6.mipmaps = 8;
-    tmp_5.hr_1 = this_6;
+    tmp_5.qr_1 = this_6;
     var tmp_6 = this;
+    // Inline function 'kotlin.apply' call
+    var this_7 = new Texture();
+    // Inline function 'kotlin.contracts.contract' call
+    // Inline function 'org.androidworks.cartoonlighthouse.Textures.texFishnet.<anonymous>' call
+    this_7.name = 'fishnet';
+    this_7.fileName = 'fishnet';
+    this_7.format = TextureFormat_ASTC_getInstance();
+    this_7.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
+    this_7.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
+    this_7.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
+    this_7.anisotropy = 3;
+    this_7.mipmaps = 8;
+    tmp_6.rr_1 = this_7;
+    var tmp_7 = this;
     // Inline function 'kotlin.collections.toTypedArray' call
     // Inline function 'kotlin.collections.map' call
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    var this_7 = [new SimpleTexture('arrow', 7), new SimpleTexture('barrel', 8), new SimpleTexture('box', 8), new SimpleTexture('bricks', 8), new SimpleTexture('dock', 9), new SimpleTexture('fence', 9), new SimpleTexture('fence_topLighthouse', 8), new SimpleTexture('fish', 7), new SimpleTexture('fishingspot', 8), new SimpleTexture('fish_rope', 2), new SimpleTexture('hengel', 3), new SimpleTexture('house', 9), new SimpleTexture('lifebouy-rope', 7), new SimpleTexture('lifebouy', 7), new SimpleTexture('lighthouse', 10), new SimpleTexture('poles', 8), new SimpleTexture('rock', 8), new SimpleTexture('roof-tile', 7), new SimpleTexture('sign', 7), new SimpleTexture('smallPoles', 8), new SimpleTexture('SupportBeams', 8), new SimpleTexture('telescope', 9), new SimpleTexture('tree', 8)];
+    var this_8 = [new SimpleTexture('arrow', 7), new SimpleTexture('barrel', 8), new SimpleTexture('box', 8), new SimpleTexture('bricks', 8), new SimpleTexture('dock', 9), new SimpleTexture('fence', 9), new SimpleTexture('fence_topLighthouse', 8), new SimpleTexture('fish', 7), new SimpleTexture('fishingspot', 8), new SimpleTexture('fish_rope', 2), new SimpleTexture('hengel', 3), new SimpleTexture('house', 9), new SimpleTexture('lifebouy-rope', 7), new SimpleTexture('lifebouy', 7), new SimpleTexture('lighthouse', 10), new SimpleTexture('poles', 8), new SimpleTexture('rock', 8), new SimpleTexture('roof-tile', 7), new SimpleTexture('sign', 7), new SimpleTexture('smallPoles', 8), new SimpleTexture('SupportBeams', 8), new SimpleTexture('telescope', 9), new SimpleTexture('tree', 8)];
     // Inline function 'kotlin.collections.mapTo' call
-    var destination = ArrayList_init_$Create$(this_7.length);
+    var destination = ArrayList_init_$Create$(this_8.length);
     var inductionVariable = 0;
-    var last = this_7.length;
+    var last = this_8.length;
     while (inductionVariable < last) {
-      var item = this_7[inductionVariable];
+      var item = this_8[inductionVariable];
       inductionVariable = inductionVariable + 1 | 0;
       // Inline function 'org.androidworks.cartoonlighthouse.Textures.staticTextures.<anonymous>' call
       // Inline function 'kotlin.apply' call
-      var this_8 = new Texture();
+      var this_9 = new Texture();
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'org.androidworks.cartoonlighthouse.Textures.staticTextures.<anonymous>.<anonymous>' call
-      this_8.name = item.wr_1;
-      this_8.fileName = item.wr_1;
-      this_8.format = TextureFormat_ASTC_getInstance();
-      this_8.wrapping = TextureWrapping_REPEAT_getInstance();
-      this_8.minFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
-      this_8.magFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
-      this_8.mipmaps = item.xr_1;
-      destination.g(this_8);
+      this_9.name = item.gs_1;
+      this_9.fileName = item.gs_1;
+      this_9.format = TextureFormat_ASTC_getInstance();
+      this_9.wrapping = TextureWrapping_REPEAT_getInstance();
+      this_9.minFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
+      this_9.magFilter = TextureFiltering_LINEAR_MIPMAP_NEAREST_getInstance();
+      this_9.mipmaps = item.hs_1;
+      destination.g(this_9);
     }
-    tmp_6.ir_1 = copyToArray(destination);
-    this.jr_1 = mutableListOf(arrayConcat([this.ir_1, [this.br_1, this.cr_1, this.dr_1, this.er_1, this.gr_1, this.fr_1, this.hr_1]]));
+    tmp_7.sr_1 = copyToArray(destination);
+    this.tr_1 = mutableListOf(arrayConcat([this.sr_1, [this.kr_1, this.lr_1, this.mr_1, this.nr_1, this.pr_1, this.or_1, this.qr_1, this.rr_1]]));
   }
   var Textures_instance_0;
   function Textures_getInstance_0() {
@@ -2964,18 +3035,18 @@
   var Timers_WindMove2_instance;
   var Timers_WindMove3_instance;
   function Companion_0() {
-    this.rr_1 = 27800.0;
+    this.bs_1 = 27800.0;
   }
-  protoOf(Companion_0).sr = function (timers) {
-    timers.ii(Timers_Camera_getInstance(), this.rr_1, true);
-    timers.ii(Timers_Water_getInstance_0(), 25000.0, true);
-    timers.ii(Timers_BouysBobbing_getInstance(), 2000.0, true);
-    timers.ii(Timers_BouysRotation_getInstance(), 8000.0, true);
-    timers.ii(Timers_BirdBobbing_getInstance(), 15000.0, true);
-    timers.ii(Timers_Fishnet_getInstance(), 2000.0, true);
-    timers.ii(Timers_WindMove1_getInstance(), 7000.0, true);
-    timers.ii(Timers_WindMove2_getInstance(), 7500.0, true);
-    timers.ii(Timers_WindMove3_getInstance(), 8000.0, true);
+  protoOf(Companion_0).cs = function (timers) {
+    timers.mi(Timers_Camera_getInstance(), this.bs_1, true);
+    timers.mi(Timers_Water_getInstance_0(), 25000.0, true);
+    timers.mi(Timers_BouysBobbing_getInstance(), 2000.0, true);
+    timers.mi(Timers_BouysRotation_getInstance(), 8000.0, true);
+    timers.mi(Timers_BirdBobbing_getInstance(), 15000.0, true);
+    timers.mi(Timers_Fishnet_getInstance(), 2000.0, true);
+    timers.mi(Timers_WindMove1_getInstance(), 7000.0, true);
+    timers.mi(Timers_WindMove2_getInstance(), 7500.0, true);
+    timers.mi(Timers_WindMove3_getInstance(), 8000.0, true);
   };
   var Companion_instance_0;
   function Companion_getInstance_0() {
@@ -3037,13 +3108,13 @@
   }
   function Meshes_1() {
     Meshes_instance_1 = this;
-    this.yr_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
-    this.zr_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6), new MeshAttribute(AttributeType_NORMAL_getInstance(), VertexFormat_HALF3_getInstance(), 10)]), 16);
-    this.as_1 = MeshConstructor2('sky', this.yr_1);
-    this.bs_1 = MeshConstructor2('quad', this.yr_1);
-    this.cs_1 = MeshConstructor2('plane0', this.zr_1);
-    this.ds_1 = MeshConstructor2('plane1', this.zr_1);
-    this.es_1 = mutableListOf([this.as_1, this.bs_1, this.cs_1, this.ds_1]);
+    this.is_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
+    this.js_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6), new MeshAttribute(AttributeType_NORMAL_getInstance(), VertexFormat_HALF3_getInstance(), 10)]), 16);
+    this.ks_1 = MeshConstructor2('sky', this.is_1);
+    this.ls_1 = MeshConstructor2('quad', this.is_1);
+    this.ms_1 = MeshConstructor2('plane0', this.js_1);
+    this.ns_1 = MeshConstructor2('plane1', this.js_1);
+    this.os_1 = mutableListOf([this.ks_1, this.ls_1, this.ms_1, this.ns_1]);
   }
   var Meshes_instance_1;
   function Meshes_getInstance_1() {
@@ -3104,10 +3175,10 @@
     // Inline function 'kotlin.js.asDynamic' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.fs_1 = [tmp_0, tmp_1, tmp_2, tmp_3, tmp_4, tmp_5, tmp_6, tmp_7, tmp_8, tmp_9, tmp_10, [new Vec3(-224.0, -823.0, 515.0), new Vec3(-224.0, 823.0, 515.0)]];
+    tmp.ps_1 = [tmp_0, tmp_1, tmp_2, tmp_3, tmp_4, tmp_5, tmp_6, tmp_7, tmp_8, tmp_9, tmp_10, [new Vec3(-224.0, -823.0, 515.0), new Vec3(-224.0, 823.0, 515.0)]];
     var tmp_11 = this;
     // Inline function 'kotlin.floatArrayOf' call
-    tmp_11.gs_1 = new Float32Array([1.4, 1.1, 1.2, 1.5, 1.2, 1.8, 1.6, 1.1, 0.7, 1.1, 1.8, 1.2]);
+    tmp_11.qs_1 = new Float32Array([1.4, 1.1, 1.2, 1.5, 1.2, 1.8, 1.6, 1.1, 0.7, 1.1, 1.8, 1.2]);
   }
   var Props_instance;
   function Props_getInstance() {
@@ -3116,40 +3187,40 @@
     return Props_instance;
   }
   function applySettings_0($this) {
-    $this.kt_1.v(0, $this.settings.lowQuality ? get_HINT_VRS_2X2() : get_HINT_VRS_NONE());
-    $this.ts_1.enabled = !$this.settings.blurred;
-    $this.us_1.enabled = $this.settings.blurred;
-    $this.ys_1.enabled = $this.settings.vignette;
-    $this.vs_1.additionalBlur = !$this.settings.lowQuality;
-    $this.ys_1.enabled = !$this.settings.lowQuality;
-    var cameraPeriod = $this.settings.cameraPeriod * Companion_instance_1.vt_1;
-    var params = $this.ms_1.li(Timers_Camera_getInstance_0());
-    if (!(params.di_1 === cameraPeriod)) {
-      $this.ms_1.ii(Timers_Camera_getInstance_0(), cameraPeriod, false);
-      $this.ms_1.ki(Timers_Camera_getInstance_0(), 0.0);
+    $this.ut_1.v(0, $this.settings.lowQuality ? get_HINT_VRS_2X2() : get_HINT_VRS_NONE());
+    $this.dt_1.enabled = !$this.settings.blurred;
+    $this.et_1.enabled = $this.settings.blurred;
+    $this.it_1.enabled = $this.settings.vignette;
+    $this.ft_1.additionalBlur = !$this.settings.lowQuality;
+    $this.it_1.enabled = !$this.settings.lowQuality;
+    var cameraPeriod = $this.settings.cameraPeriod * Companion_instance_1.fu_1;
+    var params = $this.ws_1.pi(Timers_Camera_getInstance_0());
+    if (!(params.hi_1 === cameraPeriod)) {
+      $this.ws_1.mi(Timers_Camera_getInstance_0(), cameraPeriod, false);
+      $this.ws_1.oi(Timers_Camera_getInstance_0(), 0.0);
     }
   }
   function animate_0($this) {
     applySettings_0($this);
     positionCamera_0($this);
     $this.calculateProjection();
-    calculatePlanePosition($this, $this.ot_1, 0.0);
+    calculatePlanePosition($this, $this.yt_1, 0.0);
     updatePlaneTransforms($this, true);
     updatePlaneTransforms($this, false);
     updateSky($this);
     $this.updateMeshTransformations($this.commands);
   }
   function updateSky($this) {
-    var timer = $this.ms_1.ji(Timers_SwapSky_getInstance());
+    var timer = $this.ws_1.ni(Timers_SwapSky_getInstance());
     if (timer > 0.1 ? timer < 0.9 : false) {
-      $this.bt_1.enabled = false;
-      $this.at_1.enabled = true;
-      setUniform_1($this.at_1.uniforms.s(4), timer);
-      $this.at_1.transform.q9_1 = $this.ut_1;
+      $this.lt_1.enabled = false;
+      $this.kt_1.enabled = true;
+      setUniform_1($this.kt_1.uniforms.s(4), timer);
+      $this.kt_1.transform.q9_1 = $this.eu_1;
     } else {
-      $this.bt_1.enabled = true;
-      $this.at_1.enabled = false;
-      $this.bt_1.transform.q9_1 = $this.ut_1;
+      $this.lt_1.enabled = true;
+      $this.kt_1.enabled = false;
+      $this.lt_1.transform.q9_1 = $this.eu_1;
     }
     if (timer > 0.5) {
       $this.texSky.id = $this.texSky2.id;
@@ -3159,30 +3230,30 @@
     var x = timer * $this.PIf * 2.0 - $this.PIf * 0.5;
     var sineInOut = (Math.sin(x) + 1.0) * 0.5;
     var dimming = sineInOut * 0.5;
-    $this.ys_1.color0.x = 0.7 - dimming;
-    $this.ys_1.color0.y = 0.7 - dimming;
-    $this.ys_1.color0.z = 0.7 - dimming;
+    $this.it_1.color0.x = 0.7 - dimming;
+    $this.it_1.color0.y = 0.7 - dimming;
+    $this.it_1.color0.z = 0.7 - dimming;
   }
   function updatePlaneTransforms($this, current) {
-    var txPlane = current ? $this.jt_1 : $this.it_1;
-    var groupProps = current ? $this.ht_1 : $this.gt_1;
-    var props = Props_getInstance().fs_1[current ? $this.settings.nextPlane : $this.settings.currentPlane];
+    var txPlane = current ? $this.tt_1 : $this.st_1;
+    var groupProps = current ? $this.rt_1 : $this.qt_1;
+    var props = Props_getInstance().ps_1[current ? $this.settings.nextPlane : $this.settings.currentPlane];
     var phase = current ? 0.0 : 0.0;
-    var scaleProps = Props_getInstance().gs_1[current ? $this.settings.nextPlane : $this.settings.currentPlane] * $this.rs_1;
-    var commandDiffuse = current ? $this.et_1 : $this.ct_1;
-    var commandOutline = current ? $this.ft_1 : $this.dt_1;
-    var timer = $this.ms_1.ji(Timers_SwapPlanes_getInstance());
+    var scaleProps = Props_getInstance().qs_1[current ? $this.settings.nextPlane : $this.settings.currentPlane] * $this.bt_1;
+    var commandDiffuse = current ? $this.ot_1 : $this.mt_1;
+    var commandOutline = current ? $this.pt_1 : $this.nt_1;
+    var timer = $this.ws_1.ni(Timers_SwapPlanes_getInstance());
     var scale = current ? MathUtils_instance.cd(0.0, 0.3, timer) : 1.0 - MathUtils_instance.cd(0.0, 1.0, timer);
-    var timerOffset = MathUtils_instance.sg(0.0, 1.0, timer);
+    var timerOffset = MathUtils_instance.wg(0.0, 1.0, timer);
     var offsetZ = current ? 18000.0 * (1.0 - timerOffset) : timerOffset * -12000.0;
     var offsetX = current ? offsetZ * 0.25 : offsetZ * 1.3;
-    txPlane.q9_1.x = $this.mt_1.x + offsetX;
-    txPlane.q9_1.y = $this.mt_1.y;
-    txPlane.q9_1.z = $this.mt_1.z + offsetZ;
-    txPlane.r9_1.x = MathUtils_instance.tg($this.nt_1);
-    txPlane.s9_1.x = $this.qs_1 * scale;
-    txPlane.s9_1.y = $this.qs_1 * scale;
-    txPlane.s9_1.z = $this.qs_1 * scale;
+    txPlane.q9_1.x = $this.wt_1.x + offsetX;
+    txPlane.q9_1.y = $this.wt_1.y;
+    txPlane.q9_1.z = $this.wt_1.z + offsetZ;
+    txPlane.r9_1.x = MathUtils_instance.xg($this.xt_1);
+    txPlane.s9_1.x = $this.at_1 * scale;
+    txPlane.s9_1.y = $this.at_1 * scale;
+    txPlane.s9_1.z = $this.at_1 * scale;
     var tmp0_iterator = groupProps.commands.j();
     while (tmp0_iterator.q()) {
       var command = tmp0_iterator.r();
@@ -3204,34 +3275,34 @@
         inductionVariable = inductionVariable + 1 | 0;
         var tmp = prop.y;
         // Inline function 'kotlin.math.cos' call
-        var x = $this.nt_1;
+        var x = $this.xt_1;
         var tmp_0 = tmp * Math.cos(x);
         var tmp_1 = prop.z;
         // Inline function 'kotlin.math.sin' call
-        var x_0 = $this.nt_1;
+        var x_0 = $this.xt_1;
         var propY = tmp_0 - tmp_1 * Math.sin(x_0);
         var tmp_2 = prop.z;
         // Inline function 'kotlin.math.cos' call
-        var x_1 = $this.nt_1;
+        var x_1 = $this.xt_1;
         var tmp_3 = tmp_2 * Math.cos(x_1);
         var tmp_4 = prop.y;
         // Inline function 'kotlin.math.sin' call
-        var x_2 = $this.nt_1;
+        var x_2 = $this.xt_1;
         var propZ = tmp_3 + tmp_4 * Math.sin(x_2);
-        var rotation = MathUtils_instance.tg($this.ms_1.ji(Timers_PropRotate_getInstance()) * $this.PIf * 2.0 + propIndex + phase);
+        var rotation = MathUtils_instance.xg($this.ws_1.ni(Timers_PropRotate_getInstance()) * $this.PIf * 2.0 + propIndex + phase);
         // Inline function 'kotlin.math.sin' call
-        var x_3 = $this.ms_1.ji(Timers_PropFlicker_getInstance()) * $this.PIf * 2.0 + propIndex + phase;
+        var x_3 = $this.ws_1.ni(Timers_PropFlicker_getInstance()) * $this.PIf * 2.0 + propIndex + phase;
         var brightness = 2.0 + Math.sin(x_3);
         var tmp_5 = groupProps.commands.s(propIndex);
         var command_0 = tmp_5 instanceof DrawTransformedMeshCommand ? tmp_5 : THROW_CCE();
         command_0.enabled = true;
         setUniform_1(command_0.uniforms.s(2), brightness);
-        command_0.transform.r9_1.x = MathUtils_instance.tg(rotation);
+        command_0.transform.r9_1.x = MathUtils_instance.xg(rotation);
         command_0.transform.r9_1.y = 0.0;
         command_0.transform.r9_1.z = 0.0;
-        command_0.transform.q9_1.x = ($this.mt_1.x + prop.x) * scale + offsetX;
-        command_0.transform.q9_1.y = ($this.mt_1.y + propY) * scale;
-        command_0.transform.q9_1.z = ($this.mt_1.z + propZ) * scale + offsetZ;
+        command_0.transform.q9_1.x = ($this.wt_1.x + prop.x) * scale + offsetX;
+        command_0.transform.q9_1.y = ($this.wt_1.y + propY) * scale;
+        command_0.transform.q9_1.z = ($this.wt_1.z + propZ) * scale + offsetZ;
         command_0.transform.s9_1.x = scaleProps * scale;
         command_0.transform.s9_1.y = scaleProps * scale;
         command_0.transform.s9_1.z = scaleProps * scale;
@@ -3240,99 +3311,99 @@
   }
   function positionCamera_0($this) {
     if (!$this.useExternalViewMatrix) {
-      var timer = $this.ms_1.ji(Timers_Camera_getInstance_0());
+      var timer = $this.ws_1.ni(Timers_Camera_getInstance_0());
       timer = MathUtils_instance.cd(0.0, 1.0, timer);
-      var angleX = $this.pt_1 + timer * ($this.rt_1 - $this.pt_1);
-      var angleY = $this.qt_1 + timer * ($this.st_1 - $this.qt_1);
-      var tmp = $this.ut_1;
+      var angleX = $this.zt_1 + timer * ($this.bu_1 - $this.zt_1);
+      var angleY = $this.au_1 + timer * ($this.cu_1 - $this.au_1);
+      var tmp = $this.eu_1;
       // Inline function 'kotlin.math.sin' call
-      tmp.x = Math.sin(angleX) * $this.tt_1;
-      var tmp_0 = $this.ut_1;
+      tmp.x = Math.sin(angleX) * $this.du_1;
+      var tmp_0 = $this.eu_1;
       // Inline function 'kotlin.math.cos' call
-      tmp_0.y = Math.cos(angleX) * $this.tt_1;
-      var tmp_1 = $this.ut_1;
+      tmp_0.y = Math.cos(angleX) * $this.du_1;
+      var tmp_1 = $this.eu_1;
       // Inline function 'kotlin.math.sin' call
-      tmp_1.z = Math.sin(angleY) * $this.tt_1;
-      Matrix_getInstance().zg($this.matView, 0, $this.ut_1.x, $this.ut_1.y, $this.ut_1.z, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0);
+      tmp_1.z = Math.sin(angleY) * $this.du_1;
+      Matrix_getInstance().dh($this.matView, 0, $this.eu_1.x, $this.eu_1.y, $this.eu_1.z, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0);
       if (timer === 1.0) {
         randomizeCamera_0($this);
-        $this.ms_1.ki(Timers_Camera_getInstance_0(), 0.0);
+        $this.ws_1.oi(Timers_Camera_getInstance_0(), 0.0);
       }
     }
   }
   function calculatePlanePosition($this, offset, timersOffset) {
-    var time1 = ($this.ms_1.ji(Timers_PlaneWonder1_getInstance()) + timersOffset) % 1.0;
-    var time2 = ($this.ms_1.ji(Timers_PlaneWonder2_getInstance()) + timersOffset) % 1.0;
+    var time1 = ($this.ws_1.ni(Timers_PlaneWonder1_getInstance()) + timersOffset) % 1.0;
+    var time2 = ($this.ws_1.ni(Timers_PlaneWonder2_getInstance()) + timersOffset) % 1.0;
     var tmp = offset.x;
     // Inline function 'kotlin.math.sin' call
     var x = time1 * 3.0 * $this.PIf * 2.0;
     var tmp$ret$0 = Math.sin(x);
-    $this.mt_1.x = tmp + tmp$ret$0 * $this.os_1 * 3.0;
+    $this.wt_1.x = tmp + tmp$ret$0 * $this.ys_1 * 3.0;
     var tmp_0 = offset.y;
     // Inline function 'kotlin.math.cos' call
     var x_0 = time1 * 5.0 * $this.PIf * 2.0;
     var tmp$ret$1 = Math.cos(x_0);
-    $this.mt_1.y = tmp_0 + tmp$ret$1 * $this.os_1;
+    $this.wt_1.y = tmp_0 + tmp$ret$1 * $this.ys_1;
     var tmp_1 = offset.z;
     // Inline function 'kotlin.math.cos' call
     var x_1 = time2 * $this.PIf * 2.0;
     var tmp$ret$2 = Math.cos(x_1);
-    $this.mt_1.z = tmp_1 + tmp$ret$2 * $this.ps_1;
+    $this.wt_1.z = tmp_1 + tmp$ret$2 * $this.zs_1;
     var tmp_2 = $this;
     // Inline function 'kotlin.math.sin' call
-    var x_2 = $this.ms_1.ji(Timers_PlaneBanking_getInstance()) * $this.PIf * 2.0;
-    tmp_2.nt_1 = Math.sin(x_2) * $this.ns_1 * 1.0;
+    var x_2 = $this.ws_1.ni(Timers_PlaneBanking_getInstance()) * $this.PIf * 2.0;
+    tmp_2.xt_1 = Math.sin(x_2) * $this.xs_1 * 1.0;
   }
   function randomizeCamera_0($this) {
-    if ($this.ms_1.ji(Timers_Camera_getInstance_0()) === 0.0) {
-      $this.pt_1 = Default_getInstance().v5() * $this.PIf * 2.0;
-      $this.qt_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
-      $this.rt_1 = Default_getInstance().v5() * $this.PIf * 2.0;
-      $this.st_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
+    if ($this.ws_1.ni(Timers_Camera_getInstance_0()) === 0.0) {
+      $this.zt_1 = Default_getInstance().v5() * $this.PIf * 2.0;
+      $this.au_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
+      $this.bu_1 = Default_getInstance().v5() * $this.PIf * 2.0;
+      $this.cu_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
     } else {
-      $this.pt_1 = $this.rt_1;
-      $this.qt_1 = $this.st_1;
-      $this.rt_1 = Default_getInstance().v5() * $this.PIf * 2.0;
-      $this.st_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
+      $this.zt_1 = $this.bu_1;
+      $this.au_1 = $this.cu_1;
+      $this.bu_1 = Default_getInstance().v5() * $this.PIf * 2.0;
+      $this.cu_1 = (Default_getInstance().v5() - 0.3) * $this.PIf * 0.9;
     }
-    $this.tt_1 = 3300.0;
+    $this.du_1 = 3300.0;
   }
   function CartoonPlanesScene() {
     Scene.call(this);
-    this.ms_1 = new TimersMap();
-    this.ns_1 = 0.25;
-    this.os_1 = 80.0;
-    this.ps_1 = 100.0;
-    this.qs_1 = 10.0;
-    this.rs_1 = 500.0;
-    this.ss_1 = 1.7;
-    this.it_1 = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.qs_1, this.qs_1, this.qs_1));
-    this.jt_1 = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.qs_1, this.qs_1, this.qs_1));
-    this.kt_1 = mutableListOf([get_HINT_VRS_NONE()]);
+    this.ws_1 = new TimersMap();
+    this.xs_1 = 0.25;
+    this.ys_1 = 80.0;
+    this.zs_1 = 100.0;
+    this.at_1 = 10.0;
+    this.bt_1 = 500.0;
+    this.ct_1 = 1.7;
+    this.st_1 = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.at_1, this.at_1, this.at_1));
+    this.tt_1 = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.at_1, this.at_1, this.at_1));
+    this.ut_1 = mutableListOf([get_HINT_VRS_NONE()]);
     this.PIf = 3.1415927;
     var tmp = this;
     // Inline function 'kotlin.floatArrayOf' call
-    tmp.lt_1 = new Float32Array([0.5]);
-    this.mt_1 = new Vec3();
-    this.nt_1 = 0.0;
-    this.ot_1 = new Vec3(0.0, 0.0, 0.0);
-    this.pt_1 = 0.0;
-    this.qt_1 = 0.0;
-    this.rt_1 = 0.0;
-    this.st_1 = 0.0;
-    this.tt_1 = 3000.0;
-    this.ut_1 = new Vec3();
-    this.texSky = Textures_getInstance_1().zt_1;
-    this.texSky1 = Textures_getInstance_1().xt_1;
-    this.texSky2 = Textures_getInstance_1().yt_1;
-    this.meshPlane1 = Meshes_getInstance_1().cs_1;
-    this.meshPlane2 = Meshes_getInstance_1().ds_1;
-    this.texPlane1 = Textures_getInstance_1().au_1;
-    this.texPlane2 = Textures_getInstance_1().bu_1;
-    this.meshes = Meshes_getInstance_1().es_1;
-    this.textures = Textures_getInstance_1().du_1;
-    this.shaders = Shaders_getInstance_1().iu_1;
-    Companion_instance_1.ju(this.ms_1);
+    tmp.vt_1 = new Float32Array([0.5]);
+    this.wt_1 = new Vec3();
+    this.xt_1 = 0.0;
+    this.yt_1 = new Vec3(0.0, 0.0, 0.0);
+    this.zt_1 = 0.0;
+    this.au_1 = 0.0;
+    this.bu_1 = 0.0;
+    this.cu_1 = 0.0;
+    this.du_1 = 3000.0;
+    this.eu_1 = new Vec3();
+    this.texSky = Textures_getInstance_1().ju_1;
+    this.texSky1 = Textures_getInstance_1().hu_1;
+    this.texSky2 = Textures_getInstance_1().iu_1;
+    this.meshPlane1 = Meshes_getInstance_1().ms_1;
+    this.meshPlane2 = Meshes_getInstance_1().ns_1;
+    this.texPlane1 = Textures_getInstance_1().ku_1;
+    this.texPlane2 = Textures_getInstance_1().lu_1;
+    this.meshes = Meshes_getInstance_1().os_1;
+    this.textures = Textures_getInstance_1().nu_1;
+    this.shaders = Shaders_getInstance_1().su_1;
+    Companion_instance_1.tu(this.ws_1);
     this.Z_NEAR = 30.0;
     this.Z_FAR = 30000.0;
     this.FOV_LANDSCAPE = 75.0;
@@ -3357,53 +3428,53 @@
     this_1.color = new Vec4(0.0, 0.7843137254901961, 0.0, 1.0);
     this_1.name = 'clear color';
     this_1.enabled = true;
-    tmp_1.xs_1 = this_1;
+    tmp_1.ht_1 = this_1;
     var txSceneObjects = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(1.0, 1.0, 1.0));
-    var stateSky = new DrawMeshState(Shaders_getInstance_1().fu_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
-    this.at_1 = new DrawTransformedMeshCommand(Meshes_getInstance_1().as_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_1().xt_1), new UniformTextureValue(Textures_getInstance_1().yt_1), new UniformTextureValue(Textures_getInstance_1().wt_1), UniformFloatValueWithArray(this.lt_1)]), stateSky, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(350.0, 350.0, 350.0)));
-    var stateSkyStatic = new DrawMeshState(Shaders_getInstance_1().eu_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
+    var stateSky = new DrawMeshState(Shaders_getInstance_1().pu_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
+    this.kt_1 = new DrawTransformedMeshCommand(Meshes_getInstance_1().ks_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_1().hu_1), new UniformTextureValue(Textures_getInstance_1().iu_1), new UniformTextureValue(Textures_getInstance_1().gu_1), UniformFloatValueWithArray(this.vt_1)]), stateSky, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(350.0, 350.0, 350.0)));
+    var stateSkyStatic = new DrawMeshState(Shaders_getInstance_1().ou_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
     var tmp_2 = this;
     // Inline function 'kotlin.apply' call
-    var this_2 = new DrawTransformedMeshCommand(Meshes_getInstance_1().as_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(this.texSky)]), stateSkyStatic, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(350.0, 350.0, 350.0)));
+    var this_2 = new DrawTransformedMeshCommand(Meshes_getInstance_1().ks_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(this.texSky)]), stateSkyStatic, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(350.0, 350.0, 350.0)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonplanes.CartoonPlanesScene.<anonymous>' call
-    this_2.hints = this.kt_1;
-    tmp_2.bt_1 = this_2;
-    var statePlaneDiffuse = new DrawMeshState(Shaders_getInstance_1().eu_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 16));
+    this_2.hints = this.ut_1;
+    tmp_2.lt_1 = this_2;
+    var statePlaneDiffuse = new DrawMeshState(Shaders_getInstance_1().ou_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 16));
     var tmp_3 = this;
     // Inline function 'kotlin.apply' call
-    var this_3 = new DrawTransformedMeshCommand(Meshes_getInstance_1().cs_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_1().au_1)]), statePlaneDiffuse, this.it_1);
+    var this_3 = new DrawTransformedMeshCommand(Meshes_getInstance_1().ms_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_1().ku_1)]), statePlaneDiffuse, this.st_1);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonplanes.CartoonPlanesScene.<anonymous>' call
-    this_3.hints = this.kt_1;
-    tmp_3.ct_1 = this_3;
+    this_3.hints = this.ut_1;
+    tmp_3.mt_1 = this_3;
     var tmp_4 = this;
     // Inline function 'kotlin.apply' call
-    var this_4 = new DrawTransformedMeshCommand(Meshes_getInstance_1().ds_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_1().bu_1)]), statePlaneDiffuse, this.jt_1);
+    var this_4 = new DrawTransformedMeshCommand(Meshes_getInstance_1().ns_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_1().lu_1)]), statePlaneDiffuse, this.tt_1);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonplanes.CartoonPlanesScene.<anonymous>' call
-    this_4.hints = this.kt_1;
-    tmp_4.et_1 = this_4;
-    var statePlaneOutline = new DrawMeshState(Shaders_getInstance_1().gu_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_FRONT_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_NORMAL_getInstance(), 1, VertexFormat_HALF3_getInstance(), 10)]), 16));
+    this_4.hints = this.ut_1;
+    tmp_4.ot_1 = this_4;
+    var statePlaneOutline = new DrawMeshState(Shaders_getInstance_1().qu_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_FRONT_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_NORMAL_getInstance(), 1, VertexFormat_HALF3_getInstance(), 10)]), 16));
     var tmp_5 = this;
-    var tmp_6 = Meshes_getInstance_1().cs_1;
+    var tmp_6 = Meshes_getInstance_1().ms_1;
     var tmp_7 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$6 = new Float32Array([this.ss_1]);
+    var tmp$ret$6 = new Float32Array([this.ct_1]);
     var tmp_8 = UniformFloatValueWithArray(tmp$ret$6);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$7 = new Float32Array([0.0, 0.0, 0.0, 1.0]);
-    tmp_5.dt_1 = new DrawTransformedMeshCommand(tmp_6, listOf([tmp_7, tmp_8, UniformFloatValueWithArray(tmp$ret$7)]), statePlaneOutline, this.it_1);
+    tmp_5.nt_1 = new DrawTransformedMeshCommand(tmp_6, listOf([tmp_7, tmp_8, UniformFloatValueWithArray(tmp$ret$7)]), statePlaneOutline, this.st_1);
     var tmp_9 = this;
-    var tmp_10 = Meshes_getInstance_1().ds_1;
+    var tmp_10 = Meshes_getInstance_1().ns_1;
     var tmp_11 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$8 = new Float32Array([this.ss_1]);
+    var tmp$ret$8 = new Float32Array([this.ct_1]);
     var tmp_12 = UniformFloatValueWithArray(tmp$ret$8);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$9 = new Float32Array([0.0, 0.0, 0.0, 1.0]);
-    tmp_9.ft_1 = new DrawTransformedMeshCommand(tmp_10, listOf([tmp_11, tmp_12, UniformFloatValueWithArray(tmp$ret$9)]), statePlaneOutline, this.jt_1);
-    var tmp_13 = Shaders_getInstance_1().hu_1;
+    tmp_9.pt_1 = new DrawTransformedMeshCommand(tmp_10, listOf([tmp_11, tmp_12, UniformFloatValueWithArray(tmp$ret$9)]), statePlaneOutline, this.tt_1);
+    var tmp_13 = Shaders_getInstance_1().ru_1;
     // Inline function 'kotlin.apply' call
     var this_5 = new Blending();
     // Inline function 'kotlin.contracts.contract' call
@@ -3414,50 +3485,50 @@
     this_5.destinationFactorColor = BlendingFactor_ONE_getInstance();
     var stateProp = new DrawMeshState(tmp_13, this_5, get_DEPTH_NO_WRITE(), CullFace_DISABLED_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
     var tmp_14 = this;
-    var tmp_15 = Meshes_getInstance_1().bs_1;
+    var tmp_15 = Meshes_getInstance_1().ls_1;
     var tmp_16 = UniformFloatValueWithArray(new Float32Array(16));
-    var tmp_17 = new UniformTextureValue(Textures_getInstance_1().cu_1);
+    var tmp_17 = new UniformTextureValue(Textures_getInstance_1().mu_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$11 = new Float32Array([1.5]);
-    var tmp_18 = new DrawTransformedMeshCommand(tmp_15, listOf([tmp_16, tmp_17, UniformFloatValueWithArray(tmp$ret$11)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.rs_1 * 3.0, this.rs_1 * 3.0, this.rs_1 * 3.0)));
-    var tmp_19 = Meshes_getInstance_1().bs_1;
+    var tmp_18 = new DrawTransformedMeshCommand(tmp_15, listOf([tmp_16, tmp_17, UniformFloatValueWithArray(tmp$ret$11)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.bt_1 * 3.0, this.bt_1 * 3.0, this.bt_1 * 3.0)));
+    var tmp_19 = Meshes_getInstance_1().ls_1;
     var tmp_20 = UniformFloatValueWithArray(new Float32Array(16));
-    var tmp_21 = new UniformTextureValue(Textures_getInstance_1().cu_1);
+    var tmp_21 = new UniformTextureValue(Textures_getInstance_1().mu_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$12 = new Float32Array([1.5]);
-    var tmp_22 = new DrawTransformedMeshCommand(tmp_19, listOf([tmp_20, tmp_21, UniformFloatValueWithArray(tmp$ret$12)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.rs_1 * 3.0, this.rs_1 * 3.0, this.rs_1 * 3.0)));
-    var tmp_23 = Meshes_getInstance_1().bs_1;
+    var tmp_22 = new DrawTransformedMeshCommand(tmp_19, listOf([tmp_20, tmp_21, UniformFloatValueWithArray(tmp$ret$12)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.bt_1 * 3.0, this.bt_1 * 3.0, this.bt_1 * 3.0)));
+    var tmp_23 = Meshes_getInstance_1().ls_1;
     var tmp_24 = UniformFloatValueWithArray(new Float32Array(16));
-    var tmp_25 = new UniformTextureValue(Textures_getInstance_1().cu_1);
+    var tmp_25 = new UniformTextureValue(Textures_getInstance_1().mu_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$13 = new Float32Array([1.5]);
-    tmp_14.gt_1 = GroupCommandArr(true, [tmp_18, tmp_22, new DrawTransformedMeshCommand(tmp_23, listOf([tmp_24, tmp_25, UniformFloatValueWithArray(tmp$ret$13)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.rs_1 * 3.0, this.rs_1 * 3.0, this.rs_1 * 3.0)))]);
+    tmp_14.qt_1 = GroupCommandArr(true, [tmp_18, tmp_22, new DrawTransformedMeshCommand(tmp_23, listOf([tmp_24, tmp_25, UniformFloatValueWithArray(tmp$ret$13)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.bt_1 * 3.0, this.bt_1 * 3.0, this.bt_1 * 3.0)))]);
     var tmp_26 = this;
-    var tmp_27 = Meshes_getInstance_1().bs_1;
+    var tmp_27 = Meshes_getInstance_1().ls_1;
     var tmp_28 = UniformFloatValueWithArray(new Float32Array(16));
-    var tmp_29 = new UniformTextureValue(Textures_getInstance_1().cu_1);
+    var tmp_29 = new UniformTextureValue(Textures_getInstance_1().mu_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$14 = new Float32Array([1.5]);
-    var tmp_30 = new DrawTransformedMeshCommand(tmp_27, listOf([tmp_28, tmp_29, UniformFloatValueWithArray(tmp$ret$14)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.rs_1 * 3.0, this.rs_1 * 3.0, this.rs_1 * 3.0)));
-    var tmp_31 = Meshes_getInstance_1().bs_1;
+    var tmp_30 = new DrawTransformedMeshCommand(tmp_27, listOf([tmp_28, tmp_29, UniformFloatValueWithArray(tmp$ret$14)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.bt_1 * 3.0, this.bt_1 * 3.0, this.bt_1 * 3.0)));
+    var tmp_31 = Meshes_getInstance_1().ls_1;
     var tmp_32 = UniformFloatValueWithArray(new Float32Array(16));
-    var tmp_33 = new UniformTextureValue(Textures_getInstance_1().cu_1);
+    var tmp_33 = new UniformTextureValue(Textures_getInstance_1().mu_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$15 = new Float32Array([1.5]);
-    var tmp_34 = new DrawTransformedMeshCommand(tmp_31, listOf([tmp_32, tmp_33, UniformFloatValueWithArray(tmp$ret$15)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.rs_1 * 3.0, this.rs_1 * 3.0, this.rs_1 * 3.0)));
-    var tmp_35 = Meshes_getInstance_1().bs_1;
+    var tmp_34 = new DrawTransformedMeshCommand(tmp_31, listOf([tmp_32, tmp_33, UniformFloatValueWithArray(tmp$ret$15)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.bt_1 * 3.0, this.bt_1 * 3.0, this.bt_1 * 3.0)));
+    var tmp_35 = Meshes_getInstance_1().ls_1;
     var tmp_36 = UniformFloatValueWithArray(new Float32Array(16));
-    var tmp_37 = new UniformTextureValue(Textures_getInstance_1().cu_1);
+    var tmp_37 = new UniformTextureValue(Textures_getInstance_1().mu_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$16 = new Float32Array([1.5]);
-    tmp_26.ht_1 = GroupCommandArr(true, [tmp_30, tmp_34, new DrawTransformedMeshCommand(tmp_35, listOf([tmp_36, tmp_37, UniformFloatValueWithArray(tmp$ret$16)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.rs_1 * 3.0, this.rs_1 * 3.0, this.rs_1 * 3.0)))]);
+    tmp_26.rt_1 = GroupCommandArr(true, [tmp_30, tmp_34, new DrawTransformedMeshCommand(tmp_35, listOf([tmp_36, tmp_37, UniformFloatValueWithArray(tmp$ret$16)]), stateProp, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.bt_1 * 3.0, this.bt_1 * 3.0, this.bt_1 * 3.0)))]);
     var tmp_38 = this;
     // Inline function 'kotlin.apply' call
     var this_6 = new ClearCommand();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.cartoonplanes.CartoonPlanesScene.<anonymous>' call
     this_6.clearType = ClearCommandClearType_COLOR_AND_DEPTH_getInstance();
-    tmp_38.ws_1 = GroupCommandArr(true, [this.xs_1, this_6]);
+    tmp_38.gt_1 = GroupCommandArr(true, [this.ht_1, this_6]);
     var tmp_39 = this;
     // Inline function 'kotlin.apply' call
     var this_7 = new VignetteCommand();
@@ -3465,8 +3536,8 @@
     // Inline function 'org.androidworks.cartoonplanes.CartoonPlanesScene.<anonymous>' call
     this_7.color0 = new Vec4(0.7, 0.7, 0.7, 1.0);
     this_7.color1 = new Vec4(1.0, 1.0, 1.0, 1.0);
-    tmp_39.ys_1 = this_7;
-    this.ts_1 = GroupCommandArr(true, [MainPassCommandArr(true, [this.ws_1, this.ct_1, this.dt_1, this.et_1, this.ft_1, this.bt_1, this.at_1, this.gt_1, this.ht_1, this.ys_1])]);
+    tmp_39.it_1 = this_7;
+    this.dt_1 = GroupCommandArr(true, [MainPassCommandArr(true, [this.gt_1, this.mt_1, this.nt_1, this.ot_1, this.pt_1, this.lt_1, this.kt_1, this.qt_1, this.rt_1, this.it_1])]);
     var tmp_40 = this;
     // Inline function 'kotlin.apply' call
     var this_8 = new BlurredPassCommand();
@@ -3477,8 +3548,8 @@
     this_8.minSize = 180;
     this_8.brightness = 0.95;
     this_8.blurSize = BlurSize_KERNEL_4_getInstance();
-    this_8.commands = mutableListOf([this.ws_1, this.ct_1, this.dt_1, this.et_1, this.ft_1, this.bt_1, this.at_1, this.gt_1, this.ht_1, this.ys_1]);
-    tmp_40.vs_1 = this_8;
+    this_8.commands = mutableListOf([this.gt_1, this.mt_1, this.nt_1, this.ot_1, this.pt_1, this.lt_1, this.kt_1, this.qt_1, this.rt_1, this.it_1]);
+    tmp_40.ft_1 = this_8;
     var tmp_41 = this;
     // Inline function 'kotlin.apply' call
     var this_9 = new DrawBlurredCommand();
@@ -3486,60 +3557,60 @@
     // Inline function 'org.androidworks.cartoonplanes.CartoonPlanesScene.<anonymous>' call
     this_9.name = 'draw blurred';
     this_9.blending = get_BLENDING_NONE();
-    tmp_41.zs_1 = this_9;
-    this.us_1 = GroupCommandArr(false, [this.vs_1, MainPassCommandArr(true, [this.ws_1, this.zs_1])]);
-    this.commands = mutableListOf([this.ts_1, this.us_1]);
+    tmp_41.jt_1 = this_9;
+    this.et_1 = GroupCommandArr(false, [this.ft_1, MainPassCommandArr(true, [this.gt_1, this.jt_1])]);
+    this.commands = mutableListOf([this.dt_1, this.et_1]);
   }
-  protoOf(CartoonPlanesScene).sm = function () {
+  protoOf(CartoonPlanesScene).wm = function () {
     return this.settings;
   };
-  protoOf(CartoonPlanesScene).in = function () {
+  protoOf(CartoonPlanesScene).mn = function () {
     return this.PIf;
   };
-  protoOf(CartoonPlanesScene).ku = function (_set____db54di) {
+  protoOf(CartoonPlanesScene).uu = function (_set____db54di) {
     this.texSky = _set____db54di;
   };
-  protoOf(CartoonPlanesScene).lu = function () {
+  protoOf(CartoonPlanesScene).vu = function () {
     return this.texSky;
   };
-  protoOf(CartoonPlanesScene).mu = function (_set____db54di) {
+  protoOf(CartoonPlanesScene).wu = function (_set____db54di) {
     this.texSky1 = _set____db54di;
   };
-  protoOf(CartoonPlanesScene).nu = function () {
+  protoOf(CartoonPlanesScene).xu = function () {
     return this.texSky1;
   };
-  protoOf(CartoonPlanesScene).ou = function (_set____db54di) {
+  protoOf(CartoonPlanesScene).yu = function (_set____db54di) {
     this.texSky2 = _set____db54di;
   };
-  protoOf(CartoonPlanesScene).pu = function () {
+  protoOf(CartoonPlanesScene).zu = function () {
     return this.texSky2;
   };
-  protoOf(CartoonPlanesScene).qu = function (_set____db54di) {
+  protoOf(CartoonPlanesScene).av = function (_set____db54di) {
     this.meshPlane1 = _set____db54di;
   };
-  protoOf(CartoonPlanesScene).ru = function () {
+  protoOf(CartoonPlanesScene).bv = function () {
     return this.meshPlane1;
   };
-  protoOf(CartoonPlanesScene).su = function (_set____db54di) {
+  protoOf(CartoonPlanesScene).cv = function (_set____db54di) {
     this.meshPlane2 = _set____db54di;
   };
-  protoOf(CartoonPlanesScene).tu = function () {
+  protoOf(CartoonPlanesScene).dv = function () {
     return this.meshPlane2;
   };
-  protoOf(CartoonPlanesScene).uu = function (_set____db54di) {
+  protoOf(CartoonPlanesScene).ev = function (_set____db54di) {
     this.texPlane1 = _set____db54di;
   };
-  protoOf(CartoonPlanesScene).vu = function () {
+  protoOf(CartoonPlanesScene).fv = function () {
     return this.texPlane1;
   };
-  protoOf(CartoonPlanesScene).wu = function (_set____db54di) {
+  protoOf(CartoonPlanesScene).gv = function (_set____db54di) {
     this.texPlane2 = _set____db54di;
   };
-  protoOf(CartoonPlanesScene).xu = function () {
+  protoOf(CartoonPlanesScene).hv = function () {
     return this.texPlane2;
   };
   protoOf(CartoonPlanesScene).updateTimers = function (time) {
-    this.ms_1.mi(time);
+    this.ws_1.qi(time);
     animate_0(this);
     protoOf(Scene).updateTimers.call(this, time);
   };
@@ -3550,38 +3621,38 @@
     randomizeCamera_0(this);
   };
   protoOf(CartoonPlanesScene).changeSky = function () {
-    this.ms_1.ki(Timers_SwapSky_getInstance(), 0.0);
+    this.ws_1.oi(Timers_SwapSky_getInstance(), 0.0);
   };
   protoOf(CartoonPlanesScene).preventChangeSky = function () {
-    this.ms_1.ki(Timers_SwapSky_getInstance(), 1.0);
+    this.ws_1.oi(Timers_SwapSky_getInstance(), 1.0);
   };
   protoOf(CartoonPlanesScene).randomizePropTexture = function () {
     var id = Default_getInstance().u5(2, 6);
-    Textures_getInstance_1().cu_1.fileName = 'prop/' + id;
+    Textures_getInstance_1().mu_1.fileName = 'prop/' + id;
   };
   protoOf(CartoonPlanesScene).setPropTexture = function (id) {
-    Textures_getInstance_1().cu_1.fileName = 'prop/' + id;
+    Textures_getInstance_1().mu_1.fileName = 'prop/' + id;
   };
   protoOf(CartoonPlanesScene).canChangePlanes = function () {
-    return this.ms_1.ji(Timers_SwapPlanes_getInstance()) === 1.0;
+    return this.ws_1.ni(Timers_SwapPlanes_getInstance()) === 1.0;
   };
   protoOf(CartoonPlanesScene).canChangeSky = function () {
-    return this.ms_1.ji(Timers_SwapSky_getInstance()) === 1.0;
+    return this.ws_1.ni(Timers_SwapSky_getInstance()) === 1.0;
   };
   protoOf(CartoonPlanesScene).changePlanes = function (plane1, plane2) {
     this.settings.currentPlane = plane1;
     this.settings.nextPlane = plane2;
-    Meshes_getInstance_1().cs_1.fileName = 'plane' + plane1;
-    Meshes_getInstance_1().ds_1.fileName = 'plane' + plane2;
-    Textures_getInstance_1().au_1.fileName = 'plane' + plane1;
-    Textures_getInstance_1().bu_1.fileName = 'plane' + plane2;
+    Meshes_getInstance_1().ms_1.fileName = 'plane' + plane1;
+    Meshes_getInstance_1().ns_1.fileName = 'plane' + plane2;
+    Textures_getInstance_1().ku_1.fileName = 'plane' + plane1;
+    Textures_getInstance_1().lu_1.fileName = 'plane' + plane2;
     if (!(plane1 === plane2)) {
-      this.ms_1.ki(Timers_SwapPlanes_getInstance(), 0.0);
+      this.ws_1.oi(Timers_SwapPlanes_getInstance(), 0.0);
     } else {
       if (Default_getInstance().v5() > 0.75) {
-        this.ms_1.ki(Timers_SwapPlanes_getInstance(), 0.0);
+        this.ws_1.oi(Timers_SwapPlanes_getInstance(), 0.0);
       } else {
-        this.ms_1.ki(Timers_SwapPlanes_getInstance(), 1.0);
+        this.ws_1.oi(Timers_SwapPlanes_getInstance(), 1.0);
       }
     }
     animate_0(this);
@@ -3629,58 +3700,58 @@
     this.nextPlane = 1;
     this.timeOfDay = TimeOfDay_Day_getInstance_1();
   }
-  protoOf(CartoonPlanesSettings).ln = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).pn = function (_set____db54di) {
     this.cameraPeriod = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).mn = function () {
+  protoOf(CartoonPlanesSettings).qn = function () {
     return this.cameraPeriod;
   };
-  protoOf(CartoonPlanesSettings).nn = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).rn = function (_set____db54di) {
     this.vignette = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).on = function () {
+  protoOf(CartoonPlanesSettings).sn = function () {
     return this.vignette;
   };
-  protoOf(CartoonPlanesSettings).pn = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).tn = function (_set____db54di) {
     this.blurred = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).qn = function () {
+  protoOf(CartoonPlanesSettings).un = function () {
     return this.blurred;
   };
-  protoOf(CartoonPlanesSettings).rn = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).vn = function (_set____db54di) {
     this.autoSwitchCameras = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).sn = function () {
+  protoOf(CartoonPlanesSettings).wn = function () {
     return this.autoSwitchCameras;
   };
-  protoOf(CartoonPlanesSettings).xn = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).bo = function (_set____db54di) {
     this.lowQuality = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).yn = function () {
+  protoOf(CartoonPlanesSettings).co = function () {
     return this.lowQuality;
   };
-  protoOf(CartoonPlanesSettings).vn = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).zn = function (_set____db54di) {
     this.clock = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).wn = function () {
+  protoOf(CartoonPlanesSettings).ao = function () {
     return this.clock;
   };
-  protoOf(CartoonPlanesSettings).av = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).kv = function (_set____db54di) {
     this.currentPlane = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).bv = function () {
+  protoOf(CartoonPlanesSettings).lv = function () {
     return this.currentPlane;
   };
-  protoOf(CartoonPlanesSettings).cv = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).mv = function (_set____db54di) {
     this.nextPlane = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).dv = function () {
+  protoOf(CartoonPlanesSettings).nv = function () {
     return this.nextPlane;
   };
-  protoOf(CartoonPlanesSettings).ev = function (_set____db54di) {
+  protoOf(CartoonPlanesSettings).ov = function (_set____db54di) {
     this.timeOfDay = _set____db54di;
   };
-  protoOf(CartoonPlanesSettings).un = function () {
+  protoOf(CartoonPlanesSettings).yn = function () {
     return this.timeOfDay;
   };
   function TimeOfDay_Day_getInstance_1() {
@@ -3697,11 +3768,11 @@
   }
   function Shaders_1() {
     Shaders_instance_1 = this;
-    this.eu_1 = new Shader('Diffuse');
-    this.fu_1 = new Shader('SkyTransition');
-    this.gu_1 = new Shader('Outline');
-    this.hu_1 = new Shader('Prop');
-    this.iu_1 = mutableListOf([this.eu_1, this.fu_1, this.gu_1, this.hu_1]);
+    this.ou_1 = new Shader('Diffuse');
+    this.pu_1 = new Shader('SkyTransition');
+    this.qu_1 = new Shader('Outline');
+    this.ru_1 = new Shader('Prop');
+    this.su_1 = mutableListOf([this.ou_1, this.pu_1, this.qu_1, this.ru_1]);
   }
   var Shaders_instance_1;
   function Shaders_getInstance_1() {
@@ -3722,7 +3793,7 @@
     this_0.minFilter = TextureFiltering_LINEAR_getInstance();
     this_0.magFilter = TextureFiltering_LINEAR_getInstance();
     this_0.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp.wt_1 = this_0;
+    tmp.gu_1 = this_0;
     var tmp_0 = this;
     // Inline function 'kotlin.apply' call
     var this_1 = new Texture();
@@ -3734,7 +3805,7 @@
     this_1.minFilter = TextureFiltering_LINEAR_getInstance();
     this_1.magFilter = TextureFiltering_LINEAR_getInstance();
     this_1.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_0.xt_1 = this_1;
+    tmp_0.hu_1 = this_1;
     var tmp_1 = this;
     // Inline function 'kotlin.apply' call
     var this_2 = new Texture();
@@ -3746,7 +3817,7 @@
     this_2.minFilter = TextureFiltering_LINEAR_getInstance();
     this_2.magFilter = TextureFiltering_LINEAR_getInstance();
     this_2.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_1.yt_1 = this_2;
+    tmp_1.iu_1 = this_2;
     var tmp_2 = this;
     // Inline function 'kotlin.apply' call
     var this_3 = new Texture();
@@ -3758,7 +3829,7 @@
     this_3.minFilter = TextureFiltering_LINEAR_getInstance();
     this_3.magFilter = TextureFiltering_LINEAR_getInstance();
     this_3.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp_2.zt_1 = this_3;
+    tmp_2.ju_1 = this_3;
     var tmp_3 = this;
     // Inline function 'kotlin.apply' call
     var this_4 = new Texture();
@@ -3771,7 +3842,7 @@
     this_4.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_4.wrapping = TextureWrapping_REPEAT_getInstance();
     this_4.mipmaps = 10;
-    tmp_3.au_1 = this_4;
+    tmp_3.ku_1 = this_4;
     var tmp_4 = this;
     // Inline function 'kotlin.apply' call
     var this_5 = new Texture();
@@ -3784,7 +3855,7 @@
     this_5.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_5.wrapping = TextureWrapping_REPEAT_getInstance();
     this_5.mipmaps = 10;
-    tmp_4.bu_1 = this_5;
+    tmp_4.lu_1 = this_5;
     var tmp_5 = this;
     // Inline function 'kotlin.apply' call
     var this_6 = new Texture();
@@ -3797,8 +3868,8 @@
     this_6.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_6.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_6.mipmaps = 8;
-    tmp_5.cu_1 = this_6;
-    this.du_1 = mutableListOf([this.wt_1, this.zt_1, this.xt_1, this.yt_1, this.au_1, this.bu_1, this.cu_1]);
+    tmp_5.mu_1 = this_6;
+    this.nu_1 = mutableListOf([this.gu_1, this.ju_1, this.hu_1, this.iu_1, this.ku_1, this.lu_1, this.mu_1]);
   }
   var Textures_instance_1;
   function Textures_getInstance_1() {
@@ -3815,17 +3886,17 @@
   var Timers_SwapPlanes_instance;
   var Timers_SwapSky_instance;
   function Companion_1() {
-    this.vt_1 = 27800.0;
+    this.fu_1 = 27800.0;
   }
-  protoOf(Companion_1).ju = function (timers) {
-    timers.hi(Timers_PropRotate_getInstance(), 741000.0);
-    timers.hi(Timers_PropFlicker_getInstance(), 10.0);
-    timers.hi(Timers_PlaneWonder1_getInstance(), 25000.0);
-    timers.hi(Timers_PlaneWonder2_getInstance(), 6000.0);
-    timers.hi(Timers_PlaneBanking_getInstance(), 22800.0);
-    timers.ii(Timers_Camera_getInstance_0(), this.vt_1, false);
-    timers.ii(Timers_SwapPlanes_getInstance(), 4000.0, false);
-    timers.ii(Timers_SwapSky_getInstance(), 3000.0, false);
+  protoOf(Companion_1).tu = function (timers) {
+    timers.li(Timers_PropRotate_getInstance(), 741000.0);
+    timers.li(Timers_PropFlicker_getInstance(), 10.0);
+    timers.li(Timers_PlaneWonder1_getInstance(), 25000.0);
+    timers.li(Timers_PlaneWonder2_getInstance(), 6000.0);
+    timers.li(Timers_PlaneBanking_getInstance(), 22800.0);
+    timers.mi(Timers_Camera_getInstance_0(), this.fu_1, false);
+    timers.mi(Timers_SwapPlanes_getInstance(), 4000.0, false);
+    timers.mi(Timers_SwapSky_getInstance(), 3000.0, false);
   };
   var Companion_instance_1;
   function Companion_getInstance_1() {
@@ -3886,7 +3957,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.fv_1 = [InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(4.84, -644.785, -25.362), new Vec3(4.673, -1.741, 4.447)), new CameraPosition(new Vec3(2.56, -126.0, -8.595), new Vec3(2.533, -1.741, 3.993)), 1.0, '', false), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(-137.0, -115.0, -12.0), new Vec3(3.485, -0.679, -16.321)), new CameraPosition(new Vec3(138.0, -110.0, 20.0), new Vec3(3.485, -0.679, -16.321)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(208.0, -208.0, -21.0), new Vec3(0.0, 0.0, 0.0)), new CameraPosition(new Vec3(265.0, 77.0, 22.0), new Vec3(0.0, 0.0, -35.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(347.0, 73.0, 15.0), new Vec3(161.0, -220.0, -19.0)), new CameraPosition(new Vec3(69.0, 365.0, 15.0), new Vec3(-100.0, 162.0, -18.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(147.0, 212.0, 0.0), new Vec3(20.0, -10.0, 7.0)), new CameraPosition(new Vec3(-146.0, 182.0, 30.0), new Vec3(-20.0, 4.0, -35.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(-244.0, 139.0, 77.0), new Vec3(-3.0, -27.0, -37.0)), new CameraPosition(new Vec3(-151.0, -357.0, 11.0), new Vec3(20.0, -45.0, 0.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(-265.0, -158.0, -20.0), new Vec3(0.0, 0.0, 32.0)), new CameraPosition(new Vec3(-95.0, -70.0, 0.0), new Vec3(9.0, -13.0, -10.0)), 1.0, '', false)];
+    tmp.pv_1 = [InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(4.84, -644.785, -25.362), new Vec3(4.673, -1.741, 4.447)), new CameraPosition(new Vec3(2.56, -126.0, -8.595), new Vec3(2.533, -1.741, 3.993)), 1.0, '', false), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(-137.0, -115.0, -12.0), new Vec3(3.485, -0.679, -16.321)), new CameraPosition(new Vec3(138.0, -110.0, 20.0), new Vec3(3.485, -0.679, -16.321)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(208.0, -208.0, -21.0), new Vec3(0.0, 0.0, 0.0)), new CameraPosition(new Vec3(265.0, 77.0, 22.0), new Vec3(0.0, 0.0, -35.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(347.0, 73.0, 15.0), new Vec3(161.0, -220.0, -19.0)), new CameraPosition(new Vec3(69.0, 365.0, 15.0), new Vec3(-100.0, 162.0, -18.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(147.0, 212.0, 0.0), new Vec3(20.0, -10.0, 7.0)), new CameraPosition(new Vec3(-146.0, 182.0, 30.0), new Vec3(-20.0, 4.0, -35.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(-244.0, 139.0, 77.0), new Vec3(-3.0, -27.0, -37.0)), new CameraPosition(new Vec3(-151.0, -357.0, 11.0), new Vec3(20.0, -45.0, 0.0)), 1.0, '', true), InteractiveCameraPositionPair_init_$Create$(new CameraPosition(new Vec3(-265.0, -158.0, -20.0), new Vec3(0.0, 0.0, 32.0)), new CameraPosition(new Vec3(-95.0, -70.0, 0.0), new Vec3(9.0, -13.0, -10.0)), 1.0, '', false)];
   }
   var Cameras_instance_2;
   function Cameras_getInstance_2() {
@@ -3897,29 +3968,29 @@
   function InteractiveCameraPositionPair_init_$Init$(start, end, speedMultiplier, name, interactive, $this) {
     CameraPositionPair.call($this, start, end, speedMultiplier);
     InteractiveCameraPositionPair.call($this);
-    $this.jv_1 = name;
-    $this.kv_1 = interactive;
+    $this.tv_1 = name;
+    $this.uv_1 = interactive;
     return $this;
   }
   function InteractiveCameraPositionPair_init_$Create$(start, end, speedMultiplier, name, interactive) {
     return InteractiveCameraPositionPair_init_$Init$(start, end, speedMultiplier, name, interactive, objectCreate(protoOf(InteractiveCameraPositionPair)));
   }
   function InteractiveCameraPositionPair() {
-    this.jv_1 = '';
-    this.kv_1 = false;
+    this.tv_1 = '';
+    this.uv_1 = false;
   }
   function Companion_2() {
     Companion_instance_2 = this;
-    this.lv_1 = new Vec4(0.55859375, 0.7578125, 0.87890625, 1.0);
+    this.vv_1 = new Vec4(0.55859375, 0.7578125, 0.87890625, 1.0);
     var tmp = this;
     // Inline function 'kotlin.apply' call
     var this_0 = new ClearColorCommand();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.example.Companion.clearColorCommand.<anonymous>' call
-    this_0.color = Companion_getInstance_2().lv_1;
+    this_0.color = Companion_getInstance_2().vv_1;
     this_0.name = 'clear color';
     this_0.enabled = true;
-    tmp.mv_1 = this_0;
+    tmp.wv_1 = this_0;
   }
   var Companion_instance_2;
   function Companion_getInstance_2() {
@@ -3931,10 +4002,10 @@
     Companion_getInstance_2();
     Scene.call(this);
     this.timers = new TimersMap();
-    this.sv_1 = 6.2831855;
-    this.tv_1 = 1000000.0;
-    this.uv_1 = 11000.0;
-    this.vv_1 = 1100.0;
+    this.cw_1 = 6.2831855;
+    this.dw_1 = 1000000.0;
+    this.ew_1 = 11000.0;
+    this.fw_1 = 1100.0;
     this.FOV_TRANSITION = 20.0;
     this.arr1 = new Float32Array(16);
     var tmp = this;
@@ -4031,30 +4102,30 @@
     tmp_25.texFp16 = this_1;
     this.uniformsAnimated = listOf([UniformFloatValueWithArray(new Float32Array(16)), UniformFloatValueWithArray(new Float32Array(4)), UniformIntValueWithArray(new Int32Array(1)), UniformFloatValueWithArray(new Float32Array(1)), new UniformTextureValue(this.texFp16), UniformFloatValueWithArray(new Float32Array(4))]);
     this.animationAnimal = new TextureAnimationChunked(362, 362, 18);
-    this.wv_1 = 25000.0;
-    this.xv_1 = 34000.0;
-    this.yv_1 = 250000.0;
-    this.zv_1 = 300000.0;
-    this.aw_1 = 2500.0;
-    this.bw_1 = 1000.0;
-    this.cw_1 = 900.0;
-    this.dw_1 = 6000.0;
-    this.ew_1 = 1000.0;
+    this.gw_1 = 25000.0;
+    this.hw_1 = 34000.0;
+    this.iw_1 = 250000.0;
+    this.jw_1 = 300000.0;
+    this.kw_1 = 2500.0;
+    this.lw_1 = 1000.0;
+    this.mw_1 = 900.0;
+    this.nw_1 = 6000.0;
+    this.ow_1 = 1000.0;
     this.Z_NEAR = 50.0;
     this.Z_FAR = 10000.0;
     this.FOV_LANDSCAPE = 35.0;
     this.FOV_PORTRAIT = 60.0;
-    this.timers.hi(Timers_Clouds1_getInstance(), this.yv_1);
-    this.timers.hi(Timers_Clouds2_getInstance(), this.zv_1);
-    this.timers.hi(Timers_Water_getInstance_1(), this.aw_1);
-    this.timers.hi(Timers_BirdWings1_getInstance_0(), this.bw_1);
-    this.timers.hi(Timers_BirdWings2_getInstance_0(), this.cw_1);
-    this.timers.hi(Timers_AnimalAnimation_getInstance(), this.dw_1);
-    this.timers.hi(Timers_ShootingStar_getInstance(), this.ew_1);
-    this.timers.hi(Timers_BirdsFly_getInstance_0(), this.wv_1);
-    this.timers.hi(Timers_Camera_getInstance_1(), this.xv_1);
-    this.cameraAnimator = new CameraPathAnimator(this.tv_1, this.uv_1, this.vv_1, true);
-    this.cameraAnimator.setCameras(Cameras_getInstance_2().fv_1);
+    this.timers.li(Timers_Clouds1_getInstance(), this.iw_1);
+    this.timers.li(Timers_Clouds2_getInstance(), this.jw_1);
+    this.timers.li(Timers_Water_getInstance_1(), this.kw_1);
+    this.timers.li(Timers_BirdWings1_getInstance_0(), this.lw_1);
+    this.timers.li(Timers_BirdWings2_getInstance_0(), this.mw_1);
+    this.timers.li(Timers_AnimalAnimation_getInstance(), this.nw_1);
+    this.timers.li(Timers_ShootingStar_getInstance(), this.ow_1);
+    this.timers.li(Timers_BirdsFly_getInstance_0(), this.gw_1);
+    this.timers.li(Timers_Camera_getInstance_1(), this.hw_1);
+    this.cameraAnimator = new CameraPathAnimator(this.dw_1, this.ew_1, this.fw_1, true);
+    this.cameraAnimator.setCameras(Cameras_getInstance_2().pv_1);
     this.cameraAnimator.minDurationCoefficient = 2.0;
     // Inline function 'kotlin.apply' call
     var this_2 = MeshConstructor1();
@@ -4178,7 +4249,7 @@
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.example.ExampleScene.<anonymous>' call
     var tmp_35 = this_20;
-    var tmp_36 = Companion_getInstance_2().mv_1;
+    var tmp_36 = Companion_getInstance_2().wv_1;
     // Inline function 'kotlin.apply' call
     var this_21 = new ClearCommand();
     // Inline function 'kotlin.contracts.contract' call
@@ -4271,80 +4342,80 @@
     this_32.color1 = new Vec4(1.0, 1.0, 1.0, 1.0);
     this.commands = mutableListOf([tmp_34, tmp_37, tmp_38, tmp_39, tmp_40, tmp_41, tmp_42, tmp_44, tmp_46, tmp_50, tmp_52, tmp_53, this_32]);
   }
-  protoOf(ExampleScene).pm = function () {
+  protoOf(ExampleScene).tm = function () {
     return this.timers;
   };
-  protoOf(ExampleScene).qm = function () {
+  protoOf(ExampleScene).um = function () {
     return this.cameraAnimator;
   };
-  protoOf(ExampleScene).rm = function () {
+  protoOf(ExampleScene).vm = function () {
     return this.FOV_TRANSITION;
   };
-  protoOf(ExampleScene).fw = function () {
+  protoOf(ExampleScene).pw = function () {
     return this.arr1;
   };
-  protoOf(ExampleScene).gw = function () {
+  protoOf(ExampleScene).qw = function () {
     return this.arr2;
   };
-  protoOf(ExampleScene).hw = function () {
+  protoOf(ExampleScene).rw = function () {
     return this.arr3;
   };
-  protoOf(ExampleScene).iw = function (_set____db54di) {
+  protoOf(ExampleScene).sw = function (_set____db54di) {
     this.arr4 = _set____db54di;
   };
-  protoOf(ExampleScene).jw = function () {
+  protoOf(ExampleScene).tw = function () {
     return this.arr4;
   };
-  protoOf(ExampleScene).kw = function () {
+  protoOf(ExampleScene).uw = function () {
     return this.map8;
   };
-  protoOf(ExampleScene).lw = function () {
+  protoOf(ExampleScene).vw = function () {
     return this.uniformsMountainsBright;
   };
-  protoOf(ExampleScene).mw = function () {
+  protoOf(ExampleScene).ww = function () {
     return this.uniformsMountainsDark;
   };
-  protoOf(ExampleScene).nw = function () {
+  protoOf(ExampleScene).xw = function () {
     return this.uniformsCenterRockBright;
   };
-  protoOf(ExampleScene).ow = function () {
+  protoOf(ExampleScene).yw = function () {
     return this.uniformsCenterRockDark;
   };
-  protoOf(ExampleScene).pw = function () {
+  protoOf(ExampleScene).zw = function () {
     return this.uniformsHills;
   };
-  protoOf(ExampleScene).qw = function () {
+  protoOf(ExampleScene).ax = function () {
     return this.uniformsGround1;
   };
-  protoOf(ExampleScene).rw = function () {
+  protoOf(ExampleScene).bx = function () {
     return this.uniformsGround2;
   };
-  protoOf(ExampleScene).sw = function () {
+  protoOf(ExampleScene).cx = function () {
     return this.uniformsWater;
   };
-  protoOf(ExampleScene).tw = function () {
+  protoOf(ExampleScene).dx = function () {
     return this.uniformsWaterHighlights;
   };
-  protoOf(ExampleScene).uw = function () {
+  protoOf(ExampleScene).ex = function () {
     return this.uniformsSkyObjects;
   };
-  protoOf(ExampleScene).vw = function () {
+  protoOf(ExampleScene).fx = function () {
     return this.texStatic;
   };
-  protoOf(ExampleScene).ww = function () {
+  protoOf(ExampleScene).gx = function () {
     return this.uniformsDiffuseTest;
   };
-  protoOf(ExampleScene).xw = function () {
+  protoOf(ExampleScene).hx = function () {
     return this.texFp16;
   };
-  protoOf(ExampleScene).yw = function () {
+  protoOf(ExampleScene).ix = function () {
     return this.uniformsAnimated;
   };
-  protoOf(ExampleScene).zw = function () {
+  protoOf(ExampleScene).jx = function () {
     return this.animationAnimal;
   };
   protoOf(ExampleScene).updateTimers = function (time) {
-    this.timers.mi(time);
+    this.timers.qi(time);
     this.cameraAnimator.animate(time);
     this.animate();
     protoOf(Scene).updateTimers.call(this, time);
@@ -4360,20 +4431,20 @@
     var eye = cameraPositionInterpolator.cameraPosition;
     var lookat = cameraPositionInterpolator.cameraRotation;
     if (!this.useExternalViewMatrix) {
-      Matrix_getInstance().zg(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
+      Matrix_getInstance().dh(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
     }
     this.updateMeshTransformations(this.commands);
     var tmp = this.uniformsDiffuseTest.s(0);
     this.setMvpUniform(tmp instanceof UniformFloatValue ? tmp : THROW_CCE(), 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 8.0, 8.0);
     // Inline function 'kotlin.math.min' call
-    var a = this.timers.ji(Timers_AnimalAnimation_getInstance()) * 1.1;
+    var a = this.timers.ni(Timers_AnimalAnimation_getInstance()) * 1.1;
     var timer = Math.min(a, 1.0);
     this.setMvpUniform(this.uniformsAnimated.s(0), 1.554, -0.796, -2.327, 0.0, 0.0, 0.0, 0.4, 0.4, 0.4);
     setUniform(this.uniformsAnimated.s(1), 0.1640625, 0.1484375, 0.1171875, 1.0);
     setUniform_2(this.uniformsAnimated.s(2), this.animationAnimal.mb_1);
     setUniform_1(this.uniformsAnimated.s(3), 1.0 / this.animationAnimal.rb_1);
     setUniform(this.uniformsAnimated.s(5), this.animationAnimal.mb_1, this.animationAnimal.ob_1, this.animationAnimal.tb(timer), this.animationAnimal.sb_1);
-    setUniform_1(this.uniformsWaterHighlights.s(2), this.timers.ji(Timers_Water_getInstance_1()) * get_PI() * 2.0);
+    setUniform_1(this.uniformsWaterHighlights.s(2), this.timers.ni(Timers_Water_getInstance_1()) * get_PI() * 2.0);
   };
   var Timers_Clouds1_instance;
   var Timers_Clouds2_instance;
@@ -4444,7 +4515,7 @@
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.ax_1 = [new CameraPositionPair(new CameraPosition(new Vec3(182.522, 451.945, 100.426994), new Vec3(95.628395, -240.9175, 179.154)), new CameraPosition(new Vec3(-343.592, 309.3397, 121.102), new Vec3(-48.3742, -284.307, 183.019)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(466.2929, -304.8695, 30.390701), new Vec3(-343.613, 27.9626, 220.6635)), new CameraPosition(new Vec3(563.2295, 19.3432, 24.534698), new Vec3(-218.45789, 183.19339, 193.65689)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-17.8381, -512.5913, 60.937397), new Vec3(-276.7568, 195.7981, 179.154)), new CameraPosition(new Vec3(502.0434, -225.924, 73.5525), new Vec3(-59.8787, 269.7749, 205.40071)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-620.36957, -208.8635, 52.049202), new Vec3(216.4319, -70.2999, 243.01979)), new CameraPosition(new Vec3(-536.29553, -347.5239, 66.9248), new Vec3(245.4221, 141.5389, 220.25499)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-405.834, 809.1909, 140.3126), new Vec3(195.42691, -167.5669, 264.4845)), new CameraPosition(new Vec3(-586.92596, -130.8418, 24.389801), new Vec3(195.42691, -167.5669, 220.6635)), 1.0)];
+    tmp.kx_1 = [new CameraPositionPair(new CameraPosition(new Vec3(182.522, 451.945, 100.426994), new Vec3(95.628395, -240.9175, 179.154)), new CameraPosition(new Vec3(-343.592, 309.3397, 121.102), new Vec3(-48.3742, -284.307, 183.019)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(466.2929, -304.8695, 30.390701), new Vec3(-343.613, 27.9626, 220.6635)), new CameraPosition(new Vec3(563.2295, 19.3432, 24.534698), new Vec3(-218.45789, 183.19339, 193.65689)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-17.8381, -512.5913, 60.937397), new Vec3(-276.7568, 195.7981, 179.154)), new CameraPosition(new Vec3(502.0434, -225.924, 73.5525), new Vec3(-59.8787, 269.7749, 205.40071)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-620.36957, -208.8635, 52.049202), new Vec3(216.4319, -70.2999, 243.01979)), new CameraPosition(new Vec3(-536.29553, -347.5239, 66.9248), new Vec3(245.4221, 141.5389, 220.25499)), 1.0), new CameraPositionPair(new CameraPosition(new Vec3(-405.834, 809.1909, 140.3126), new Vec3(195.42691, -167.5669, 264.4845)), new CameraPosition(new Vec3(-586.92596, -130.8418, 24.389801), new Vec3(195.42691, -167.5669, 220.6635)), 1.0)];
   }
   var Cameras_instance_3;
   function Cameras_getInstance_3() {
@@ -4454,22 +4525,22 @@
   }
   function Meshes_2() {
     Meshes_instance_2 = this;
-    this.bx_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
-    this.cx_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0)), 8);
-    this.dx_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
-    this.ex_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6), new MeshAttribute(AttributeType_NORMAL_getInstance(), VertexFormat_HALF3_getInstance(), 10)]), 16);
-    this.fx_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_UBYTE2_NORMALIZED_getInstance(), 6)]), 8);
-    this.gx_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
-    this.hx_1 = MeshConstructor2('sky', this.bx_1);
-    this.ix_1 = MeshConstructor2('stars', this.dx_1);
-    this.jx_1 = MeshConstructor2('building-1', this.ex_1);
-    this.kx_1 = MeshConstructor2('buildings-distant', this.fx_1);
-    this.lx_1 = MeshConstructor2('red-lamps', this.cx_1);
-    this.mx_1 = MeshConstructor2('islands', this.cx_1);
-    this.nx_1 = MeshConstructor2('water', this.cx_1);
-    this.ox_1 = MeshConstructor2('neon-signs', this.fx_1);
-    this.px_1 = MeshConstructor2('red-lights', this.gx_1);
-    this.qx_1 = mutableListOf([this.hx_1, this.ix_1, this.jx_1, this.kx_1, this.lx_1, this.mx_1, this.nx_1, this.ox_1, this.px_1]);
+    this.lx_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6)]), 12);
+    this.mx_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0)), 8);
+    this.nx_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
+    this.ox_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_HALF2_getInstance(), 6), new MeshAttribute(AttributeType_NORMAL_getInstance(), VertexFormat_HALF3_getInstance(), 10)]), 16);
+    this.px_1 = new MeshAttributes(listOf([new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_HALF3_getInstance(), 0), new MeshAttribute(AttributeType_UV0_getInstance(), VertexFormat_UBYTE2_NORMALIZED_getInstance(), 6)]), 8);
+    this.qx_1 = new MeshAttributes(listOf_0(new MeshAttribute(AttributeType_VERTEX_getInstance(), VertexFormat_FLOAT3_getInstance(), 0)), 12);
+    this.rx_1 = MeshConstructor2('sky', this.lx_1);
+    this.sx_1 = MeshConstructor2('stars', this.nx_1);
+    this.tx_1 = MeshConstructor2('building-1', this.ox_1);
+    this.ux_1 = MeshConstructor2('buildings-distant', this.px_1);
+    this.vx_1 = MeshConstructor2('red-lamps', this.mx_1);
+    this.wx_1 = MeshConstructor2('islands', this.mx_1);
+    this.xx_1 = MeshConstructor2('water', this.mx_1);
+    this.yx_1 = MeshConstructor2('neon-signs', this.px_1);
+    this.zx_1 = MeshConstructor2('red-lights', this.qx_1);
+    this.ay_1 = mutableListOf([this.rx_1, this.sx_1, this.tx_1, this.ux_1, this.vx_1, this.wx_1, this.xx_1, this.yx_1, this.zx_1]);
   }
   var Meshes_instance_2;
   function Meshes_getInstance_2() {
@@ -4479,45 +4550,45 @@
   }
   function SkyscrapersScene() {
     Scene.call(this);
-    this.wx_1 = new TimersMap();
-    this.xx_1 = 1000000.0;
-    this.yx_1 = 29000.0;
-    this.zx_1 = 2600.0;
-    this.jy_1 = mutableListOf([get_HINT_VRS_2X2()]);
-    this.ky_1 = 100.0;
+    this.gy_1 = new TimersMap();
+    this.hy_1 = 1000000.0;
+    this.iy_1 = 29000.0;
+    this.jy_1 = 2600.0;
+    this.ty_1 = mutableListOf([get_HINT_VRS_2X2()]);
+    this.uy_1 = 100.0;
     this.PIf = 3.1415927;
     var tmp = this;
     // Inline function 'kotlin.floatArrayOf' call
-    tmp.ly_1 = new Float32Array([0.145, 0.137, 0.141, 1.0]);
-    this.my_1 = 2300.0;
-    this.ny_1 = 2500.0;
+    tmp.vy_1 = new Float32Array([0.145, 0.137, 0.141, 1.0]);
+    this.wy_1 = 2300.0;
+    this.xy_1 = 2500.0;
     var tmp_0 = this;
     // Inline function 'kotlin.arrayOf' call
-    var tmp_1 = UniformFloatValueWithArray(this.ly_1);
+    var tmp_1 = UniformFloatValueWithArray(this.vy_1);
     // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$1 = new Float32Array([this.my_1]);
+    var tmp$ret$1 = new Float32Array([this.wy_1]);
     var tmp_2 = UniformFloatValueWithArray(tmp$ret$1);
     // Inline function 'kotlin.floatArrayOf' call
-    var tmp$ret$2 = new Float32Array([this.ny_1]);
+    var tmp$ret$2 = new Float32Array([this.xy_1]);
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp_0.oy_1 = [tmp_1, tmp_2, UniformFloatValueWithArray(tmp$ret$2)];
-    this.py_1 = 990.0;
+    tmp_0.yy_1 = [tmp_1, tmp_2, UniformFloatValueWithArray(tmp$ret$2)];
+    this.zy_1 = 990.0;
     var tmp_3 = this;
     // Inline function 'kotlin.arrayOf' call
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$6 = new Float32Array([3.0]);
     var tmp_4 = UniformFloatValueWithArray(tmp$ret$6);
-    var tmp_5 = new UniformTextureValue(Textures_getInstance_2().fz_1);
+    var tmp_5 = new UniformTextureValue(Textures_getInstance_2().pz_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$7 = new Float32Array([1.2, 1.2, 1.2, 1.0]);
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp_3.wy_1 = [tmp_4, tmp_5, UniformFloatValueWithArray(tmp$ret$7)];
-    this.meshes = Meshes_getInstance_2().qx_1;
-    this.textures = Textures_getInstance_2().hz_1;
-    this.shaders = Shaders_getInstance_2().qz_1;
-    Companion_instance_3.rz(this.wx_1);
+    tmp_3.gz_1 = [tmp_4, tmp_5, UniformFloatValueWithArray(tmp$ret$7)];
+    this.meshes = Meshes_getInstance_2().ay_1;
+    this.textures = Textures_getInstance_2().rz_1;
+    this.shaders = Shaders_getInstance_2().a10_1;
+    Companion_instance_3.b10(this.gy_1);
     this.Z_NEAR = 100.0;
     this.Z_FAR = 20000.0;
     this.FOV_LANDSCAPE = 25.0;
@@ -4534,8 +4605,8 @@
     this_0.lowQuality = false;
     this_0.clock = false;
     tmp_6.settings = this_0;
-    this.cameraAnimator = new CameraPathAnimator(this.xx_1, this.yx_1, this.zx_1, true);
-    this.cameraAnimator.setCameras(Cameras_getInstance_3().ax_1);
+    this.cameraAnimator = new CameraPathAnimator(this.hy_1, this.iy_1, this.jy_1, true);
+    this.cameraAnimator.setCameras(Cameras_getInstance_3().kx_1);
     this.cameraAnimator.minDurationCoefficient = this.settings.cameraPeriod;
     var tmp_7 = this;
     // Inline function 'kotlin.apply' call
@@ -4545,7 +4616,7 @@
     this_1.color = new Vec4(0.0, 0.0392156862745098, 0.0784313725490196, 1.0);
     this_1.name = 'clear color';
     this_1.enabled = true;
-    tmp_7.fy_1 = this_1;
+    tmp_7.py_1 = this_1;
     // Inline function 'kotlin.apply' call
     var this_2 = new ClearColorCommand();
     // Inline function 'kotlin.contracts.contract' call
@@ -4554,25 +4625,25 @@
     this_2.name = 'clear color bloom';
     this_2.enabled = true;
     var clearColorBloomCommand = this_2;
-    var txSceneObjects = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.ky_1, this.ky_1, this.ky_1));
-    var stateSky = new DrawMeshState(Shaders_getInstance_2().jz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
-    var commandSky = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().hx_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().xy_1), new UniformTextureValue(Textures_getInstance_2().yy_1)]), stateSky, txSceneObjects);
-    var stateStars = new DrawMeshState(Shaders_getInstance_2().kz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0)), 12));
+    var txSceneObjects = new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.uy_1, this.uy_1, this.uy_1));
+    var stateSky = new DrawMeshState(Shaders_getInstance_2().tz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6)]), 12));
+    var commandSky = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().rx_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().hz_1), new UniformTextureValue(Textures_getInstance_2().iz_1)]), stateSky, txSceneObjects);
+    var stateStars = new DrawMeshState(Shaders_getInstance_2().uz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0)), 12));
     var tmp_8 = this;
     // Inline function 'kotlin.apply' call
-    var tmp_9 = Meshes_getInstance_2().ix_1;
+    var tmp_9 = Meshes_getInstance_2().sx_1;
     var tmp_10 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$14 = new Float32Array([0.35, 0.35, 0.35, 1.0]);
     var this_3 = new DrawTransformedMeshCommand(tmp_9, listOf([tmp_10, UniformFloatValueWithArray(tmp$ret$14)]), stateStars, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 0.0), new Vec3(0.055, 0.055, 0.055)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
-    this_3.hints = this.jy_1;
+    this_3.hints = this.ty_1;
     tmp_8.commandStars = this_3;
-    var stateBuilding = new DrawMeshState(Shaders_getInstance_2().lz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6), new VertexAttribute(AttributeType_NORMAL_getInstance(), 2, VertexFormat_HALF3_getInstance(), 10)]), 16));
+    var stateBuilding = new DrawMeshState(Shaders_getInstance_2().vz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_HALF2_getInstance(), 6), new VertexAttribute(AttributeType_NORMAL_getInstance(), 2, VertexFormat_HALF3_getInstance(), 10)]), 16));
     var tmp_11 = this;
     // Inline function 'kotlin.apply' call
-    var tmp_12 = Meshes_getInstance_2().jx_1;
+    var tmp_12 = Meshes_getInstance_2().tx_1;
     var tmp_13 = UniformFloatValueWithArray(new Float32Array(16));
     var tmp_14 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
@@ -4582,9 +4653,9 @@
     var tmp$ret$17 = new Float32Array([0.05, 0.6]);
     var tmp_16 = UniformFloatValueWithArray(tmp$ret$17);
     var tmp_17 = UniformFloatValueWithArray(new Float32Array(3));
-    var tmp_18 = new UniformTextureValue(Textures_getInstance_2().zy_1);
-    var tmp_19 = new UniformTextureValue(Textures_getInstance_2().az_1);
-    var tmp_20 = new UniformTextureValue(Textures_getInstance_2().bz_1);
+    var tmp_18 = new UniformTextureValue(Textures_getInstance_2().jz_1);
+    var tmp_19 = new UniformTextureValue(Textures_getInstance_2().kz_1);
+    var tmp_20 = new UniformTextureValue(Textures_getInstance_2().lz_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$18 = new Float32Array([0.33, 0.33, 0.33, 1.0]);
     var tmp_21 = UniformFloatValueWithArray(tmp$ret$18);
@@ -4603,7 +4674,7 @@
     tmp_11.commandBuildings = this_4;
     var tmp_24 = this;
     // Inline function 'kotlin.apply' call
-    var tmp_25 = Meshes_getInstance_2().jx_1;
+    var tmp_25 = Meshes_getInstance_2().tx_1;
     var tmp_26 = UniformFloatValueWithArray(new Float32Array(16));
     var tmp_27 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
@@ -4613,9 +4684,9 @@
     var tmp$ret$24 = new Float32Array([0.05, 0.6]);
     var tmp_29 = UniformFloatValueWithArray(tmp$ret$24);
     var tmp_30 = UniformFloatValueWithArray(new Float32Array(3));
-    var tmp_31 = new UniformTextureValue(Textures_getInstance_2().zy_1);
-    var tmp_32 = new UniformTextureValue(Textures_getInstance_2().az_1);
-    var tmp_33 = new UniformTextureValue(Textures_getInstance_2().bz_1);
+    var tmp_31 = new UniformTextureValue(Textures_getInstance_2().jz_1);
+    var tmp_32 = new UniformTextureValue(Textures_getInstance_2().kz_1);
+    var tmp_33 = new UniformTextureValue(Textures_getInstance_2().lz_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$25 = new Float32Array([0.0, 0.0, 0.0, 1.0]);
     var tmp_34 = UniformFloatValueWithArray(tmp$ret$25);
@@ -4632,32 +4703,32 @@
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_5.indexUniformModel = 1;
     tmp_24.commandBuildingsBloom = this_5;
-    var stateRed = new DrawMeshState(Shaders_getInstance_2().kz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0)), 8));
+    var stateRed = new DrawMeshState(Shaders_getInstance_2().uz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0)), 8));
     // Inline function 'kotlin.apply' call
-    var tmp_37 = Meshes_getInstance_2().lx_1;
+    var tmp_37 = Meshes_getInstance_2().vx_1;
     var tmp_38 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$30 = new Float32Array([1.0, 0.3, 0.3, 1.0]);
     var this_6 = new DrawTransformedMeshCommand(tmp_37, listOf([tmp_38, UniformFloatValueWithArray(tmp$ret$30)]), stateRed, txSceneObjects);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
-    this_6.hints = this.jy_1;
+    this_6.hints = this.ty_1;
     var commandRed = this_6;
-    var stateDistant = new DrawMeshState(Shaders_getInstance_2().mz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_BYTE2_NORMALIZED_getInstance(), 6)]), 8));
-    var commandBuildingsDistant = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().kx_1, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().cz_1)], this.oy_1])), stateDistant, txSceneObjects);
-    var commandBuildingsDistant2 = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().kx_1, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().cz_1)], this.oy_1])), stateDistant, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 180.0), new Vec3(this.ky_1, this.ky_1, this.ky_1)));
-    var stateGround = new DrawMeshState(Shaders_getInstance_2().nz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0)), 8));
-    var tmp_39 = Meshes_getInstance_2().mx_1;
+    var stateDistant = new DrawMeshState(Shaders_getInstance_2().wz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_BYTE2_NORMALIZED_getInstance(), 6)]), 8));
+    var commandBuildingsDistant = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().ux_1, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().mz_1)], this.yy_1])), stateDistant, txSceneObjects);
+    var commandBuildingsDistant2 = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().ux_1, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().mz_1)], this.yy_1])), stateDistant, new AffineTranformation(new Vec3(0.0, 0.0, 0.0), new Vec3(0.0, 0.0, 180.0), new Vec3(this.uy_1, this.uy_1, this.uy_1)));
+    var stateGround = new DrawMeshState(Shaders_getInstance_2().xz_1, get_BLENDING_NONE(), get_DEPTH_TEST_ENABLED(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0)), 8));
+    var tmp_39 = Meshes_getInstance_2().wx_1;
     var tmp_40 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$32 = new Float32Array([0.1171875, 0.1171875, 0.1171875, 1.0]);
-    var commandIslands1 = DrawStaticMeshCommandConstructor(tmp_39, listOf(arrayConcat([[tmp_40, UniformFloatValueWithArray(tmp$ret$32)], this.oy_1])), stateGround, txSceneObjects);
-    var tmp_41 = Meshes_getInstance_2().nx_1;
+    var commandIslands1 = DrawStaticMeshCommandConstructor(tmp_39, listOf(arrayConcat([[tmp_40, UniformFloatValueWithArray(tmp$ret$32)], this.yy_1])), stateGround, txSceneObjects);
+    var tmp_41 = Meshes_getInstance_2().xx_1;
     var tmp_42 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$33 = new Float32Array([0.0, 0.01953125, 0.01953125, 1.0]);
-    var commandWater = DrawStaticMeshCommandConstructor(tmp_41, listOf(arrayConcat([[tmp_42, UniformFloatValueWithArray(tmp$ret$33)], this.oy_1])), stateGround, txSceneObjects);
-    var tmp_43 = Shaders_getInstance_2().iz_1;
+    var commandWater = DrawStaticMeshCommandConstructor(tmp_41, listOf(arrayConcat([[tmp_42, UniformFloatValueWithArray(tmp$ret$33)], this.yy_1])), stateGround, txSceneObjects);
+    var tmp_43 = Shaders_getInstance_2().sz_1;
     // Inline function 'kotlin.apply' call
     var this_7 = new Blending();
     // Inline function 'kotlin.contracts.contract' call
@@ -4667,9 +4738,9 @@
     this_7.destinationFactorColor = BlendingFactor_ONE_getInstance();
     this_7.isSeparateAlpha = false;
     var stateNeon = new DrawMeshState(tmp_43, this_7, get_DEPTH_NO_WRITE(), CullFace_BACK_getInstance(), new VertexAttributesDescriptor(listOf([new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_HALF3_getInstance(), 0), new VertexAttribute(AttributeType_UV0_getInstance(), 1, VertexFormat_UBYTE2_NORMALIZED_getInstance(), 6)]), 8));
-    var commandNeon = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().ox_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().dz_1)]), stateNeon, txSceneObjects);
-    var commandNeonBloom = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().ox_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().gz_1)]), stateNeon, txSceneObjects);
-    var tmp_44 = Shaders_getInstance_2().oz_1;
+    var commandNeon = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().yx_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().nz_1)]), stateNeon, txSceneObjects);
+    var commandNeonBloom = DrawStaticMeshCommandConstructor(Meshes_getInstance_2().yx_1, listOf([UniformFloatValueWithArray(new Float32Array(16)), new UniformTextureValue(Textures_getInstance_2().qz_1)]), stateNeon, txSceneObjects);
+    var tmp_44 = Shaders_getInstance_2().yz_1;
     // Inline function 'kotlin.apply' call
     var this_8 = new Blending();
     // Inline function 'kotlin.contracts.contract' call
@@ -4680,12 +4751,12 @@
     this_8.isSeparateAlpha = false;
     var stateRedSprites = new DrawMeshState(tmp_44, this_8, get_DEPTH_NO_WRITE(), CullFace_DISABLED_getInstance(), new VertexAttributesDescriptor(listOf_0(new VertexAttribute(AttributeType_VERTEX_getInstance(), 0, VertexFormat_FLOAT3_getInstance(), 0)), 12));
     // Inline function 'kotlin.apply' call
-    var tmp_45 = Meshes_getInstance_2().px_1;
+    var tmp_45 = Meshes_getInstance_2().zx_1;
     var tmp_46 = UniformFloatValueWithArray(new Float32Array(16));
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$36 = new Float32Array([4.0]);
     var tmp_47 = UniformFloatValueWithArray(tmp$ret$36);
-    var tmp_48 = new UniformTextureValue(Textures_getInstance_2().ez_1);
+    var tmp_48 = new UniformTextureValue(Textures_getInstance_2().oz_1);
     // Inline function 'kotlin.floatArrayOf' call
     var tmp$ret$37 = new Float32Array([1.0, 0.2, 0.2, 1.0]);
     var this_9 = DrawStaticMeshCommandConstructor(tmp_45, listOf([tmp_46, tmp_47, tmp_48, UniformFloatValueWithArray(tmp$ret$37)]), stateRedSprites, txSceneObjects);
@@ -4693,7 +4764,7 @@
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_9.primitiveType = PrimitiveType_POINTS_getInstance();
     var commandRedSprites = this_9;
-    var tmp_49 = Shaders_getInstance_2().pz_1;
+    var tmp_49 = Shaders_getInstance_2().zz_1;
     // Inline function 'kotlin.apply' call
     var this_10 = new Blending();
     // Inline function 'kotlin.contracts.contract' call
@@ -4705,59 +4776,59 @@
     var statePlanes = new DrawMeshState(tmp_49, this_10, get_DEPTH_NO_WRITE(), CullFace_DISABLED_getInstance(), null);
     var tmp_50 = this;
     // Inline function 'kotlin.apply' call
-    var this_11 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.wy_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 380.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.ky_1, this.ky_1, this.ky_1)));
+    var this_11 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.gz_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 380.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.uy_1, this.uy_1, this.uy_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_11.primitiveType = PrimitiveType_POINTS_getInstance();
     this_11.primitiveCount = 1;
-    tmp_50.qy_1 = this_11;
+    tmp_50.az_1 = this_11;
     var tmp_51 = this;
     // Inline function 'kotlin.apply' call
-    var this_12 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.wy_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 400.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.ky_1, this.ky_1, this.ky_1)));
+    var this_12 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.gz_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 400.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.uy_1, this.uy_1, this.uy_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_12.primitiveType = PrimitiveType_POINTS_getInstance();
     this_12.primitiveCount = 1;
-    tmp_51.ry_1 = this_12;
+    tmp_51.bz_1 = this_12;
     var tmp_52 = this;
     // Inline function 'kotlin.apply' call
-    var this_13 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.wy_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 350.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.ky_1, this.ky_1, this.ky_1)));
+    var this_13 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.gz_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 350.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.uy_1, this.uy_1, this.uy_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_13.primitiveType = PrimitiveType_POINTS_getInstance();
     this_13.primitiveCount = 1;
-    tmp_52.sy_1 = this_13;
+    tmp_52.cz_1 = this_13;
     var tmp_53 = this;
     // Inline function 'kotlin.apply' call
-    var this_14 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.wy_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 450.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.ky_1, this.ky_1, this.ky_1)));
+    var this_14 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.gz_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 450.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.uy_1, this.uy_1, this.uy_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_14.primitiveType = PrimitiveType_POINTS_getInstance();
     this_14.primitiveCount = 1;
-    tmp_53.ty_1 = this_14;
+    tmp_53.dz_1 = this_14;
     var tmp_54 = this;
     // Inline function 'kotlin.apply' call
-    var this_15 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.wy_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 430.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.ky_1, this.ky_1, this.ky_1)));
+    var this_15 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.gz_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 430.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.uy_1, this.uy_1, this.uy_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_15.primitiveType = PrimitiveType_POINTS_getInstance();
     this_15.primitiveCount = 1;
-    tmp_54.uy_1 = this_15;
+    tmp_54.ez_1 = this_15;
     var tmp_55 = this;
     // Inline function 'kotlin.apply' call
-    var this_16 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.wy_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 500.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.ky_1, this.ky_1, this.ky_1)));
+    var this_16 = new DrawTransformedMeshCommand(null, listOf(arrayConcat([[UniformFloatValueWithArray(new Float32Array(16))], this.gz_1])), statePlanes, new AffineTranformation(new Vec3(0.0, 0.0, 500.0), new Vec3(0.0, 0.0, 0.0), new Vec3(this.uy_1, this.uy_1, this.uy_1)));
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_16.primitiveType = PrimitiveType_POINTS_getInstance();
     this_16.primitiveCount = 1;
-    tmp_55.vy_1 = this_16;
+    tmp_55.fz_1 = this_16;
     var tmp_56 = this;
     // Inline function 'kotlin.apply' call
     var this_17 = new ClearCommand();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_17.clearType = ClearCommandClearType_COLOR_AND_DEPTH_getInstance();
-    tmp_56.ey_1 = GroupCommandArr(true, [this.fy_1, this_17]);
+    tmp_56.oy_1 = GroupCommandArr(true, [this.py_1, this_17]);
     // Inline function 'kotlin.apply' call
     var this_18 = new ClearCommand();
     // Inline function 'kotlin.contracts.contract' call
@@ -4771,7 +4842,7 @@
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_19.color0 = new Vec4(0.45, 0.45, 0.45, 1.0);
     this_19.color1 = new Vec4(1.0, 1.0, 1.0, 1.0);
-    tmp_57.gy_1 = this_19;
+    tmp_57.qy_1 = this_19;
     var groupBloomPass = GroupCommandArr(true, [this.commandBuildingsBloom, commandRedSprites, commandNeonBloom]);
     var tmp_58 = this;
     // Inline function 'kotlin.apply' call
@@ -4785,7 +4856,7 @@
     this_20.blurSize = BlurSize_KERNEL_4_getInstance();
     this_20.commands = mutableListOf([groupClearBloom, groupBloomPass]);
     this_20.id = 0;
-    tmp_58.dy_1 = this_20;
+    tmp_58.ny_1 = this_20;
     var tmp_59 = this;
     // Inline function 'kotlin.apply' call
     var this_21 = new DrawBlurredCommand();
@@ -4802,8 +4873,8 @@
     this_22.sourceFactorColor = BlendingFactor_ONE_getInstance();
     this_22.destinationFactorColor = BlendingFactor_ONE_getInstance();
     tmp_60.blending = this_22;
-    tmp_59.iy_1 = this_21;
-    this.ay_1 = GroupCommandArr(true, [this.dy_1, MainPassCommandArr(true, [this.ey_1, this.commandBuildings, commandRed, commandBuildingsDistant, commandBuildingsDistant2, commandIslands1, commandWater, this.commandStars, commandSky, this.qy_1, this.ry_1, this.sy_1, this.ty_1, this.uy_1, this.vy_1, commandNeon, this.iy_1, this.gy_1])]);
+    tmp_59.sy_1 = this_21;
+    this.ky_1 = GroupCommandArr(true, [this.ny_1, MainPassCommandArr(true, [this.oy_1, this.commandBuildings, commandRed, commandBuildingsDistant, commandBuildingsDistant2, commandIslands1, commandWater, this.commandStars, commandSky, this.az_1, this.bz_1, this.cz_1, this.dz_1, this.ez_1, this.fz_1, commandNeon, this.sy_1, this.qy_1])]);
     var tmp_61 = this;
     // Inline function 'kotlin.apply' call
     var this_23 = new BlurredPassCommand();
@@ -4814,8 +4885,8 @@
     this_23.minSize = 180;
     this_23.brightness = 0.95;
     this_23.blurSize = BlurSize_KERNEL_4_getInstance();
-    this_23.commands = mutableListOf([groupClearBloom, this.commandBuildings, commandBuildingsDistant, commandBuildingsDistant2, commandIslands1, commandWater, commandSky, commandNeon, this.gy_1]);
-    tmp_61.cy_1 = this_23;
+    this_23.commands = mutableListOf([groupClearBloom, this.commandBuildings, commandBuildingsDistant, commandBuildingsDistant2, commandIslands1, commandWater, commandSky, commandNeon, this.qy_1]);
+    tmp_61.my_1 = this_23;
     var tmp_62 = this;
     // Inline function 'kotlin.apply' call
     var this_24 = new DrawBlurredCommand();
@@ -4823,30 +4894,30 @@
     // Inline function 'org.androidworks.skyscrapers.SkyscrapersScene.<anonymous>' call
     this_24.name = 'draw blurred';
     this_24.blending = get_BLENDING_NONE();
-    tmp_62.hy_1 = this_24;
-    this.by_1 = GroupCommandArr(false, [this.cy_1, MainPassCommandArr(true, [this.ey_1, this.hy_1])]);
-    this.commands = mutableListOf([this.ay_1, this.by_1]);
+    tmp_62.ry_1 = this_24;
+    this.ly_1 = GroupCommandArr(false, [this.my_1, MainPassCommandArr(true, [this.oy_1, this.ry_1])]);
+    this.commands = mutableListOf([this.ky_1, this.ly_1]);
   }
-  protoOf(SkyscrapersScene).qm = function () {
+  protoOf(SkyscrapersScene).um = function () {
     return this.cameraAnimator;
   };
-  protoOf(SkyscrapersScene).sm = function () {
+  protoOf(SkyscrapersScene).wm = function () {
     return this.settings;
   };
-  protoOf(SkyscrapersScene).wm = function () {
+  protoOf(SkyscrapersScene).an = function () {
     return this.commandStars;
   };
-  protoOf(SkyscrapersScene).sz = function () {
+  protoOf(SkyscrapersScene).c10 = function () {
     return this.commandBuildings;
   };
-  protoOf(SkyscrapersScene).tz = function () {
+  protoOf(SkyscrapersScene).d10 = function () {
     return this.commandBuildingsBloom;
   };
-  protoOf(SkyscrapersScene).in = function () {
+  protoOf(SkyscrapersScene).mn = function () {
     return this.PIf;
   };
   protoOf(SkyscrapersScene).updateTimers = function (time) {
-    this.wx_1.mi(time);
+    this.gy_1.qi(time);
     this.cameraAnimator.animate(time);
     this.animate();
     protoOf(Scene).updateTimers.call(this, time);
@@ -4857,11 +4928,11 @@
   protoOf(SkyscrapersScene).initialize = function () {
   };
   protoOf(SkyscrapersScene).applySettings = function () {
-    this.ay_1.enabled = !this.settings.blurred;
-    this.by_1.enabled = this.settings.blurred;
-    this.gy_1.enabled = this.settings.vignette;
-    this.cy_1.additionalBlur = !this.settings.lowQuality;
-    this.dy_1.additionalBlur = !this.settings.lowQuality;
+    this.ky_1.enabled = !this.settings.blurred;
+    this.ly_1.enabled = this.settings.blurred;
+    this.qy_1.enabled = this.settings.vignette;
+    this.my_1.additionalBlur = !this.settings.lowQuality;
+    this.ny_1.additionalBlur = !this.settings.lowQuality;
     setUniform_1(this.commandBuildings.uniforms.s(11), 1.0 - this.settings.lights);
     setUniform_1(this.commandBuildingsBloom.uniforms.s(11), 1.0 - this.settings.lights);
     if (!(this.cameraAnimator.minDurationCoefficient === this.settings.cameraPeriod)) {
@@ -4878,7 +4949,7 @@
     var eye = cameraPositionInterpolator.cameraPosition;
     var lookat = cameraPositionInterpolator.cameraRotation;
     if (!this.useExternalViewMatrix) {
-      Matrix_getInstance().zg(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
+      Matrix_getInstance().dh(this.matView, 0, eye.x, eye.y, eye.z, lookat.x, lookat.y, lookat.z, 0.0, 0.0, 1.0);
     }
     this.updatePlanes();
     this.updateMeshTransformations(this.commands);
@@ -4886,27 +4957,27 @@
     setUniform_4(this.commandBuildingsBloom.uniforms.s(4), eye);
   };
   protoOf(SkyscrapersScene).updatePlanes = function () {
-    var angle1 = this.wx_1.ji(Timers_Planes1_getInstance()) * this.PIf * 2.0;
-    var angle2 = this.wx_1.ji(Timers_Planes2_getInstance()) * this.PIf * 2.0;
-    this.updatePlanePosition(angle1, 0.0, 0.0, this.qy_1.transform.q9_1);
-    this.updatePlanePosition(-angle2 - this.PIf, 0.0, -400.0, this.ry_1.transform.q9_1);
-    this.updatePlanePosition(-angle1 - this.PIf, 0.0, 300.0, this.sy_1.transform.q9_1);
-    this.updatePlanePosition(angle2, 100.0, 300.0, this.ty_1.transform.q9_1);
-    this.updatePlanePosition(angle1 + this.PIf / 2.0, 100.0, 300.0, this.uy_1.transform.q9_1);
-    this.updatePlanePosition(angle2 + this.PIf / 1.5, 100.0, 300.0, this.vy_1.transform.q9_1);
+    var angle1 = this.gy_1.ni(Timers_Planes1_getInstance()) * this.PIf * 2.0;
+    var angle2 = this.gy_1.ni(Timers_Planes2_getInstance()) * this.PIf * 2.0;
+    this.updatePlanePosition(angle1, 0.0, 0.0, this.az_1.transform.q9_1);
+    this.updatePlanePosition(-angle2 - this.PIf, 0.0, -400.0, this.bz_1.transform.q9_1);
+    this.updatePlanePosition(-angle1 - this.PIf, 0.0, 300.0, this.cz_1.transform.q9_1);
+    this.updatePlanePosition(angle2, 100.0, 300.0, this.dz_1.transform.q9_1);
+    this.updatePlanePosition(angle1 + this.PIf / 2.0, 100.0, 300.0, this.ez_1.transform.q9_1);
+    this.updatePlanePosition(angle2 + this.PIf / 1.5, 100.0, 300.0, this.fz_1.transform.q9_1);
     // Inline function 'kotlin.math.max' call
     // Inline function 'kotlin.math.min' call
     var a = this.viewportWidth;
     var b = this.viewportHeight;
     var b_0 = Math.min(a, b) / 300.0;
     var size = Math.max(2.5, b_0);
-    setUniform_1(this.qy_1.uniforms.s(1), size);
+    setUniform_1(this.az_1.uniforms.s(1), size);
   };
   protoOf(SkyscrapersScene).updatePlanePosition = function (angle, centerX, centerY, result) {
     // Inline function 'kotlin.math.sin' call
-    result.x = Math.sin(angle) * this.py_1 + centerX;
+    result.x = Math.sin(angle) * this.zy_1 + centerX;
     // Inline function 'kotlin.math.cos' call
-    result.y = Math.cos(angle) * this.py_1 + centerY;
+    result.y = Math.cos(angle) * this.zy_1 + centerY;
   };
   protoOf(SkyscrapersScene).nextCamera = function () {
     this.cameraAnimator.nextCamera();
@@ -4930,59 +5001,59 @@
     this.clock = false;
     this.lights = 1.0;
   }
-  protoOf(SkyscrapersSettings).ln = function (_set____db54di) {
+  protoOf(SkyscrapersSettings).pn = function (_set____db54di) {
     this.cameraPeriod = _set____db54di;
   };
-  protoOf(SkyscrapersSettings).mn = function () {
+  protoOf(SkyscrapersSettings).qn = function () {
     return this.cameraPeriod;
   };
-  protoOf(SkyscrapersSettings).nn = function (_set____db54di) {
+  protoOf(SkyscrapersSettings).rn = function (_set____db54di) {
     this.vignette = _set____db54di;
   };
-  protoOf(SkyscrapersSettings).on = function () {
+  protoOf(SkyscrapersSettings).sn = function () {
     return this.vignette;
   };
-  protoOf(SkyscrapersSettings).pn = function (_set____db54di) {
+  protoOf(SkyscrapersSettings).tn = function (_set____db54di) {
     this.blurred = _set____db54di;
   };
-  protoOf(SkyscrapersSettings).qn = function () {
+  protoOf(SkyscrapersSettings).un = function () {
     return this.blurred;
   };
-  protoOf(SkyscrapersSettings).rn = function (_set____db54di) {
+  protoOf(SkyscrapersSettings).vn = function (_set____db54di) {
     this.autoSwitchCameras = _set____db54di;
   };
-  protoOf(SkyscrapersSettings).sn = function () {
+  protoOf(SkyscrapersSettings).wn = function () {
     return this.autoSwitchCameras;
   };
-  protoOf(SkyscrapersSettings).xn = function (_set____db54di) {
+  protoOf(SkyscrapersSettings).bo = function (_set____db54di) {
     this.lowQuality = _set____db54di;
   };
-  protoOf(SkyscrapersSettings).yn = function () {
+  protoOf(SkyscrapersSettings).co = function () {
     return this.lowQuality;
   };
-  protoOf(SkyscrapersSettings).vn = function (_set____db54di) {
+  protoOf(SkyscrapersSettings).zn = function (_set____db54di) {
     this.clock = _set____db54di;
   };
-  protoOf(SkyscrapersSettings).wn = function () {
+  protoOf(SkyscrapersSettings).ao = function () {
     return this.clock;
   };
-  protoOf(SkyscrapersSettings).uz = function (_set____db54di) {
+  protoOf(SkyscrapersSettings).e10 = function (_set____db54di) {
     this.lights = _set____db54di;
   };
-  protoOf(SkyscrapersSettings).vz = function () {
+  protoOf(SkyscrapersSettings).f10 = function () {
     return this.lights;
   };
   function Shaders_2() {
     Shaders_instance_2 = this;
-    this.iz_1 = new Shader('Diffuse');
-    this.jz_1 = new Shader('SkyDither');
-    this.kz_1 = new Shader('Color');
-    this.lz_1 = new Shader('Building');
-    this.mz_1 = new Shader('DiffuseFog');
-    this.nz_1 = new Shader('ColorFog');
-    this.oz_1 = new Shader('PointSpritesColored');
-    this.pz_1 = new Shader('PointSpriteColored');
-    this.qz_1 = mutableListOf([this.iz_1, this.jz_1, this.kz_1, this.lz_1, this.mz_1, this.nz_1, this.oz_1, this.pz_1]);
+    this.sz_1 = new Shader('Diffuse');
+    this.tz_1 = new Shader('SkyDither');
+    this.uz_1 = new Shader('Color');
+    this.vz_1 = new Shader('Building');
+    this.wz_1 = new Shader('DiffuseFog');
+    this.xz_1 = new Shader('ColorFog');
+    this.yz_1 = new Shader('PointSpritesColored');
+    this.zz_1 = new Shader('PointSpriteColored');
+    this.a10_1 = mutableListOf([this.sz_1, this.tz_1, this.uz_1, this.vz_1, this.wz_1, this.xz_1, this.yz_1, this.zz_1]);
   }
   var Shaders_instance_2;
   function Shaders_getInstance_2() {
@@ -5003,7 +5074,7 @@
     this_0.minFilter = TextureFiltering_LINEAR_getInstance();
     this_0.magFilter = TextureFiltering_LINEAR_getInstance();
     this_0.wrapping = TextureWrapping_CLAMP_TO_EDGE_getInstance();
-    tmp.xy_1 = this_0;
+    tmp.hz_1 = this_0;
     var tmp_0 = this;
     // Inline function 'kotlin.apply' call
     var this_1 = new Texture();
@@ -5014,7 +5085,7 @@
     this_1.format = TextureFormat_ASTC_getInstance();
     this_1.minFilter = TextureFiltering_NEAREST_getInstance();
     this_1.magFilter = TextureFiltering_NEAREST_getInstance();
-    tmp_0.yy_1 = this_1;
+    tmp_0.iz_1 = this_1;
     var tmp_1 = this;
     // Inline function 'kotlin.apply' call
     var this_2 = new Texture();
@@ -5026,7 +5097,7 @@
     this_2.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_2.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_2.mipmaps = 11;
-    tmp_1.zy_1 = this_2;
+    tmp_1.jz_1 = this_2;
     var tmp_2 = this;
     // Inline function 'kotlin.apply' call
     var this_3 = new Texture();
@@ -5038,7 +5109,7 @@
     this_3.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_3.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_3.mipmaps = 11;
-    tmp_2.az_1 = this_3;
+    tmp_2.kz_1 = this_3;
     var tmp_3 = this;
     // Inline function 'kotlin.apply' call
     var this_4 = new Texture();
@@ -5050,7 +5121,7 @@
     this_4.format = TextureFormat_ASTC_getInstance();
     this_4.minFilter = TextureFiltering_LINEAR_getInstance();
     this_4.magFilter = TextureFiltering_LINEAR_getInstance();
-    tmp_3.bz_1 = this_4;
+    tmp_3.lz_1 = this_4;
     var tmp_4 = this;
     // Inline function 'kotlin.apply' call
     var this_5 = new Texture();
@@ -5062,7 +5133,7 @@
     this_5.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_5.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_5.mipmaps = 8;
-    tmp_4.cz_1 = this_5;
+    tmp_4.mz_1 = this_5;
     var tmp_5 = this;
     // Inline function 'kotlin.apply' call
     var this_6 = new Texture();
@@ -5074,7 +5145,7 @@
     this_6.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_6.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_6.mipmaps = 9;
-    tmp_5.dz_1 = this_6;
+    tmp_5.nz_1 = this_6;
     var tmp_6 = this;
     // Inline function 'kotlin.apply' call
     var this_7 = new Texture();
@@ -5086,7 +5157,7 @@
     this_7.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_7.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_7.mipmaps = 3;
-    tmp_6.ez_1 = this_7;
+    tmp_6.oz_1 = this_7;
     var tmp_7 = this;
     // Inline function 'kotlin.apply' call
     var this_8 = new Texture();
@@ -5097,7 +5168,7 @@
     this_8.format = TextureFormat_ASTC_getInstance();
     this_8.minFilter = TextureFiltering_NEAREST_getInstance();
     this_8.magFilter = TextureFiltering_NEAREST_getInstance();
-    tmp_7.fz_1 = this_8;
+    tmp_7.pz_1 = this_8;
     var tmp_8 = this;
     // Inline function 'kotlin.apply' call
     var this_9 = new Texture();
@@ -5109,8 +5180,8 @@
     this_9.minFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_9.magFilter = TextureFiltering_LINEAR_MIPMAP_LINEAR_getInstance();
     this_9.mipmaps = 5;
-    tmp_8.gz_1 = this_9;
-    this.hz_1 = mutableListOf([this.xy_1, this.yy_1, this.zy_1, this.az_1, this.bz_1, this.cz_1, this.dz_1, this.ez_1, this.fz_1, this.gz_1]);
+    tmp_8.qz_1 = this_9;
+    this.rz_1 = mutableListOf([this.hz_1, this.iz_1, this.jz_1, this.kz_1, this.lz_1, this.mz_1, this.nz_1, this.oz_1, this.pz_1, this.qz_1]);
   }
   var Textures_instance_2;
   function Textures_getInstance_2() {
@@ -5122,9 +5193,9 @@
   var Timers_Planes2_instance;
   function Companion_3() {
   }
-  protoOf(Companion_3).rz = function (timers) {
-    timers.hi(Timers_Planes1_getInstance(), 80000.0);
-    timers.hi(Timers_Planes2_getInstance(), 70000.0);
+  protoOf(Companion_3).b10 = function (timers) {
+    timers.li(Timers_Planes1_getInstance(), 80000.0);
+    timers.li(Timers_Planes2_getInstance(), 70000.0);
   };
   var Companion_instance_3;
   function Companion_getInstance_3() {

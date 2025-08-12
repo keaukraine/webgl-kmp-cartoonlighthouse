@@ -964,8 +964,23 @@ export declare namespace org.androidworks.engine.commands {
         get name(): "TRIANGLES" | "TRIANGLE_STRIP" | "POINTS";
         get ordinal(): 0 | 1 | 2;
     }
+    abstract class PrimitiveDrawType {
+        private constructor();
+        static get INDEXED(): org.androidworks.engine.commands.PrimitiveDrawType & {
+            get name(): "INDEXED";
+            get ordinal(): 0;
+        };
+        static get NON_INDEXED(): org.androidworks.engine.commands.PrimitiveDrawType & {
+            get name(): "NON_INDEXED";
+            get ordinal(): 1;
+        };
+        static values(): Array<org.androidworks.engine.commands.PrimitiveDrawType>;
+        static valueOf(value: string): org.androidworks.engine.commands.PrimitiveDrawType;
+        get name(): "INDEXED" | "NON_INDEXED";
+        get ordinal(): 0 | 1;
+    }
     class DrawMeshCommand extends org.androidworks.engine.commands.Command {
-        constructor(mesh: Nullable<org.androidworks.engine.Mesh>, uniforms: any/* kotlin.collections.List<org.androidworks.engine.UniformValue> */, state: org.androidworks.engine.commands.DrawMeshState, primitiveType?: org.androidworks.engine.commands.PrimitiveType, primitiveCount?: number);
+        constructor(mesh: Nullable<org.androidworks.engine.Mesh>, uniforms: any/* kotlin.collections.List<org.androidworks.engine.UniformValue> */, state: org.androidworks.engine.commands.DrawMeshState, primitiveType?: org.androidworks.engine.commands.PrimitiveType, primitiveCount?: number, primitiveDrawType?: org.androidworks.engine.commands.PrimitiveDrawType);
         get mesh(): Nullable<org.androidworks.engine.Mesh>;
         set mesh(value: Nullable<org.androidworks.engine.Mesh>);
         get uniforms(): any/* kotlin.collections.List<org.androidworks.engine.UniformValue> */;
@@ -976,6 +991,8 @@ export declare namespace org.androidworks.engine.commands {
         set primitiveType(value: org.androidworks.engine.commands.PrimitiveType);
         get primitiveCount(): number;
         set primitiveCount(value: number);
+        get primitiveDrawType(): org.androidworks.engine.commands.PrimitiveDrawType;
+        set primitiveDrawType(value: org.androidworks.engine.commands.PrimitiveDrawType);
         get type(): org.androidworks.engine.commands.CommandType;
         get hints(): any/* kotlin.collections.MutableList<org.androidworks.engine.commands.Hint> */;
         set hints(value: any/* kotlin.collections.MutableList<org.androidworks.engine.commands.Hint> */);

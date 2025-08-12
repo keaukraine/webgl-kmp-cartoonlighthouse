@@ -1,17 +1,18 @@
 import { ShaderInputs } from "./ShaderInputs";
 import { BaseShader } from "webgl-framework";
-export declare class WindShader extends BaseShader implements ShaderInputs {
+export declare class FishnetShader extends BaseShader implements ShaderInputs {
     view_proj_matrix: WebGLUniformLocation | undefined;
+    sTexture: WebGLUniformLocation | undefined;
+    rm_Vertex: number | undefined;
+    rm_TexCoord0: number | undefined;
+    time: WebGLUniformLocation | undefined;
     color: WebGLUniformLocation | undefined;
-    offset: WebGLUniformLocation | undefined;
-    dimensions: WebGLUniformLocation | undefined;
-    amplitudes: WebGLUniformLocation | undefined;
-    frequencies: WebGLUniformLocation | undefined;
     attributes?: number[];
     typedAttributes?: {
         [key: number]: number;
     };
     uniforms?: WebGLUniformLocation[];
+    /** @inheritdoc */
     fillCode(): void;
     fillUniformsAttributes(): void;
 }
