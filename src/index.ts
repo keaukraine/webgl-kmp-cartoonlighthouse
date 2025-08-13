@@ -69,6 +69,7 @@ function initUI(): void {
         .onChange((value: any) => renderer.settings.timeOfDay = value);
 
     gui.add(renderer.settings, "lowQuality");
+    gui.add(renderer.settings, "blurred");
     gui.add(renderer, "nextCamera");
     gui.add(renderer, "randomCamera");
 
