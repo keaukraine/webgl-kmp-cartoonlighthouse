@@ -53,7 +53,20 @@ function initUI(): void {
         }
     ).name("Camera");
 
+    gui.add(
+        renderer.settings,
+        "cameraMode",
+        {
+            "Random": cartoonlighthouse.CameraMode.Random,
+            "Orbiting": cartoonlighthouse.CameraMode.Orbiting
+        }
+    )
+        .name("Camera Mode")
+        .onChange((value: any) => renderer.settings.cameraMode = value);
+
     gui.add(renderer.settings, "cameraPeriod", 0.1, 2, 0.1);
+    gui.add(renderer, "swipeCameraLeft").name("<<< Swipe left <<<");
+    gui.add(renderer, "swipeCameraRight").name(">>> Swipe right >>>");
 
     gui.add(
         renderer.settings,

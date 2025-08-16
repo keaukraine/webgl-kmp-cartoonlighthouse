@@ -1333,11 +1333,22 @@ export declare namespace org.androidworks.cartoonlighthouse {
         get settings(): org.androidworks.cartoonlighthouse.CartoonLighthouseSettings;
         get PIf(): number;
         get cameraAnimator(): org.androidworks.engine.camera.CameraPathAnimator;
+        get angleYaw(): number;
+        set angleYaw(value: number);
+        get ORBITING_ROTATION_SPEED(): number;
+        get ORBITING_SWIPE_FALLOFF(): number;
+        get ORBITING_HEIGHT(): number;
+        get ORBITING_DISTANCE(): number;
+        get ORBITING_HEIGHT_VARIATION(): number;
+        get ORBITING_DISTANCE_VARIATION(): number;
+        get rotationSpeed(): number;
+        set rotationSpeed(value: number);
         updateTimers(time: number): void;
         updateViewportSize(width: number, height: number): void;
         initialize(): void;
         nextCamera(): void;
         randomCamera(): void;
+        cameraImpulse(impulse: number): void;
     }
 }
 export declare namespace org.androidworks.cartoonlighthouse {
@@ -1364,6 +1375,21 @@ export declare namespace org.androidworks.cartoonlighthouse {
         get name(): "Day" | "Night" | "Sunrise" | "Sunset";
         get ordinal(): 0 | 1 | 2 | 3;
     }
+    abstract class CameraMode {
+        private constructor();
+        static get Random(): org.androidworks.cartoonlighthouse.CameraMode & {
+            get name(): "Random";
+            get ordinal(): 0;
+        };
+        static get Orbiting(): org.androidworks.cartoonlighthouse.CameraMode & {
+            get name(): "Orbiting";
+            get ordinal(): 1;
+        };
+        static values(): Array<org.androidworks.cartoonlighthouse.CameraMode>;
+        static valueOf(value: string): org.androidworks.cartoonlighthouse.CameraMode;
+        get name(): "Random" | "Orbiting";
+        get ordinal(): 0 | 1;
+    }
     class CartoonLighthouseSettings {
         constructor();
         get cameraPeriod(): number;
@@ -1380,6 +1406,8 @@ export declare namespace org.androidworks.cartoonlighthouse {
         set clock(value: boolean);
         get timeOfDay(): org.androidworks.cartoonlighthouse.TimeOfDay;
         set timeOfDay(value: org.androidworks.cartoonlighthouse.TimeOfDay);
+        get cameraMode(): org.androidworks.cartoonlighthouse.CameraMode;
+        set cameraMode(value: org.androidworks.cartoonlighthouse.CameraMode);
     }
 }
 export declare namespace org.androidworks.cartoonplanes {

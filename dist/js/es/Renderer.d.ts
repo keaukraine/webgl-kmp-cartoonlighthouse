@@ -22,4 +22,6 @@ export declare class Renderer extends SceneRenderer<lib.org.androidworks.cartoon
     get settings(): lib.org.androidworks.cartoonlighthouse.CartoonLighthouseSettings;
     nextCamera(): void;
     randomCamera(): void;
+    swipeCameraLeft(): void;
+    swipeCameraRight(): void;
 }

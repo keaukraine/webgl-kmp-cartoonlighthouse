@@ -71,4 +71,12 @@ export class Renderer extends SceneRenderer<lib.org.androidworks.cartoonlighthou
     randomCamera(): void {
         this.scene?.randomCamera();
     }
+
+    swipeCameraLeft(): void {
+        this.scene?.cameraImpulse(-15);
+    }
+
+    swipeCameraRight(): void {
+        this.scene?.cameraImpulse(15);
+    }
 }
