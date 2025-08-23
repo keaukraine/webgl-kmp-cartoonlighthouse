@@ -1333,16 +1333,7 @@ export declare namespace org.androidworks.cartoonlighthouse {
         get settings(): org.androidworks.cartoonlighthouse.CartoonLighthouseSettings;
         get PIf(): number;
         get cameraAnimator(): org.androidworks.engine.camera.CameraPathAnimator;
-        get angleYaw(): number;
-        set angleYaw(value: number);
-        get ORBITING_ROTATION_SPEED(): number;
-        get ORBITING_SWIPE_FALLOFF(): number;
-        get ORBITING_HEIGHT(): number;
-        get ORBITING_DISTANCE(): number;
-        get ORBITING_HEIGHT_VARIATION(): number;
-        get ORBITING_DISTANCE_VARIATION(): number;
-        get rotationSpeed(): number;
-        set rotationSpeed(value: number);
+        get orbitingCamera(): any/* org.androidworks.engine.utils.OrbitingCamera */;
         updateTimers(time: number): void;
         updateViewportSize(width: number, height: number): void;
         initialize(): void;
@@ -1408,6 +1399,12 @@ export declare namespace org.androidworks.cartoonlighthouse {
         set timeOfDay(value: org.androidworks.cartoonlighthouse.TimeOfDay);
         get cameraMode(): org.androidworks.cartoonlighthouse.CameraMode;
         set cameraMode(value: org.androidworks.cartoonlighthouse.CameraMode);
+        get debugDouble(): number;
+        set debugDouble(value: number);
+        get debugFloat(): number;
+        set debugFloat(value: number);
+        get debugString(): string;
+        set debugString(value: string);
     }
 }
 export declare namespace org.androidworks.cartoonplanes {

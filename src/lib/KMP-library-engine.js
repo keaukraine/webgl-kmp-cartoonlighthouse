@@ -104,6 +104,8 @@
   setMetadataFor(Vec4, 'Vec4', classMeta, VOID, VOID, Vec4);
   setMetadataFor(TimerParams, 'TimerParams', classMeta);
   setMetadataFor(TimersMap, 'TimersMap', classMeta, VOID, VOID, TimersMap);
+  setMetadataFor(OrbitingCamera, 'OrbitingCamera', classMeta);
+  setMetadataFor(OrbitingCameraConfig, 'OrbitingCameraConfig', classMeta, VOID, VOID, OrbitingCameraConfig);
   //endregion
   var BackendMode_OPENGL_instance;
   var BackendMode_METAL_instance;
@@ -4000,6 +4002,98 @@
     }
     this.ki_1 = timeNow;
   };
+  var PIf;
+  function OrbitingCamera(config) {
+    this.ri_1 = config;
+    this.si_1 = 0.0;
+    this.ti_1 = 1.0;
+    this.ui_1 = new Float32Array(16);
+  }
+  protoOf(OrbitingCamera).vi = function (deltaTime, timerBobX, timerBobZ) {
+    if (this.ti_1 > 1.0) {
+      this.ti_1 = this.ti_1 * (1.0 - deltaTime * this.ri_1.xi_1);
+      var tmp = this;
+      // Inline function 'kotlin.math.max' call
+      var b = this.ti_1;
+      tmp.ti_1 = Math.max(1.0, b);
+    } else if (this.ti_1 < -1.0) {
+      this.ti_1 = this.ti_1 * (1.0 - deltaTime * this.ri_1.xi_1);
+      var tmp_0 = this;
+      // Inline function 'kotlin.math.min' call
+      var b_0 = this.ti_1;
+      tmp_0.ti_1 = Math.min(-1.0, b_0);
+    }
+    this.si_1 = this.si_1 + deltaTime * this.ri_1.wi_1 * this.ti_1 / this.ri_1.cj_1;
+    this.si_1 = this.si_1 % 1.0;
+    var tmp_1 = this.ri_1.zi_1 * this.ri_1.bj_1;
+    // Inline function 'kotlin.math.sin' call
+    var x = PIf * 4.0 * timerBobZ;
+    var tmp$ret$2 = Math.sin(x);
+    var orbitingDistance = this.ri_1.zi_1 + tmp_1 * tmp$ret$2;
+    // Inline function 'kotlin.math.sin' call
+    var x_0 = PIf * 2.0 * this.si_1;
+    var eyeX = Math.sin(x_0) * orbitingDistance;
+    // Inline function 'kotlin.math.cos' call
+    var x_1 = PIf * 2.0 * this.si_1;
+    var eyeY = Math.cos(x_1) * orbitingDistance;
+    var tmp_2 = this.ri_1.yi_1 * this.ri_1.aj_1;
+    // Inline function 'kotlin.math.sin' call
+    var x_2 = PIf * 4.0 * timerBobX;
+    var tmp$ret$5 = Math.sin(x_2);
+    var eyeZ = this.ri_1.yi_1 + tmp_2 * tmp$ret$5;
+    Matrix_getInstance().dh(this.ui_1, 0, eyeX, eyeY, eyeZ, 0.0, 0.0, 80.0, 0.0, 0.0, 1.0);
+  };
+  function OrbitingCameraConfig(rotationSpeed, swipeFalloff, height, distance, heightVariation, distanceVariation, cameraPeriod) {
+    rotationSpeed = rotationSpeed === VOID ? 1.0E-5 : rotationSpeed;
+    swipeFalloff = swipeFalloff === VOID ? 8.0E-4 : swipeFalloff;
+    height = height === VOID ? 280.0 : height;
+    distance = distance === VOID ? 330.0 : distance;
+    heightVariation = heightVariation === VOID ? 0.1 : heightVariation;
+    distanceVariation = distanceVariation === VOID ? 0.1 : distanceVariation;
+    cameraPeriod = cameraPeriod === VOID ? 1.0 : cameraPeriod;
+    this.wi_1 = rotationSpeed;
+    this.xi_1 = swipeFalloff;
+    this.yi_1 = height;
+    this.zi_1 = distance;
+    this.aj_1 = heightVariation;
+    this.bj_1 = distanceVariation;
+    this.cj_1 = cameraPeriod;
+  }
+  protoOf(OrbitingCameraConfig).toString = function () {
+    return 'OrbitingCameraConfig(rotationSpeed=' + this.wi_1 + ', swipeFalloff=' + this.xi_1 + ', height=' + this.yi_1 + ', distance=' + this.zi_1 + ', heightVariation=' + this.aj_1 + ', distanceVariation=' + this.bj_1 + ', cameraPeriod=' + this.cj_1 + ')';
+  };
+  protoOf(OrbitingCameraConfig).hashCode = function () {
+    var result = getNumberHashCode(this.wi_1);
+    result = imul(result, 31) + getNumberHashCode(this.xi_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.yi_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.zi_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.aj_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.bj_1) | 0;
+    result = imul(result, 31) + getNumberHashCode(this.cj_1) | 0;
+    return result;
+  };
+  protoOf(OrbitingCameraConfig).equals = function (other) {
+    if (this === other)
+      return true;
+    if (!(other instanceof OrbitingCameraConfig))
+      return false;
+    var tmp0_other_with_cast = other instanceof OrbitingCameraConfig ? other : THROW_CCE();
+    if (!equals(this.wi_1, tmp0_other_with_cast.wi_1))
+      return false;
+    if (!equals(this.xi_1, tmp0_other_with_cast.xi_1))
+      return false;
+    if (!equals(this.yi_1, tmp0_other_with_cast.yi_1))
+      return false;
+    if (!equals(this.zi_1, tmp0_other_with_cast.zi_1))
+      return false;
+    if (!equals(this.aj_1, tmp0_other_with_cast.aj_1))
+      return false;
+    if (!equals(this.bj_1, tmp0_other_with_cast.bj_1))
+      return false;
+    if (!equals(this.cj_1, tmp0_other_with_cast.cj_1))
+      return false;
+    return true;
+  };
   //region block: post-declaration
   defineProp(protoOf(BackendMode), 'name', protoOf(BackendMode).h4);
   defineProp(protoOf(BackendMode), 'ordinal', protoOf(BackendMode).i4);
@@ -4090,6 +4184,7 @@
   //region block: init
   Companion_instance = new Companion();
   MathUtils_instance = new MathUtils();
+  PIf = 3.1415927;
   //endregion
   //region block: exports
   function $jsExportAll$(_) {
@@ -4529,26 +4624,28 @@
   _.$_$.q2 = Vec3;
   _.$_$.r2 = Vec4;
   _.$_$.s2 = TimersMap;
-  _.$_$.t2 = get_BLENDING_NONE;
-  _.$_$.u2 = Blending;
-  _.$_$.v2 = get_DEPTH_NO_WRITE;
-  _.$_$.w2 = get_DEPTH_TEST_ENABLED;
-  _.$_$.x2 = MeshAttributes;
-  _.$_$.y2 = MeshAttribute;
-  _.$_$.z2 = Scene;
-  _.$_$.a3 = Shader;
-  _.$_$.b3 = Texture;
-  _.$_$.c3 = UniformFloatValue;
-  _.$_$.d3 = UniformTextureValue;
-  _.$_$.e3 = VertexAttributesDescriptor;
-  _.$_$.f3 = VertexAttribute;
-  _.$_$.g3 = setUniform_2;
-  _.$_$.h3 = setUniform_3;
-  _.$_$.i3 = setUniform_1;
-  _.$_$.j3 = setUniform_5;
-  _.$_$.k3 = setUniform_0;
-  _.$_$.l3 = setUniform_4;
-  _.$_$.m3 = setUniform_6;
+  _.$_$.t2 = OrbitingCameraConfig;
+  _.$_$.u2 = OrbitingCamera;
+  _.$_$.v2 = get_BLENDING_NONE;
+  _.$_$.w2 = Blending;
+  _.$_$.x2 = get_DEPTH_NO_WRITE;
+  _.$_$.y2 = get_DEPTH_TEST_ENABLED;
+  _.$_$.z2 = MeshAttributes;
+  _.$_$.a3 = MeshAttribute;
+  _.$_$.b3 = Scene;
+  _.$_$.c3 = Shader;
+  _.$_$.d3 = Texture;
+  _.$_$.e3 = UniformFloatValue;
+  _.$_$.f3 = UniformTextureValue;
+  _.$_$.g3 = VertexAttributesDescriptor;
+  _.$_$.h3 = VertexAttribute;
+  _.$_$.i3 = setUniform_2;
+  _.$_$.j3 = setUniform_3;
+  _.$_$.k3 = setUniform_1;
+  _.$_$.l3 = setUniform_5;
+  _.$_$.m3 = setUniform_0;
+  _.$_$.n3 = setUniform_4;
+  _.$_$.o3 = setUniform_6;
   //endregion
   return _;
 }));

@@ -79,4 +79,9 @@ export class Renderer extends SceneRenderer<lib.org.androidworks.cartoonlighthou
     swipeCameraRight(): void {
         this.scene?.cameraImpulse(15);
     }
+
+    drawScene(): void {
+        // console.log(this.scene?.settings.debugFloat, this.scene?.settings.debugDouble);
+        super.drawScene();
+    }
 }
